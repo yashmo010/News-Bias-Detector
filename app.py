@@ -37,7 +37,7 @@ def is_cloud_env() -> bool:
       3. HOME=/home/appuser  (Streamlit Cloud's default user)
     Any one match is sufficient.
     """
-    if os.environ.get("STREAMLIT_CLOUD"):
+    if os.environ.get("RENDER") or os.environ.get("STREAMLIT_CLOUD"):
         return True
     if Path("/.streamlit/secrets.toml").exists():
         return True
@@ -53,7 +53,7 @@ CLOUD = is_cloud_env()
 DATA_FILE        = "clustered.json"
 FALLBACK         = "analyzed.json"
 ARTICLES_FILE    = "articles.json"
-REFRESH_INTERVAL = 6        # hours — refresh if data is older than this
+REFRESH_INTERVAL = 72       # hours (3 days) — refresh if data is older than this
 ROLLING_DAYS     = 7        # days to keep in rolling window
 
 BIAS_ORDER  = ["Left", "Left-Center", "Center", "Right-Center", "Right", "Unknown"]
@@ -153,19 +153,27 @@ def is_data_stale(threshold_hours: float = REFRESH_INTERVAL) -> bool:
     return age >= threshold_hours
 
 
-def run_pipeline(status_key: str = "pipeline_status") -> None:
+PIPELINE_LOCK = threading.Lock()
+PIPELINE_STATE = {
+    "status": "idle",
+    "error_message": "",
+}
+
+
+def run_pipeline() -> None:
     """
     Runs scraper → analyzer → clusterer in sequence.
-    Updates st.session_state[status_key] with progress strings.
-    Designed to be called in a background thread.
+    Thread-safe updates to PIPELINE_STATE.
     """
     steps = [
-        ("scraper",   ["python", "scraper.py"]),
-        ("analyzer",  ["python", "analyzer.py"]),
-        ("clusterer", ["python", "clusterer.py", "--eps", "0.40"]),
+        ("scraper",   [sys.executable, "scraper.py"]),
+        ("analyzer",  [sys.executable, "analyzer.py"]),
+        ("clusterer", [sys.executable, "clusterer.py", "--eps", "0.40"]),
     ]
     for step_name, cmd in steps:
-        st.session_state[status_key] = f"running:{step_name}"
+        with PIPELINE_LOCK:
+            PIPELINE_STATE["status"] = f"running:{step_name}"
+            PIPELINE_STATE["error_message"] = ""
         try:
             result = subprocess.run(
                 cmd,
@@ -174,20 +182,33 @@ def run_pipeline(status_key: str = "pipeline_status") -> None:
                 timeout=300,   # 5-min timeout per step
             )
             if result.returncode != 0:
-                st.session_state[status_key] = f"error:{step_name}:{result.stderr[:200]}"
+                err = (result.stderr or result.stdout or "Command failed").strip()
+                with PIPELINE_LOCK:
+                    PIPELINE_STATE["status"] = f"error:{step_name}"
+                    PIPELINE_STATE["error_message"] = err[:200]
                 return
         except subprocess.TimeoutExpired:
-            st.session_state[status_key] = f"error:{step_name}:timeout"
+            with PIPELINE_LOCK:
+                PIPELINE_STATE["status"] = f"error:{step_name}"
+                PIPELINE_STATE["error_message"] = "Process timed out"
             return
-        except FileNotFoundError:
-            st.session_state[status_key] = f"error:{step_name}:not found"
+        except Exception as e:
+            with PIPELINE_LOCK:
+                PIPELINE_STATE["status"] = f"error:{step_name}"
+                PIPELINE_STATE["error_message"] = str(e)[:200]
             return
 
-    st.session_state[status_key] = "done"
+    with PIPELINE_LOCK:
+        PIPELINE_STATE["status"] = "done"
 
 
 def trigger_pipeline_background() -> None:
     """Kick off the pipeline in a background thread (non-blocking)."""
+    with PIPELINE_LOCK:
+        if PIPELINE_STATE["status"].startswith("running:"):
+            return
+        PIPELINE_STATE["status"] = "running:scraper"
+        PIPELINE_STATE["error_message"] = ""
     t = threading.Thread(target=run_pipeline, daemon=True)
     t.start()
 
@@ -195,22 +216,20 @@ def trigger_pipeline_background() -> None:
 # ──────────────────────────────────────────────
 #  Refresh state management
 # ──────────────────────────────────────────────
-
-if "pipeline_status" not in st.session_state:
-    st.session_state["pipeline_status"] = "idle"
+has_groq_key = bool(os.environ.get("GROQ_API_KEY"))
 
 if "auto_refresh_triggered" not in st.session_state:
     st.session_state["auto_refresh_triggered"] = False
 
-# Auto-trigger on load if stale (only once per session, never on cloud)
+# Auto-trigger on load if stale AND Groq key is present (only once per session, never on cloud)
 if (
     not CLOUD
+    and has_groq_key
     and not st.session_state["auto_refresh_triggered"]
-    and st.session_state["pipeline_status"] == "idle"
+    and PIPELINE_STATE["status"] == "idle"
     and is_data_stale()
 ):
     st.session_state["auto_refresh_triggered"] = True
-    st.session_state["pipeline_status"] = "running:scraper"
     trigger_pipeline_background()
 
 
@@ -274,50 +293,53 @@ elif age < 1:
 else:
     age_str = f"{age:.1f} hrs ago"
 
-status = st.session_state["pipeline_status"]
+with PIPELINE_LOCK:
+    status = PIPELINE_STATE["status"]
+    err_msg = PIPELINE_STATE["error_message"]
 
 if CLOUD:
     # On Streamlit Cloud the filesystem is ephemeral — pipeline can't run here.
     # Just show data freshness and explain the workflow.
     st.sidebar.markdown(
         f"<div class='refresh-box'>📡 Live dashboard · {age_str}<br>"
-        f"<small>To update: run pipeline locally → commit clustered.json → push</small></div>",
+        f"<small>Auto-refreshed every 3 days via GitHub Actions</small></div>",
         unsafe_allow_html=True,
     )
 elif status.startswith("running:"):
     step = status.split(":")[1]
     step_labels = {"scraper": "1/3 Scraping feeds…", "analyzer": "2/3 Analyzing with LLM…", "clusterer": "3/3 Clustering events…"}
     label = step_labels.get(step, "Running…")
-    st.sidebar.markdown(f"<div class='refresh-box refresh-running'>⏳ {label}<br><small>Last data: {age_str}</small></div>", unsafe_allow_html=True)
-    # Rerun every 3s while pipeline is running to pick up status changes
-    time_module.sleep(3)
-    st.rerun()
+    st.sidebar.markdown(f"<div class='refresh-box refresh-running'>⏳ {label}<br><small>Updating in background (Last data: {age_str})</small></div>", unsafe_allow_html=True)
+    # Notice: do not abort rendering here, let the full dashboard render!
 
 elif status == "done":
     st.sidebar.markdown(f"<div class='refresh-box refresh-done'>✅ Refresh complete!<br><small>Data age: just now</small></div>", unsafe_allow_html=True)
-    st.session_state["pipeline_status"] = "idle"
-    # Clear cache so new data is loaded
+    with PIPELINE_LOCK:
+        PIPELINE_STATE["status"] = "idle"
     st.cache_data.clear()
-    st.rerun()
 
 elif status.startswith("error:"):
-    parts = status.split(":", 2)
+    parts = status.split(":", 1)
     failed_step = parts[1] if len(parts) > 1 else "?"
-    err_msg = parts[2] if len(parts) > 2 else "unknown error"
     st.sidebar.markdown(f"<div class='refresh-box' style='background:#2a1010;border-color:#ef9a9a;color:#ffcdd2'>❌ Failed at {failed_step}<br><small>{err_msg[:80]}</small></div>", unsafe_allow_html=True)
-    st.sidebar.caption("Check that GROQ_API_KEY is set and pipeline scripts are present.")
+    if not has_groq_key:
+        st.sidebar.caption("Set GROQ_API_KEY in environment to run analyzer.")
+    with PIPELINE_LOCK:
+        PIPELINE_STATE["status"] = "idle"
 
 else:  # idle
-    stale_indicator = "⚠️ Stale" if is_data_stale() else "✅ Fresh"
-    st.sidebar.markdown(f"<div class='refresh-box'>{stale_indicator} · Last updated: {age_str}<br><small>Auto-refreshes every {REFRESH_INTERVAL}h</small></div>", unsafe_allow_html=True)
+    refresh_days = st.sidebar.slider("Auto-refresh threshold (days)", 1, 14, max(1, int(REFRESH_INTERVAL // 24))) if not CLOUD else 3
+    stale_indicator = "⚠️ Stale" if is_data_stale(threshold_hours=refresh_days * 24) else "✅ Fresh"
+    key_note = "" if has_groq_key else "<br><small style='color:#f0ad4e'>⚠️ GROQ_API_KEY not set</small>"
+    st.sidebar.markdown(f"<div class='refresh-box'>{stale_indicator} · Last updated: {age_str}<br><small>Auto-refreshes every {refresh_days * 24}h ({refresh_days} days)</small>{key_note}</div>", unsafe_allow_html=True)
 
 if not CLOUD:
-    refresh_interval = st.sidebar.slider("Auto-refresh threshold (hrs)", 1, 24, REFRESH_INTERVAL)
-
     if st.sidebar.button("🔄 Refresh now", disabled=status.startswith("running:")):
-        st.session_state["pipeline_status"] = "running:scraper"
-        trigger_pipeline_background()
-        st.rerun()
+        if not has_groq_key:
+            st.sidebar.error("GROQ_API_KEY is not set. Please set $env:GROQ_API_KEY to run the pipeline.")
+        else:
+            trigger_pipeline_background()
+            st.rerun()
 
 st.sidebar.markdown("---")
 
@@ -611,5 +633,11 @@ with tab4:
                 st.markdown(f"**Entities:** {ent_html}", unsafe_allow_html=True)
 
             st.markdown(f"[🔗 Read original]({row['url']})")
+
+# If background pipeline is running, sleep and rerun after the full page has rendered
+if status.startswith("running:"):
+    time_module.sleep(3)
+    st.rerun()
+
 
 
