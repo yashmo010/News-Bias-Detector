@@ -35,8 +35,9 @@ jobs:
       - name: Step 1 - Scrape News Feeds
         run: python scraper.py
 
-      - name: Step 2 - Analyze Articles with Groq LLM
+      - name: Step 2 - Analyze Articles with Gemini LLM
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python analyzer.py
 

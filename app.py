@@ -216,15 +216,15 @@ def trigger_pipeline_background() -> None:
 # ──────────────────────────────────────────────
 #  Refresh state management
 # ──────────────────────────────────────────────
-has_groq_key = bool(os.environ.get("GROQ_API_KEY"))
+has_llm_key = bool(os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or os.environ.get("GROQ_API_KEY"))
 
 if "auto_refresh_triggered" not in st.session_state:
     st.session_state["auto_refresh_triggered"] = False
 
-# Auto-trigger on load if stale AND Groq key is present (only once per session, never on cloud)
+# Auto-trigger on load if stale AND an LLM key is present (only once per session, never on cloud)
 if (
     not CLOUD
-    and has_groq_key
+    and has_llm_key
     and not st.session_state["auto_refresh_triggered"]
     and PIPELINE_STATE["status"] == "idle"
     and is_data_stale()
@@ -279,7 +279,7 @@ df = load_data()
 #  Sidebar
 # ──────────────────────────────────────────────
 st.sidebar.title("📰 News Bias Detector")
-st.sidebar.caption("Powered by Groq · LLaMA 3.3 70B")
+st.sidebar.caption("Powered by Gemini 2.5 Flash / Groq")
 st.sidebar.markdown("---")
 
 # ── Auto-refresh controls ────────────────────
@@ -322,21 +322,21 @@ elif status.startswith("error:"):
     parts = status.split(":", 1)
     failed_step = parts[1] if len(parts) > 1 else "?"
     st.sidebar.markdown(f"<div class='refresh-box' style='background:#2a1010;border-color:#ef9a9a;color:#ffcdd2'>❌ Failed at {failed_step}<br><small>{err_msg[:80]}</small></div>", unsafe_allow_html=True)
-    if not has_groq_key:
-        st.sidebar.caption("Set GROQ_API_KEY in environment to run analyzer.")
+    if not has_llm_key:
+        st.sidebar.caption("Set GEMINI_API_KEY in environment to run analyzer.")
     with PIPELINE_LOCK:
         PIPELINE_STATE["status"] = "idle"
 
 else:  # idle
     refresh_days = st.sidebar.slider("Auto-refresh threshold (days)", 1, 14, max(1, int(REFRESH_INTERVAL // 24))) if not CLOUD else 3
     stale_indicator = "⚠️ Stale" if is_data_stale(threshold_hours=refresh_days * 24) else "✅ Fresh"
-    key_note = "" if has_groq_key else "<br><small style='color:#f0ad4e'>⚠️ GROQ_API_KEY not set</small>"
+    key_note = "" if has_llm_key else "<br><small style='color:#f0ad4e'>⚠️ GEMINI_API_KEY not set</small>"
     st.sidebar.markdown(f"<div class='refresh-box'>{stale_indicator} · Last updated: {age_str}<br><small>Auto-refreshes every {refresh_days * 24}h ({refresh_days} days)</small>{key_note}</div>", unsafe_allow_html=True)
 
 if not CLOUD:
     if st.sidebar.button("🔄 Refresh now", disabled=status.startswith("running:")):
-        if not has_groq_key:
-            st.sidebar.error("GROQ_API_KEY is not set. Please set $env:GROQ_API_KEY to run the pipeline.")
+        if not has_llm_key:
+            st.sidebar.error("GEMINI_API_KEY is not set. Please set $env:GEMINI_API_KEY to run the pipeline.")
         else:
             trigger_pipeline_background()
             st.rerun()

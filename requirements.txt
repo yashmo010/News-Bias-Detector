@@ -4,6 +4,7 @@ pandas
 feedparser
 newspaper4k
 groq
+google-genai
 sentence-transformers
 scikit-learn
 numpy

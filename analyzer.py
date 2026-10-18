@@ -1,11 +1,14 @@
 """
-Layer 2 — Analyzer (Groq edition)
-Sends each article to Llama-3.3-70b via Groq for bias/sentiment/framing analysis.
+Layer 2 — Analyzer (Gemini & Groq edition)
+Sends each article to Gemini (gemini-2.5-flash) or Groq (llama-3.3-70b) for bias/sentiment/framing analysis.
 Outputs: analyzed.json  (articles.json fields + analysis fields merged)
 
 Setup:
-    pip install groq
-    $env:GROQ_API_KEY = "gsk_..."   # get free key at console.groq.com
+    Get a free Gemini API key: https://aistudio.google.com/app/apikey
+    $env:GEMINI_API_KEY = "AIzaSy..."
+
+    Or use Groq:
+    $env:GROQ_API_KEY = "gsk_..."
 
 Usage:
     python analyzer.py                  # analyze all unanalyzed articles
@@ -17,15 +20,15 @@ import os
 import time
 import argparse
 from pathlib import Path
-from groq import Groq, AuthenticationError, RateLimitError, APIError
 
 # ── Config ────────────────────────────────────────────────────────────────────
 ARTICLES_FILE  = "articles.json"
 ANALYZED_FILE  = "analyzed.json"
 MAX_TEXT_CHARS = 3000
-MODEL          = "llama-3.3-70b-versatile"
+GEMINI_MODEL   = "gemini-2.5-flash"
+GROQ_MODEL     = "llama-3.3-70b-versatile"
 RETRY_LIMIT    = 3
-RETRY_DELAY    = 10    # seconds between retries
+RETRY_DELAY    = 5    # seconds between retries
 
 SYSTEM_PROMPT = """You are a professional media-bias analyst.
 Your job is to read a news article and return a structured JSON object — nothing else.
@@ -53,6 +56,43 @@ Article text (may be truncated):
 
 Return only the JSON object."""
 
+ANALYSIS_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "bias_label": {
+            "type": "string",
+            "enum": ["Left", "Left-Center", "Center", "Right-Center", "Right", "Unknown"]
+        },
+        "sentiment_score": {
+            "type": "number",
+            "description": "-1.0 (very negative) to +1.0 (very positive)"
+        },
+        "framing": {
+            "type": "string",
+            "enum": ["Alarmist", "Neutral", "Optimistic", "Analytical", "Sensationalist", "Sympathetic", "Critical"]
+        },
+        "key_entities": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "portrayal": {
+                        "type": "string",
+                        "enum": ["Positive", "Neutral", "Negative"]
+                    }
+                },
+                "required": ["name", "portrayal"]
+            }
+        },
+        "reasoning": {
+            "type": "string",
+            "description": "<= 60 words explaining your labels"
+        }
+    },
+    "required": ["bias_label", "sentiment_score", "framing", "key_entities", "reasoning"]
+}
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def load_json(path: str) -> list:
@@ -71,7 +111,6 @@ def truncate(text: str, max_chars: int = MAX_TEXT_CHARS) -> str:
     return text[:max_chars] + ("…" if len(text) > max_chars else "")
 
 def parse_analysis(raw: str) -> dict | None:
-    """Parse JSON — Groq's json_object mode makes this almost always clean."""
     raw = raw.strip()
     if raw.startswith("```"):
         lines = raw.splitlines()
@@ -82,9 +121,57 @@ def parse_analysis(raw: str) -> dict | None:
         print(f"    ⚠  JSON parse error: {e}")
         return None
 
-# ── Core analysis call ────────────────────────────────────────────────────────
+# ── Core analysis calls ───────────────────────────────────────────────────────
 
-def analyze_article(client: Groq, article: dict) -> dict | None:
+def analyze_article_gemini(client, article: dict) -> dict | None:
+    from google.genai import types
+
+    prompt = USER_TEMPLATE.format(
+        source=article.get("source", "Unknown"),
+        title=article.get("title", ""),
+        text=truncate(article.get("text", "")),
+    )
+
+    for attempt in range(1, RETRY_LIMIT + 1):
+        try:
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    temperature=0.1,
+                    max_output_tokens=512,
+                    response_mime_type="application/json",
+                    response_json_schema=ANALYSIS_JSON_SCHEMA,
+                ),
+            )
+            raw = response.text or ""
+            result = parse_analysis(raw)
+            if result:
+                return result
+            print(f"    ✗ Bad JSON on attempt {attempt}, retrying…")
+        except Exception as e:
+            err_str = str(e)
+            if "API_KEY_INVALID" in err_str or "unregistered" in err_str.lower():
+                raise SystemExit(
+                    "\n✗ Authentication failed — GEMINI_API_KEY is invalid.\n"
+                    "  Get your free key at: https://aistudio.google.com/app/apikey\n"
+                    "  Then set: $env:GEMINI_API_KEY = 'AIzaSy...'"
+                )
+            if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
+                wait = RETRY_DELAY * attempt
+                print(f"    ⏳ Rate limited — waiting {wait}s (attempt {attempt})")
+                time.sleep(wait)
+            else:
+                print(f"    ✗ Gemini API error: {e} (attempt {attempt})")
+                time.sleep(RETRY_DELAY)
+
+    return None
+
+
+def analyze_article_groq(client, article: dict) -> dict | None:
+    from groq import AuthenticationError, RateLimitError, APIError
+
     prompt = USER_TEMPLATE.format(
         source=article.get("source", "Unknown"),
         title=article.get("title", ""),
@@ -94,7 +181,7 @@ def analyze_article(client: Groq, article: dict) -> dict | None:
     for attempt in range(1, RETRY_LIMIT + 1):
         try:
             response = client.chat.completions.create(
-                model=MODEL,
+                model=GROQ_MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user",   "content": prompt},
@@ -108,7 +195,6 @@ def analyze_article(client: Groq, article: dict) -> dict | None:
             if result:
                 return result
             print(f"    ✗ Bad JSON on attempt {attempt}, retrying…")
-
         except AuthenticationError:
             raise SystemExit(
                 "\n✗ Authentication failed — GROQ_API_KEY is invalid.\n"
@@ -133,15 +219,26 @@ def main():
                         help="Re-analyze all articles even if already cached")
     args = parser.parse_args()
 
-    api_key = os.environ.get("GROQ_API_KEY")
-    if not api_key:
-        raise SystemExit(
-            "✗ GROQ_API_KEY not set.\n"
-            "  Get your free key at: https://console.groq.com\n"
-            "  Then run: $env:GROQ_API_KEY = 'gsk_...'"
-        )
+    gemini_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    groq_key = os.environ.get("GROQ_API_KEY")
 
-    client = Groq(api_key=api_key)
+    if gemini_key:
+        print(f"🤖 Using Google Gemini API ({GEMINI_MODEL})")
+        from google import genai
+        client = genai.Client(api_key=gemini_key)
+        analyze_fn = lambda a: analyze_article_gemini(client, a)
+    elif groq_key:
+        print(f"🤖 Using Groq API ({GROQ_MODEL})")
+        from groq import Groq
+        client = Groq(api_key=groq_key)
+        analyze_fn = lambda a: analyze_article_groq(client, a)
+    else:
+        raise SystemExit(
+            "✗ No API key found.\n"
+            "  Get a free Gemini API key at: https://aistudio.google.com/app/apikey\n"
+            "  Then run: $env:GEMINI_API_KEY = 'AIzaSy...'\n\n"
+            "  Or set GROQ_API_KEY: $env:GROQ_API_KEY = 'gsk_...'"
+        )
 
     articles = load_json(ARTICLES_FILE)
     if not articles:
@@ -168,7 +265,7 @@ def main():
         title_preview = article.get("title", "")[:60]
         print(f"[{i}/{len(to_process)}] {article.get('source','?')} — {title_preview}…")
 
-        analysis = analyze_article(client, article)
+        analysis = analyze_fn(article)
         if analysis:
             merged = {**article, **analysis}
             result_map[article["url"]] = merged
@@ -181,12 +278,13 @@ def main():
             print("    ✗ Analysis failed — stored with error flag")
 
         save_json(ANALYZED_FILE, list(result_map.values()))
-        time.sleep(1)
+        time.sleep(0.5)
 
     final = load_json(ANALYZED_FILE)
     ok    = sum(1 for a in final if "bias_label" in a)
     err   = sum(1 for a in final if a.get("analysis_error"))
     print(f"\n✅ Done. {ok} analyzed, {err} errors → {ANALYZED_FILE}")
+
 
 if __name__ == "__main__":
     main()
