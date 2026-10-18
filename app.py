@@ -279,7 +279,7 @@ df = load_data()
 #  Sidebar
 # ──────────────────────────────────────────────
 st.sidebar.title("📰 News Bias Detector")
-st.sidebar.caption("Powered by Gemini 2.5 Flash / Groq")
+st.sidebar.caption("Powered by Gemini 3.8 Flash / Groq")
 st.sidebar.markdown("---")
 
 # ── Auto-refresh controls ────────────────────

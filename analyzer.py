@@ -25,7 +25,7 @@ from pathlib import Path
 ARTICLES_FILE  = "articles.json"
 ANALYZED_FILE  = "analyzed.json"
 MAX_TEXT_CHARS = 3000
-GEMINI_MODEL   = "gemini-2.5-flash"
+GEMINI_MODEL   = "gemini-3.8-flash"
 GROQ_MODEL     = "llama-3.3-70b-versatile"
 RETRY_LIMIT    = 3
 RETRY_DELAY    = 5    # seconds between retries
