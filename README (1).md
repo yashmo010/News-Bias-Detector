@@ -83,7 +83,7 @@ streamlit run app.py
 
 The dashboard checks how old `articles.json` is on every load. If it's older than 6 hours, the full pipeline (scraper → analyzer → clusterer) runs automatically in the background. A manual **Refresh now** button is also available in the sidebar.
 
-Articles older than 7 days are automatically pruned to maintain a rolling window.
+Articles older than 10 days are automatically pruned to maintain a rolling window.
 
 ---
 

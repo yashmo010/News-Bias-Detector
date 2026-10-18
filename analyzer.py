@@ -293,9 +293,12 @@ def main():
         sleep_sec = 4.2 if gemini_key else 0.5
         time.sleep(sleep_sec)
 
-    final = load_json(ANALYZED_FILE)
-    ok    = sum(1 for a in final if "bias_label" in a)
-    err   = sum(1 for a in final if a.get("analysis_error"))
+    current_urls = {a["url"] for a in articles}
+    final_analyzed = [a for a in result_map.values() if a.get("url") in current_urls]
+    save_json(ANALYZED_FILE, final_analyzed)
+
+    ok    = sum(1 for a in final_analyzed if "bias_label" in a)
+    err   = sum(1 for a in final_analyzed if a.get("analysis_error"))
     print(f"\n✅ Done. {ok} analyzed, {err} errors → {ANALYZED_FILE}", flush=True)
 
 

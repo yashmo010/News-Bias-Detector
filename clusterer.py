@@ -13,6 +13,7 @@ Usage:
 import json
 import argparse
 import numpy as np
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from sklearn.preprocessing import normalize
 from sklearn.cluster import DBSCAN
@@ -21,15 +22,31 @@ from sentence_transformers import SentenceTransformer
 
 INPUT_FILE  = "analyzed.json"
 OUTPUT_FILE = "clustered.json"
+ROLLING_DAYS = 10
 
 # DBSCAN defaults — tune these if clusters feel too tight/loose
 DEFAULT_EPS         = 0.35   # cosine distance threshold (0=identical, 2=opposite)
 DEFAULT_MIN_SAMPLES = 2      # min articles to form a cluster (1 = no noise)
 
 
+def is_within_window(scraped_at: str, days: int = ROLLING_DAYS) -> bool:
+    if not scraped_at:
+        return True
+    try:
+        dt = datetime.fromisoformat(scraped_at)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+        return dt >= cutoff
+    except (ValueError, TypeError):
+        return True
+
+
 def load_articles(path: str) -> list[dict]:
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+    # Filter to articles within the 10-day rolling window
+    return [a for a in data if is_within_window(a.get("scraped_at", ""))]
 
 
 def build_texts(articles: list[dict]) -> list[str]:

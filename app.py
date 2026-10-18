@@ -54,7 +54,7 @@ DATA_FILE        = "clustered.json"
 FALLBACK         = "analyzed.json"
 ARTICLES_FILE    = "articles.json"
 REFRESH_INTERVAL = 72       # hours (3 days) — refresh if data is older than this
-ROLLING_DAYS     = 7        # days to keep in rolling window
+ROLLING_DAYS     = 10       # days to keep in rolling window
 
 BIAS_ORDER  = ["Left", "Left-Center", "Center", "Right-Center", "Right", "Unknown"]
 BIAS_COLORS = {
@@ -270,6 +270,19 @@ def load_data() -> pd.DataFrame:
     df["bias_label"] = df["bias_label"].apply(
         lambda x: x if x in BIAS_ORDER else "Unknown"
     )
+    if "scraped_at" in df.columns and not df.empty:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=ROLLING_DAYS)
+        def within_window(ts):
+            if not ts:
+                return True
+            try:
+                dt = datetime.fromisoformat(ts)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return dt >= cutoff
+            except (ValueError, TypeError):
+                return True
+        df = df[df["scraped_at"].apply(within_window)].reset_index(drop=True)
     return df
 
 

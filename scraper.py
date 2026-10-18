@@ -19,7 +19,7 @@ RSS_FEEDS = {
 
 CACHE_FILE    = "articles.json"
 MAX_PER_SOURCE = 20       # keep it small during dev — saves API credits
-ROLLING_DAYS  = 7        # drop articles older than this many days
+ROLLING_DAYS  = 10       # drop articles older than this many days
 
 
 def now_utc() -> str:
