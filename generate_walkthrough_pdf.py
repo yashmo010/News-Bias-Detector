@@ -290,7 +290,7 @@ def build_pdf():
     qa_list = [
         (
             "Q1: Walk me through the high-level architecture of your project.",
-            "<b>Answer:</b> 'The project is an automated end-to-end news intelligence system. It operates in 4 stages: First, a scraping engine collects RSS feeds from 15 global outlets using Feedparser and Newspaper4k. Second, an LLM pipeline uses Google Gemini 3.8 Flash with strict JSON schema to evaluate political bias, sentiment, framing, and entity portrayal. Third, an NLP clustering pipeline embeds headlines with MiniLM sentence transformers and clusters identical events using DBSCAN. Finally, an interactive Streamlit app visualizes media bias polarization, entity heatmaps, and coverage gaps. The entire pipeline is automated using GitHub Actions on a 3-day cron and deployed on Render.'"
+            "<b>Answer:</b> 'The project is an automated end-to-end news intelligence system. It operates in 4 stages: First, a scraping engine collects RSS feeds from 15 global outlets using Feedparser and Newspaper4k. Second, an LLM pipeline uses Google Gemini 3.8 Flash with strict JSON schema to evaluate political bias, sentiment, framing, and entity portrayal. Third, an NLP clustering pipeline embeds headlines with MiniLM sentence transformers and clusters identical events using DBSCAN. Finally, an interactive Streamlit app visualizes media bias polarization, entity heatmaps, and coverage gaps. The entire pipeline is automated using GitHub Actions on a 24-hour (daily) cron and deployed on Render.'"
         ),
         (
             "Q2: How do you prevent the LLM from producing invalid or hallucinated data?",
@@ -306,7 +306,7 @@ def build_pdf():
         ),
         (
             "Q5: How does the application maintain freshness in production?",
-            "<b>Answer:</b> 'We use an automated CI/CD schedule in GitHub Actions that triggers every 3 days. It executes the ETL pipeline, computes new clusters, and commits the updated JSON artifacts back to Git with <code>[skip ci]</code>. Render detects the repository commit and triggers a zero-downtime redeployment of the web UI. On the dashboard itself, we maintain a rolling 10-day retention window to prune stale news.'"
+            "<b>Answer:</b> 'We use an automated CI/CD schedule in GitHub Actions that triggers every 24 hours (daily). It executes the ETL pipeline, computes new clusters, and commits the updated JSON artifacts back to Git with <code>[skip ci]</code>. Render detects the repository commit and triggers a zero-downtime redeployment of the web UI. On the dashboard itself, we maintain a rolling 10-day retention window to prune stale news.'"
         ),
         (
             "Q6: How did you address cloud memory constraints on Render's free tier?",

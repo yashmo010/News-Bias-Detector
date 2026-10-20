@@ -53,7 +53,7 @@ CLOUD = is_cloud_env()
 DATA_FILE        = "clustered.json"
 FALLBACK         = "analyzed.json"
 ARTICLES_FILE    = "articles.json"
-REFRESH_INTERVAL = 72       # hours (3 days) — refresh if data is older than this
+REFRESH_INTERVAL = 24       # hours (1 day / 24h) — refresh if data is older than this
 ROLLING_DAYS     = 10       # days to keep in rolling window
 
 BIAS_ORDER  = ["Left", "Left-Center", "Center", "Right-Center", "Right", "Unknown"]
@@ -315,7 +315,7 @@ if CLOUD:
     # Just show data freshness and explain the workflow.
     st.sidebar.markdown(
         f"<div class='refresh-box'>📡 Live dashboard · {age_str}<br>"
-        f"<small>Auto-refreshed every 3 days via GitHub Actions</small></div>",
+        f"<small>Auto-refreshed daily (every 24h) via GitHub Actions</small></div>",
         unsafe_allow_html=True,
     )
 elif status.startswith("running:"):
