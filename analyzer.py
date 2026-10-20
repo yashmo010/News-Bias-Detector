@@ -30,7 +30,7 @@ MAX_TEXT_CHARS = 3000
 GEMINI_MODEL   = "gemini-3.8-flash"
 GROQ_MODEL     = "llama-3.3-70b-versatile"
 RETRY_LIMIT    = 3
-DEFAULT_LIMIT  = 30
+DEFAULT_LIMIT  = 150
 
 SYSTEM_PROMPT = """You are a professional media-bias analyst.
 Your job is to read a news article and return a structured JSON object — nothing else.
@@ -264,6 +264,18 @@ def main():
     if not to_process:
         print("✅ Nothing new to analyze.", flush=True)
         return
+
+    # Round-robin interleave by source so all outlets are analyzed evenly
+    by_source = {}
+    for a in to_process:
+        by_source.setdefault(a.get("source", "Unknown"), []).append(a)
+    interleaved = []
+    max_len = max((len(v) for v in by_source.values()), default=0)
+    for idx in range(max_len):
+        for src in list(by_source.keys()):
+            if idx < len(by_source[src]):
+                interleaved.append(by_source[src][idx])
+    to_process = interleaved
 
     if not args.all and len(to_process) > args.limit:
         print(f"⚡ Processing {args.limit} newest articles in this batch (rate-limit friendly).", flush=True)
