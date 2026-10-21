@@ -1,6 +1,6 @@
 """
 Layer 2 — Analyzer (Gemini & Groq edition)
-Sends each article to Gemini (gemini-3.8-flash) or Groq (llama-3.3-70b) for bias/sentiment/framing analysis.
+Sends each article to Gemini (gemini-2.5-flash) or Groq (llama-3.3-70b) for bias/sentiment/framing analysis.
 Outputs: analyzed.json  (articles.json fields + analysis fields merged)
 
 Setup:
@@ -14,6 +14,8 @@ Usage:
     python analyzer.py                  # analyze unanalyzed articles (up to default limit)
     python analyzer.py --limit 50       # analyze up to 50 articles
     python analyzer.py --all            # analyze all without limit
+    python analyzer.py --provider groq  # force Groq provider
+    python analyzer.py --provider gemini# force Gemini provider
     python analyzer.py --reanalyze      # force re-analyze everything
 """
 
@@ -27,10 +29,11 @@ from pathlib import Path
 ARTICLES_FILE  = "articles.json"
 ANALYZED_FILE  = "analyzed.json"
 MAX_TEXT_CHARS = 3000
-GEMINI_MODEL   = "gemini-3.8-flash"
-GROQ_MODEL     = "llama-3.3-70b-versatile"
+DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+DEFAULT_GROQ_MODEL   = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 RETRY_LIMIT    = 3
 DEFAULT_LIMIT  = 150
+CIRCUIT_BREAKER_THRESHOLD = 5  # Stop after N consecutive complete failures
 
 SYSTEM_PROMPT = """You are a professional media-bias analyst.
 Your job is to read a news article and return a structured JSON object — nothing else.
@@ -113,10 +116,12 @@ def truncate(text: str, max_chars: int = MAX_TEXT_CHARS) -> str:
     return text[:max_chars] + ("…" if len(text) > max_chars else "")
 
 def parse_analysis(raw: str) -> dict | None:
+    if not raw:
+        return None
     raw = raw.strip()
     if raw.startswith("```"):
         lines = raw.splitlines()
-        raw = "\n".join(lines[1:-1] if lines[-1].startswith("```") else lines[1:])
+        raw = "\n".join(lines[1:-1] if lines[-1].strip().startswith("```") else lines[1:]).strip()
     try:
         return json.loads(raw)
     except json.JSONDecodeError as e:
@@ -125,7 +130,7 @@ def parse_analysis(raw: str) -> dict | None:
 
 # ── Core analysis calls ───────────────────────────────────────────────────────
 
-def analyze_article_gemini(client, article: dict) -> dict | None:
+def analyze_article_gemini(client, article: dict, model_name: str) -> dict | None:
     from google.genai import types
 
     prompt = USER_TEMPLATE.format(
@@ -137,12 +142,12 @@ def analyze_article_gemini(client, article: dict) -> dict | None:
     for attempt in range(1, RETRY_LIMIT + 1):
         try:
             response = client.models.generate_content(
-                model=GEMINI_MODEL,
+                model=model_name,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     system_instruction=SYSTEM_PROMPT,
                     temperature=0.1,
-                    max_output_tokens=512,
+                    max_output_tokens=1024,
                     response_mime_type="application/json",
                     response_json_schema=ANALYSIS_JSON_SCHEMA,
                 ),
@@ -152,6 +157,7 @@ def analyze_article_gemini(client, article: dict) -> dict | None:
             if result:
                 return result
             print(f"    ✗ Bad JSON on attempt {attempt}, retrying…", flush=True)
+            time.sleep(2)
         except Exception as e:
             err_str = str(e)
             if "API_KEY_INVALID" in err_str or "unregistered" in err_str.lower():
@@ -161,8 +167,12 @@ def analyze_article_gemini(client, article: dict) -> dict | None:
                     "  Then set: $env:GEMINI_API_KEY = 'AIzaSy...'"
                 )
             if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
-                wait = 25 * attempt
+                wait = 30 * attempt
                 print(f"    ⏳ Rate limited — cooling down for {wait}s (attempt {attempt})...", flush=True)
+                time.sleep(wait)
+            elif "503" in err_str or "UNAVAILABLE" in err_str:
+                wait = 10 * attempt
+                print(f"    ⚠️  Gemini server high demand (503) — cooling down for {wait}s (attempt {attempt})...", flush=True)
                 time.sleep(wait)
             else:
                 print(f"    ✗ Gemini API error: {e} (attempt {attempt})", flush=True)
@@ -171,7 +181,7 @@ def analyze_article_gemini(client, article: dict) -> dict | None:
     return None
 
 
-def analyze_article_groq(client, article: dict) -> dict | None:
+def analyze_article_groq(client, article: dict, model_name: str) -> dict | None:
     from groq import AuthenticationError, RateLimitError, APIError
 
     prompt = USER_TEMPLATE.format(
@@ -183,20 +193,21 @@ def analyze_article_groq(client, article: dict) -> dict | None:
     for attempt in range(1, RETRY_LIMIT + 1):
         try:
             response = client.chat.completions.create(
-                model=GROQ_MODEL,
+                model=model_name,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user",   "content": prompt},
                 ],
-                max_tokens=512,
+                max_tokens=1024,
                 temperature=0.1,
                 response_format={"type": "json_object"},
             )
-            raw = response.choices[0].message.content
+            raw = response.choices[0].message.content or ""
             result = parse_analysis(raw)
             if result:
                 return result
             print(f"    ✗ Bad JSON on attempt {attempt}, retrying…", flush=True)
+            time.sleep(2)
         except AuthenticationError:
             raise SystemExit(
                 "\n✗ Authentication failed — GROQ_API_KEY is invalid.\n"
@@ -223,35 +234,59 @@ def main():
                         help=f"Max articles to analyze in one run (default: {DEFAULT_LIMIT})")
     parser.add_argument("--all", action="store_true",
                         help="Analyze all pending articles without limit")
+    parser.add_argument("--provider", choices=["auto", "gemini", "groq"], default="auto",
+                        help="LLM provider to use (default: auto)")
+    parser.add_argument("--gemini-model", type=str, default=DEFAULT_GEMINI_MODEL,
+                        help=f"Gemini model identifier (default: {DEFAULT_GEMINI_MODEL})")
+    parser.add_argument("--groq-model", type=str, default=DEFAULT_GROQ_MODEL,
+                        help=f"Groq model identifier (default: {DEFAULT_GROQ_MODEL})")
     args = parser.parse_args()
 
     gemini_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     groq_key = os.environ.get("GROQ_API_KEY")
 
+    gemini_client = None
+    groq_client = None
+
     if gemini_key:
-        print(f"🤖 Using Google Gemini API ({GEMINI_MODEL})", flush=True)
         from google import genai
-        client = genai.Client(api_key=gemini_key)
-        analyze_fn = lambda a: analyze_article_gemini(client, a)
-    elif groq_key:
-        print(f"🤖 Using Groq API ({GROQ_MODEL})", flush=True)
+        gemini_client = genai.Client(api_key=gemini_key)
+    if groq_key:
         from groq import Groq
-        client = Groq(api_key=groq_key)
-        analyze_fn = lambda a: analyze_article_groq(client, a)
-    else:
-        raise SystemExit(
-            "✗ No API key found.\n"
-            "  Get a free Gemini API key at: https://aistudio.google.com/app/apikey\n"
-            "  Then run: $env:GEMINI_API_KEY = 'AIzaSy...'\n\n"
-            "  Or set GROQ_API_KEY: $env:GROQ_API_KEY = 'gsk_...'"
-        )
+        groq_client = Groq(api_key=groq_key)
+
+    active_provider = None
+    if args.provider == "gemini":
+        if not gemini_client:
+            raise SystemExit("✗ GEMINI_API_KEY is required for --provider gemini")
+        active_provider = "gemini"
+    elif args.provider == "groq":
+        if not groq_client:
+            raise SystemExit("✗ GROQ_API_KEY is required for --provider groq")
+        active_provider = "groq"
+    else:  # auto
+        if gemini_client:
+            active_provider = "gemini"
+        elif groq_client:
+            active_provider = "groq"
+        else:
+            raise SystemExit(
+                "✗ No API key found.\n"
+                "  Get a free Gemini API key at: https://aistudio.google.com/app/apikey\n"
+                "  Then run: $env:GEMINI_API_KEY = 'AIzaSy...'\n\n"
+                "  Or set GROQ_API_KEY: $env:GROQ_API_KEY = 'gsk_...'"
+            )
+
+    model_display = args.gemini_model if active_provider == "gemini" else args.groq_model
+    print(f"🤖 Using {active_provider.capitalize()} API ({model_display})", flush=True)
 
     articles = load_json(ARTICLES_FILE)
     if not articles:
         print(f"✗ No articles found in {ARTICLES_FILE}. Run scraper.py first.", flush=True)
         return
 
-    analyzed  = load_json(ANALYZED_FILE)
+    analyzed = load_json(ANALYZED_FILE)
+    # Only treat articles with valid bias_label as successfully completed
     done_urls: set[str] = set()
     if not args.reanalyze:
         done_urls = {a["url"] for a in analyzed if "bias_label" in a}
@@ -281,14 +316,30 @@ def main():
         print(f"⚡ Processing {args.limit} newest articles in this batch (rate-limit friendly).", flush=True)
         to_process = to_process[:args.limit]
 
-    result_map: dict[str, dict] = {a["url"]: a for a in analyzed}
+    # Initialize result map with existing successful analyses
+    result_map: dict[str, dict] = {a["url"]: a for a in analyzed if "bias_label" in a}
+
+    consecutive_failures = 0
 
     for i, article in enumerate(to_process, 1):
         title_preview = article.get("title", "")[:60]
         print(f"[{i}/{len(to_process)}] {article.get('source','?')} — {title_preview}…", flush=True)
 
-        analysis = analyze_fn(article)
+        analysis = None
+        if active_provider == "gemini":
+            analysis = analyze_article_gemini(gemini_client, article, args.gemini_model)
+        else:
+            analysis = analyze_article_groq(groq_client, article, args.groq_model)
+
+        # Automatic fallback to Groq if Gemini is failing repeatedly and Groq is configured
+        if not analysis and active_provider == "gemini" and groq_client:
+            print("    🔄 Gemini analysis failed. Attempting fallback to Groq...", flush=True)
+            analysis = analyze_article_groq(groq_client, article, args.groq_model)
+            if analysis:
+                print("    ✓ Recovered with Groq!", flush=True)
+
         if analysis:
+            consecutive_failures = 0
             merged = {**article, **analysis}
             result_map[article["url"]] = merged
             score = analysis.get("sentiment_score", 0)
@@ -296,22 +347,37 @@ def main():
                   f"sentiment={score:+.2f} | "
                   f"framing={analysis.get('framing')}", flush=True)
         else:
-            result_map[article["url"]] = {**article, "analysis_error": True}
-            print("    ✗ Analysis failed — stored with error flag", flush=True)
+            consecutive_failures += 1
+            print("    ✗ Analysis failed (will retry on next run)", flush=True)
 
+        # Persist successful results incrementally
         save_json(ANALYZED_FILE, list(result_map.values()))
 
-        # Sleep between requests to strictly respect the 15 RPM free tier limit
-        sleep_sec = 4.2 if gemini_key else 0.5
+        # Circuit breaker: stop if continuous failures indicate quota exhaustion
+        if consecutive_failures >= CIRCUIT_BREAKER_THRESHOLD:
+            if active_provider == "gemini" and groq_client and args.provider == "auto":
+                print(f"\n⚠️  Switching provider from Gemini to Groq after {CIRCUIT_BREAKER_THRESHOLD} consecutive failures...", flush=True)
+                active_provider = "groq"
+                consecutive_failures = 0
+            else:
+                print(
+                    f"\n🛑 Circuit breaker triggered: {consecutive_failures} consecutive analysis failures.\n"
+                    "   This usually means the API quota (RPD / daily quota) is exhausted or the service is experiencing downtime.\n"
+                    "   Stopping now to avoid wasting time. Successfully analyzed articles have been saved.",
+                    flush=True
+                )
+                break
+
+        # Sleep between requests to strictly respect rate limits
+        sleep_sec = 4.5 if active_provider == "gemini" else 1.0
         time.sleep(sleep_sec)
 
     current_urls = {a["url"] for a in articles}
     final_analyzed = [a for a in result_map.values() if a.get("url") in current_urls]
     save_json(ANALYZED_FILE, final_analyzed)
 
-    ok    = sum(1 for a in final_analyzed if "bias_label" in a)
-    err   = sum(1 for a in final_analyzed if a.get("analysis_error"))
-    print(f"\n✅ Done. {ok} analyzed, {err} errors → {ANALYZED_FILE}", flush=True)
+    ok = sum(1 for a in final_analyzed if "bias_label" in a)
+    print(f"\n✅ Done. {ok} successfully analyzed articles saved → {ANALYZED_FILE}", flush=True)
 
 
 if __name__ == "__main__":

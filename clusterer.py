@@ -46,7 +46,7 @@ def load_articles(path: str) -> list[dict]:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     # Filter to articles within the 10-day rolling window
-    return [a for a in data if is_within_window(a.get("scraped_at", ""))]
+    return [a for a in data if "bias_label" in a and is_within_window(a.get("scraped_at", ""))]
 
 
 def build_texts(articles: list[dict]) -> list[str]:

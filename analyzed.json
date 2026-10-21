@@ -1,819 +1,619 @@
-[
-  {
-    "source": "India Today",
-    "title": "India's T20 World Cup 2007 triumph",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/photo/indias-t20-wc-triumph-7-361994-2009-06-03?utm_source=rss",
-    "text": "Members of Indian cricket team wave to their fans as they get a heroes' welcome in Mumbai on September 26, 2007.\n\nPhoto Credit : Bhaskar Paul/India Today",
-    "scraped_at": "2026-06-01T05:52:38.342404+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.8,
-    "framing": "Optimistic",
-    "key_entities": [
-      {
-        "name": "Indian cricket team",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "Positive sentiment and optimistic framing due to the team's triumph"
-  },
-  {
-    "source": "India Today",
-    "title": "India have their task cut out",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/photo/india-have-their-task-cut-out-361976-2009-05-29?utm_source=rss",
-    "text": "Junior Sehwag looks out from the bus carrying Indian team to Chhatrapati Shivaji International Airport. Indian team leave for England for the T20 World Cup, in Mumbai on Friday, May 29, 2009.\n\nPhoto Credit : Shriya Patil Shinde/ India Today",
-    "scraped_at": "2026-06-01T05:52:39.685106+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Indian team",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Neutral reporting on a sports event"
-  },
-  {
-    "source": "India Today",
-    "title": "Experts meet on ICC World T20",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/photo/experts-meet-on-icc-world-t-361971-2009-05-27?utm_source=rss",
-    "text": "Former Pakistani cricketer Wasim Akram speaks to the media during the photo session of the 'ICC T20 World Cup trophy' in New Delhi on Tuesday.\n\nPhoto Credit : PTI",
-    "scraped_at": "2026-06-01T05:52:40.895604+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Wasim Akram",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "ICC",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Neutral reporting on a sports event"
-  },
-  {
-    "source": "India Today",
-    "title": "LIVE: PM Narendra Modi arrives in Japan",
-    "url": "https://www.indiatoday.in/world/video/narendra-modi-japan-bilateral-relation-foreign-visit-454480-2014-08-30?utm_source=rss",
-    "text": "In an exclusive interview with India Today, Iranian scholar Prof. Seyed Mohammad Marandi talked about the escalating conflict between the United States and Iran, the Strait of Hormuz crisis and more.",
-    "scraped_at": "2026-06-01T05:52:42.025194+00:00",
-    "bias_label": "Unknown",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Narendra Modi",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "India Today",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Seyed Mohammad Marandi",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "United States",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Iran",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article is a factual report of an event with no emotional tone."
-  },
-  {
-    "source": "India Today",
-    "title": "Sourav Ganguly returns to IPL 2011",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/ipl-2011-sourav-ganguly-will-play-for-pune-warriors-391172-2011-05-02?utm_source=rss",
-    "text": "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
-    "scraped_at": "2026-06-01T05:52:43.174748+00:00",
-    "bias_label": "Unknown",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Bharatiya Janata Party",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article is factual, lacks emotional tone"
-  },
-  {
-    "source": "India Today",
-    "title": "<b>2010:</b>England are new T20 WC champions",
-    "url": "https://www.indiatoday.in/world-t20-2012/video/england-crowned-world-t20-champions-409364-2010-05-16?utm_source=rss",
-    "text": "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it's over.",
-    "scraped_at": "2026-06-01T05:52:44.417335+00:00",
-    "bias_label": "Left-Center",
-    "sentiment_score": 0.2,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "P Chidambaram",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Congress",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "TVK",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "Article presents a neutral tone, discussing political alliances"
-  },
-  {
-    "source": "India Today",
-    "title": "Reality bites on Budget eve",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/reality-bites-on-budget-eve-384692-2009-07-05?utm_source=rss",
-    "text": "The smartphone app era is peaking, and the age of \"Ambient AI\" has officially begun. In this episode of Tech Today, Cyrus breaks down a massive shift in how we use technology, from Google’s latest software ecosystem to India’s giant leap into space infrastructure and a brand-new camera flagship. Big Tech Story: Google I/O 2026 Google is rewriting the rules of the internet by replacing traditional web links with an invisible, always-on AI layer. Gemini Spark: An always-on, cloud-based AI agent that runs complex workflows in the background even if your laptop is closed or your phone dies. Generative UI in Search: The biggest transformation in Google Search in 25 years. Search now dynamically builds custom mini-apps and interactive visual interfaces tailored directly to your queries. Workspace & YouTube: \"Ask YouTube\" lets you conversationally talk to videos to find exact details instantly , while \"Daily Brief\" parses your morning into a personalized audio summary. Smart Glasses: Partnering with Samsung, Google showcased screenless Android XR smart glasses dropping this Fall that look like everyday eyewear but act as real-time audio companions for your face. AI Guru: India’s First Orbit Data Center AI has a massive Earth problem. It eats up land, massive amounts of electricity, and water. So, India's tech disruptors are moving the hardware to the stars. The Space AI: Pixxel and Sarvam AI are launching Pathfinder in Q4 2026, India's first dedicated 200kg AI data center in orbit. Real-Time Insights: By bolting data-center grade GPUs onto a satellite with a hyperspectral camera , it processes complex data locally in space. Instant Action: Instead of waiting hours to download heavy files , it beams back instant text alerts, like pinpointing a pipeline leak the second it happens. Tech Review: OPPO Find X9 Ultra Is this a smartphone or a professional camera that happens to make calls? We review the ultra-premium OPPO Find X9 Ultra. Insane 10x Zoom: Features a 200MP main sensor and a revolutionary periscope structure that bounces light five times internally to achieve a true 10x optical zoom lens without an oversized camera bump. Flagship Specs: Packed with a Snapdragon 8 Elite Gen 5 processor , refined ColorOS 16 , and a gorgeous 6.82-inch 144Hz AMOLED display hitting 3600 nits of peak brightness. Monster Battery: A massive 7050mAh silicon-carbon battery easily delivers 2 full days of heavy use, supported by lightning-fast 100W wired charging. What do you think about the shift to an app-less, agentic world? Would you wear screenless AI glasses? Let us know in the comments!",
-    "scraped_at": "2026-06-01T05:52:45.518647+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.5,
-    "framing": "Analytical",
-    "key_entities": [
-      {
-        "name": "Google",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "India",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "OPPO",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "Neutral tone, focusing on tech advancements and innovations."
-  },
-  {
-    "source": "India Today",
-    "title": "Pak crowd welcomes T20 champions",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/pak-crowd-welcomes-t20-champions-837563-2009-06-22?utm_source=rss",
-    "text": "In this edition of India Today Global, watch Geeta Mohan's exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
-    "scraped_at": "2026-06-01T05:52:46.737252+00:00",
-    "bias_label": "Unknown",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Sikh community",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Iranians",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "US",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Israel",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Neutral reporting on Sikh community in Iran"
-  },
-  {
-    "source": "India Today",
-    "title": "Pak played a good cricket: Razzaq",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/pak-played-a-good-cricket-razzaq-837587-2009-06-21?utm_source=rss",
-    "text": "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
-    "scraped_at": "2026-06-01T05:52:47.906959+00:00",
-    "bias_label": "Right-Center",
-    "sentiment_score": 0.2,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Bharatiya Janata Party",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "West Bengal",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article reports BJP forming government, neutral tone"
-  },
-  {
-    "source": "India Today",
-    "title": "T20 WC is a gift to the country: Gul",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-is-a-gift-to-the-country-gul-837588-2009-06-21?utm_source=rss",
-    "text": "Prime Minister Narendra Modi on Saturday hugged and honoured 98-year-old Makhanlal Sarkar, one of the earliest and senior most members of the BJP. The scene unfolded on the stage ahead of Suvendu Adhikari's swearing-in as West Bengal's Chief Minister in Kolkata. PM Modi also touched Sarkar's feet and presented a shawl to him as a mark of respect. In 1952, Sarkar was arrested in Kashmir while he was accompanying Dr Syama Prasad Mookerjee as the latter was marching to hoist the tricolour there. BJP IT cell head Amit Malviya described the elderly party leader as \"one of the earliest grassroots figures associated with the nationalist movement in post-Independence India.\"",
-    "scraped_at": "2026-06-01T05:52:49.014552+00:00",
-    "bias_label": "Right-Center",
-    "sentiment_score": 0.6,
-    "framing": "Sympathetic",
-    "key_entities": [
-      {
-        "name": "Narendra Modi",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Makhanlal Sarkar",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "BJP",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "Article portrays PM Modi and BJP in a positive light"
-  },
-  {
-    "source": "India Today",
-    "title": "I am proud of Pak: Younis Khan",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/i-am-proud-of-pak-younis-khan-837590-2009-06-21?utm_source=rss",
-    "text": "A speeding black Thar hit a biker in Jaipur when he was crossing the road. The impact of the accident was such that the 27-yeasr-old biker was flung into the air.",
-    "scraped_at": "2026-06-01T05:52:50.123352+00:00",
-    "bias_label": "Unknown",
-    "sentiment_score": -0.5,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Younis Khan",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "India",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Pakistan",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Jaipur",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article lacks context, appears unrelated to title"
-  },
-  {
-    "source": "India Today",
-    "title": "Younis Khan retires from T20 cricket",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/younis-khan-retires-from-t20-cricket-837592-2009-06-21?utm_source=rss",
-    "text": "In a big revelation, CPM General Secretary MA Baby confirmed to India Today that the DMK had proposed supporting an AIADMK-led government from the outside and requested the Left to follow suit.",
-    "scraped_at": "2026-06-01T05:52:51.274532+00:00",
-    "bias_label": "Left-Center",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "MA Baby",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "DMK",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "AIADMK",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "CPM",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Neutral reporting on political developments"
-  },
-  {
-    "source": "India Today",
-    "title": "<b>2009:</b>Pakistan celebrate World T20 win",
-    "url": "https://www.indiatoday.in/world-t20-2012/video/pakistan-celebrate-world-t20-win-383635-2009-06-21?utm_source=rss",
-    "text": "Prime Minister Narendra Modi, who is on a five-nation tour, will be arriving in Italy shortly on the last leg of his tour. The tour, which included visits to the United Arab Emirates, the Netherlands, Sweden, Norway, and Italy, signifies a shift in India's foreign policy towards strengthening technology and supply chain security.",
-    "scraped_at": "2026-06-01T05:52:52.418476+00:00",
-    "bias_label": "Unknown",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Narendra Modi",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article lacks emotional tone and biased language"
-  },
-  {
-    "source": "India Today",
-    "title": "Pak has an edge over Lanka: Tanvir",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/pak-has-an-edge-over-lanka-tanvir-383647-2009-06-20?utm_source=rss",
-    "text": "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it's over.",
-    "scraped_at": "2026-06-01T05:52:53.492048+00:00",
-    "bias_label": "Left-Center",
-    "sentiment_score": 0.2,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "P Chidambaram",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Congress",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "TVK",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "Left-Center bias due to Congress leader interview"
-  },
-  {
-    "source": "India Today",
-    "title": "Razzak hopeful of Pak victory",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/razzak-hopeful-of-pak-victory-383648-2009-06-20?utm_source=rss",
-    "text": "Senior Congress leader and eminent jurist Abhishek Manu Singhvi criticised the Tamil Nadu Governor for delaying the government formation process. He said the Governor has no option but to invite the single largest party to form the government and prove its majority on the floor of the assembly.",
-    "scraped_at": "2026-06-01T05:52:54.651817+00:00",
-    "bias_label": "Left-Center",
-    "sentiment_score": 0.2,
-    "framing": "Analytical",
-    "key_entities": [
-      {
-        "name": "Abhishek Manu Singhvi",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Tamil Nadu Governor",
-        "portrayal": "Negative"
-      }
-    ],
-    "reasoning": "Article presents a critical view of the Governor's actions"
-  },
-  {
-    "source": "India Today",
-    "title": "T20 WC: Second semi-final today",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-second-semi-final-today-383685-2009-06-18?utm_source=rss",
-    "text": "Why does India celebrate National Technology Day? Every year on May 11, India marks National Technology Day to commemorate a defining moment in its history: the 1998 Pokhran-II nuclear tests. Led by then-Prime Minister Atal Bihari Vajpayee and a team of brilliant scientists, these underground tests were so secretive they famously exposed a massive intelligence failure by the CIA. The same day saw the successful test flight of the indigenous Hansa-3 aircraft and the Trishul missile. In 2026, we explore how this \"explosion of self-esteem\" paved the way for India to become a global leader in AI, space exploration, and semiconductors. Plus: The New King of Camera Phones? We’re putting the Vivo X300 Ultra to the test. Is it a phone with a great camera, or a professional camera that happens to make calls? With its massive triple-camera setup featuring dual 200MP sensors and ZEISS optics, this device is redefining mobile photography. Watch the full episode to know if it is worth buying!",
-    "scraped_at": "2026-06-01T05:52:55.762359+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.2,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Atal Bihari Vajpayee",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "India",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Vivo X300 Ultra",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article is neutral, focusing on facts about India's National Technology Day and a phone review."
-  },
-  {
-    "source": "India Today",
-    "title": "T20 WC: Team India's big lie nailed",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-team-indias-big-lie-nailed-383694-2009-06-18?utm_source=rss",
-    "text": "In this edition of India Today Global, watch Geeta Mohan's exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
-    "scraped_at": "2026-06-01T05:52:56.806842+00:00",
-    "bias_label": "Left-Center",
-    "sentiment_score": 0.2,
-    "framing": "Analytical",
-    "key_entities": [
-      {
-        "name": "Sikh community",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Iranians",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "US-Israeli",
-        "portrayal": "Negative"
-      }
-    ],
-    "reasoning": "Article presents a neutral report on Sikh community in Iran"
-  },
-  {
-    "source": "India Today",
-    "title": "T20 WC: First semi-final today",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-first-semi-final-today-383708-2009-06-17?utm_source=rss",
-    "text": "TVK leader C Joseph Vijay on Sunday took oath as the Chief Minister of Tamil Nadu amid a sea of supporters, his friends and family, and several political leaders. Eight other TVK leaders were sworn in besides him, as ministers in the new government. Congress leader Rahul Gandhi also attended the ceremony. The TVK managed to secure the Governor's nod to form the government after the Congress, the CPI, the CPI(M), the VCK, and IUML extended their support to the Vijay-led party for a colaition government.",
-    "scraped_at": "2026-06-01T05:52:57.970028+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "C Joseph Vijay",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Rahul Gandhi",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "TVK",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Neutral reporting on a political event"
-  },
-  {
-    "source": "India Today",
-    "title": "Unhappy end to India's T20 WC tour",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/unhappy-end-to-indias-t20-wc-tour-383719-2009-06-16?utm_source=rss",
-    "text": "In this edition of India Today Global, watch Geeta Mohan's exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
-    "scraped_at": "2026-06-01T05:52:59.266455+00:00",
-    "bias_label": "Unknown",
-    "sentiment_score": 0.0,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Geeta Mohan",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Sikh community",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Iranians",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "Article appears neutral, reporting on Sikh community in Iran."
-  },
-  {
-    "source": "India Today",
-    "title": "'No one was forced to play in IPL'",
-    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/no-one-was-forced-to-play-in-ipl-383739-2009-06-15?utm_source=rss",
-    "text": "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it's over.",
-    "scraped_at": "2026-06-01T05:53:00.364342+00:00",
-    "bias_label": "Left-Center",
-    "sentiment_score": 0.2,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "P Chidambaram",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Congress",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "TVK",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "Neutral tone and balanced discussion"
-  },
-  {
-    "source": "Times of India",
-    "title": "'Don’t want to spoil the surprise': Rahul on INDIA bloc's next step in CEC-SIR row",
-    "url": "https://timesofindia.indiatimes.com/india/dont-want-to-spoil-the-surprise-rahul-gandhi-on-india-blocs-next-step-in-cec-sir-row/articleshow/134917355.cms",
-    "text": "NEW DELHI: Congress leader Rahul Gandhi on Tuesday said he does not want to reveal the opposition's next step amid the CEC-SIR row, saying that revealing the strategy would spoil excitement and sense of surprise for the citizens of the country. \"Sooner or later, whether tomorrow, the day after, in three months, six months, a year, or two years, it (protests) will not stop. It will reach the end goal. I cannot tell you exactly how we will get there, because that would spoil the surprise, and we want to maintain the excitement and sense of surprise for you and the country,\" Rahul Gandhi told reporters at a joint briefing of opposition parties at his residence, where he hosted them for evening tea. The Lok Sabha leader of opposition asserted that the Congress-led INDIA bloc would continue its fight against the government with the same energy, strength and unity with which it mobilised for the protests against Chief Election Commissioner (CEC) Gyanesh Kumar over alleged irregularities in the Special Intensive Revision (SIR) of electoral rolls exercise. Rahul Gandhi also thanked the Supreme Court and Chief Justice of India Surya Kant, while asserting that the political resistance would continue. ALSO READ: High tea after street heat: What happened at INDIA bloc meet at Rahul Gandhi's residence \"Thank you to the Supreme Court—we have immense respect for the Supreme Court, the Chief Justice of India, and the Indian judicial system. They have a role to play, and we hope they will play it. However, we are political people; no matter what happens, or which institution plays a role or doesn't, political resistance will continue, people's resistance will continue, and it will triumph,\" the Congress MP added. Rahul Gandhi's remarks came a day after he, along with 10 other opposition leaders, filed a plea in the Supreme Court in the matter, naming the Election Commission (EC), CEC Kumar, and the two Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi, as respondents.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful · TOI community guidelines\n\nKumar has come under scrutiny since The Indian Express reported last month that Sandhu and Joshi had raised objections at least 14 times over the past 10 months to decisions they claimed were taken without their knowledge, including those related to the SIR. ALSO READ: 'Absence from draft SIR doesn't mean deletion': EC to Bombay HC In response, the EC said differences were \"common\" in multi-member institutions and maintained that all decisions were ultimately taken unanimously by the three commissioners. The poll body is required to take decisions either unanimously or by a 2-1 majority. Since becoming CEC in 2025, a year after his appointment to the commission, Kumar has repeatedly faced allegations of favouring the ruling BJP.\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:04:48.174864+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "High tea after street heat: What happened at INDIA bloc meet at Rahul Gandhi's residence",
-    "url": "https://timesofindia.indiatimes.com/india/high-tea-after-street-heat-what-happened-at-india-bloc-meet-at-rahul-gandhis-residence/articleshow/134918043.cms",
-    "text": "INDIA bloc leaders gathered at Rahul's residence for high tea after four days of protest on streets\n\nNEW DELHI: INDIA bloc leaders gathered at Rahul Gandhi's residence on Tuesday for high tea amid their ongoing protest against Chief Election Commissioner Gyanesh Kumar over alleged vote theft. They met for a high tea after four days of protest and filing a petition in SC against the CEC. From directly slamming the CEC to criticising the SIR process and criticising PM Modi and Amit Shah, several leaders including Rahul Gandhi, Mallikarjun Kharge, Supriya Sule, Tejashwi Yadav, Sanjay Raut addressed a press conference after the meet vowing to continue their protests while giving insights into what they decided at the meeting. Here's what some of the key leaders saidRahul Gandhi (Congress) Leader of Opposition in the Lok Sabha Rahul Gandhi anonunced that the INDIA bloc would continue its fight to restore the democratic process and ensure accountability for those he accused of undermining it. \"We are all standing here together as one. As I said yesterday, there are no parallel protests. There is one singular protest, and the protest has one mission: restoration of democracy in India. Democracy has been destroyed in this country. The election system has been destroyed. The Constitution has been torn up and thrown away. We are fighting together to restore democratic rule, genuine democratic rule in this country.\" He thanked people who supported the protest and vowed to bring those responsible to justice. \"It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who's hiding right now in Dehradun, and others are going to be brought to justice.\" \"Yesterday, you saw an expression not of the political party standing here, but an expression of the people of India...We would like to thank the people of Delhi, the people of India, who stood with us against what is being done. This is not about us. This is about the people of India. This is about the future of the people of India, and we, all of us together, because we love you and we respect you, are going to fight to the end to restore the democratic process in this country. It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who's hiding right now in Dehradun, and others are going to be brought to justice,\" he added. Further assuring the work of the team, the Congress leader said, \"I used the word 'perseverance' at the press conference yesterday—that this team of ours is not going to stop. Sooner or later—whether tomorrow, the day after, in three months, six months, a year, or two years—it will not stop. It will reach the end goal. I cannot tell you exactly how we will get there, because that would spoil the surprise, and we want to maintain the excitement and sense of surprise for you and the country. But I guarantee you that just as we mobilized—with such energy, strength, and unity—we will con",
-    "scraped_at": "2026-10-13T14:04:49.269262+00:00",
-    "bias_label": "Center",
-    "sentiment_score": -0.2,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "INDIA bloc",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Rahul Gandhi",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Gyanesh Kumar",
-        "portrayal": "Negative"
-      },
-      {
-        "name": "Narendra Modi",
-        "portrayal": "Negative"
-      },
-      {
-        "name": "Amit Shah",
-        "portrayal": "Negative"
-      }
-    ],
-    "reasoning": "The article uses neutral reporting to document the INDIA bloc's meeting and quotes Rahul Gandhi directly. The negative sentiment reflects the opposition's sharp attacks on government leaders and the Election Commission rather than editorial bias."
-  },
-  {
-    "source": "Times of India",
-    "title": "'Don’t post videos': Embassy issues fresh advisory for Indians in Saudi",
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/dont-post-videos-stay-indoors-embassy-issues-fresh-advisory-for-indians-in-saudi-arabia/articleshow/134918147.cms",
-    "text": "The fresh advisories come after an October 10 attack on Riyadh airport killed an Indian national\n\nNEW DELHI: Indian embassies in Saudi Arabia on Tuesday issued fresh advisories for Indian nationals amid flight disruptions following the suspension of services by Indian airlines to several Saudi cities until October 17. The Indian Embassy in Riyadh advised Indian nationals to remain calm and vigilant, stay indoors in the event of an aerial attack and follow instructions issued by local authorities through official channels. It also urged Indians to refrain from circulating or reposting videos or news related to the ongoing events. The Embassy said Air India and Air India Express had suspended flights to and from Riyadh, Dammam and Jeddah until October 17. Akasa Air suspended services to and from Riyadh and Jeddah, while IndiGo cancelled flights to and from Riyadh, Dammam, Jeddah and Medina until the same date. The General Authority of Civil Aviation (GACA) has announced the suspension of operations at King Khalid International Airport in Riyadh. Operations at other major airports, including Dammam, Jeddah and Medina, are continuing, although disruptions have been reported. The Embassy advised Indian nationals to remain in regular contact with their respective airlines and verify the latest status of their flights. Those needing to leave Saudi Arabia in an emergency may also consider flights from neighbouring Gulf countries, particularly Qatar and Bahrain, subject to obtaining the required visas. The Consulate General of India in Jeddah issued a separate advisory, particularly for Umrah pilgrims travelling to and from Jeddah and Medina. It urged passengers to check with airlines before proceeding to airports and remain in contact with travel agents, tour operators and Umrah service providers regarding cancellations, rescheduling, alternative travel arrangements and accommodation. The Consulate said it was in regular contact with airlines and local authorities to assist affected Indian nationals. Both the Embassy in Riyadh and the Consulate in Jeddah have established 24x7 control rooms to provide assistance. The Riyadh Embassy also said Indian nationals who arrived in Saudi Arabia on visit, tourist, Umrah or business visas but were forced to overstay because of flight unavailability would be allowed to leave without paying fines. Those whose visas have expired were advised to exit the Kingdom as soon as flights become available. ALSO READ: Flydubai mid-air stabbing: 2 Maldivian pilots detained in UAE over links with accused Omani copilot - reportIndian national killed in Riyadh airport attack The fresh advisories come after an October 10 attack on Riyadh airport killed Indian national Mohammed Yousef Ali. Ambassador Vipul and Embassy officials attended his funeral in Riyadh on October 12, in accordance with his family's wishes, and assured the bereaved family of continued support. The Embassy said four Indian nationals injured in the attack remained ",
-    "scraped_at": "2026-10-13T14:04:50.279204+00:00",
-    "bias_label": "Center",
-    "sentiment_score": -0.35,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Indian Embassy in Riyadh",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Consulate General of India in Jeddah",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "General Authority of Civil Aviation (GACA)",
-        "portrayal": "Neutral"
-      },
-      {
-        "name": "Mohammed Yousef Ali",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "The article is a straightforward, factual report conveying safety advisories, airline disruptions, and consular updates for Indian citizens in Saudi Arabia following a fatal attack on Riyadh airport. It maintains an objective, neutral tone without political bias."
-  },
-  {
-    "source": "Times of India",
-    "title": "'Agreed to build on positive momentum in ties': PM Modi speaks with Canada PM Carney",
-    "url": "https://timesofindia.indiatimes.com/india/agreed-to-build-on-positive-momentum-in-ties-pm-modi-speaks-with-canada-pm-mark-carney/articleshow/134919669.cms",
-    "text": "File photo: PM Modi and Canada PM Mark Carney\n\nNEW DELHI: Prime Minister Narendra Modi on Tuesday said he had spoken with Canadian Prime Minister Mark Carney, with the two leaders agreeing to build on the positive momentum in India-Canada ties and work towards concrete outcomes across key areas of their strategic partnership. In a post on X, PM Modi described the conversation as “warm and productive” and said the two sides would focus on trade, energy, technology, security and people-to-people ties. “Together, India and Canada are contributing towards a more stable and prosperous world,” PM Modi wrote.\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:04:51.246622+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.5,
-    "framing": "Optimistic",
-    "key_entities": [
-      {
-        "name": "Narendra Modi",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Mark Carney",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "India-Canada relations",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "The article neutrally reports on an official diplomatic exchange between the two leaders without editorial commentary. The tone reflects the optimistic and warm language directly quoted from PM Modi's post regarding bilateral cooperation."
-  },
-  {
-    "source": "Times of India",
-    "title": "US issues power grid emergency in 13 states: Reason and what it means for residents",
-    "url": "https://timesofindia.indiatimes.com/technology/tech-news/us-department-of-energy-declares-power-grid-emergency-in-13-states-what-it-is-and-what-it-means-for-the-residents-of-the-states-impacted/articleshow/134915660.cms",
-    "text": "Power plant (Representational image)\n\nUS Secretary of Energy Chris Wright has issued an emergency order authorising PJM Interconnection, the regional transmission operator serving much of the Mid-Atlantic and Midwest regions, to run designated power generation units as needed to protect grid stability. The federal directive, issued on October 12, grants PJM temporary emergency authority running from October 13 through October 16. Under the order, the grid operator can mandate certain power plants to generate electricity and, in limited circumstances, tap into backup power reserves to maintain a steady flow of energy across its multistate network, as per the order available on the department’s official website. Federal officials and grid managers clarified that the order is designed specifically to prevent power interruptions and not to announce scheduled blackouts.\n\nWhy the emergency order has been issued\n\nHeadquartered in the Philadelphia area, PJM Interconnection coordinates wholesale electricity movement across all or parts of 13 states and the District of Columbia. “PJM serves as the Reliability Coordinator and Balancing Authority for its region and is, therefore, responsible for overseeing the dispatch of generation to meet system demand at all times within the limits of the transmission system. The PJM Region includes all or parts of Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, West Virginia, and the District of Columbia,” the order says. Ahead of strained conditions, the operator issued a Maximum Generation Alert and a Load Management Alert for October 13, pointing to a confluence of weather and scheduled infrastructure downtime. Due to ‘unseasonably warm autumn weather’, forecasted electricity demand is expected to reach approximately 111,500 megawatts or higher on October 13. The second reason is the maintenance window. The grid is currently in its standard seasonal outage cycle, which runs from mid-September through early December. During this period, utilities routinely take generation units and power lines offline for maintenance and upgrades to ensure peak availability ahead of freezing winter weather. Scheduled transmission line outages have restricted the volume of electricity that can be transferred between different zones on the system. According to the Department of Energy (DOE), without emergency federal intervention, PJM faced conditions where it might have had to reduce or cut power service to keep the regional grid balanced. \"It is our understanding that PJM seeks to unlock and deploy backup generation resources (whether auxiliary, standby, directly-connected, battery storage, or other, and whether synchronized or not to the bulk-power system) at data centers (including, but not limited to, hyperscaler facilities) and at other large load industrial and commercial customer sites as another tool to mitigate any undue risk to the bulk-power syste",
-    "scraped_at": "2026-10-13T14:04:52.875504+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Iran seeking to expand attacks in UK to military sites, MI5 chief warns",
-    "url": "https://timesofindia.indiatimes.com/world/uk/not-unique-iran-seeking-to-expand-attacks-in-uk-to-military-sites-mi5-chief-warns-after-raf-fairford-incident/articleshow/134919421.cms",
-    "text": "File photo: UK's RAF Fairford base\n\nIran is seeking to expand its attacks in Britain to include military installations, with the suspected plot against the US-run RAF Fairford air base in September being “not unique”, MI5 chief Ken McCallum said on Tuesday. Speaking in his annual assessment of threats to the UK, the head of Britain's domestic security service said Tehran was increasingly looking beyond its traditional targets, including Iranians opposed to the country's Islamic authorities, to strike more difficult targets such as military sites. “The RAF Fairford incident ... is not unique. There have been other examples, not just in the UK but around the world,” McCallum said, according to Reuters. The comments came as British detectives continued investigating the suspected plot against RAF Fairford in western England, which has been used by US bombers to carry out strikes on Iran during this year's war.\n\nSecurity alert at RAF Fairford\n\nThe suspected plot triggered a major security operation on September 27, when scores of residents were evacuated from their homes near the air base as armed police officers and army bomb-disposal experts moved into the area. Police later said they had found a quantity of gasoline, described as an accelerant, in three vans at the site. No explosives were found. British authorities have linked Tehran to the incident, which prompted the US to withdraw its bombers from RAF Fairford. Prime Minister Andy Burnham said on Monday that the suspected plot was “almost certainly” directed by Iran's Revolutionary Guard. Earlier, he said that Tehran was “highly likely” to have been behind the suspected plot. Seven men in their 20s have been arrested and released on bail under investigation. McCallum said he could not comment on the Fairford incident because the investigation was ongoing. He nevertheless pointed to a broader shift in Iran's activities. “A major shift this year has been Iranian ambitions to come at harder targets, like military sites,” he said. McCallum also referred to arson and sabotage attacks on Jewish sites in Britain, which the UK has attributed to Iranian proxies. I ran has denied involvement in the suspected Fairford plot, although it has previously said it considers any military base used to attack its territory a legitimate target.\n\nMI5 flags Russia's activities and AI threats\n\nMcCallum also warned about Russia's activities against Britain and its allies, describing Moscow as the leading state aggressor, according to Reuters. He said Russia was escalating its use of hybrid warfare against countries supporting Ukraine, employing tactics that fall short of conventional military conflict. He cited an attempted drone attack on a cargo plane at a German airport and a cyber attack on Polish energy infrastructure as examples. “It's no accident that Russian aggressors are trying to unsettle other European homelands at a time when their military progress in Ukraine is minimal and horrifically costly,” McCallum",
-    "scraped_at": "2026-10-13T14:04:53.756745+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Ashwin reveals what drove Bhuvneshwar's India comeback",
-    "url": "https://timesofindia.indiatimes.com/sports/cricket/news/he-never-chased-that-reward-ashwin-reveals-what-drove-bhuvneshwar-kumars-india-comeback/articleshow/134916720.cms",
-    "text": "Bhuvneshwar Kumar\n\nRavichandran Ashwin believes Bhuvneshwar Kumar's return to India's T20I setup is a reward for his consistency rather than the result of chasing an international comeback. The veteran pacer earned a recall to the national squad after impressing for Royal Challengers Bengaluru (RCB) in the IPL, with Ashwin crediting his focus on performance for his return. Bhuvneshwar's selection for India's upcoming five-match T20I series against New Zealand, beginning next week, was one of the major talking points following the squad announcement. The right-arm pacer is set to return to international T20 cricket after a gap of four years.\n\n'He has gone on his own journey'\n\nSpeaking on his YouTube channel, Ashwin suggested that Bhuvneshwar remained focused on improving his bowling and fulfilling his responsibilities for RCB rather than worrying about a potential India recall. \"I have a feeling that Bhuvneshwar Kumar hasn't even thought about a comeback. I think this will be his mantra for success. And when I'm watching him from afar, I have also experienced this myself, he has gone on his own journey,\" Ashwin said. \"He has focused on doing well, bowling well with the new ball and performing for RCB. Whatever he could do, he did it. His recall is the reward for his success. He never chased that reward; he simply did his job and success followed,\" he added.\n\nAshwin backs India for 2027 ODI World Cup, picks South Africa as serious contenders\n\nLooking ahead to the 2027 ODI World Cup, Ashwin backed India to challenge for the title but warned that hosts South Africa could pose a significant threat in familiar conditions. Ashwin pointed to India's pace-bowling resources, spin options and batting experience as reasons to believe the team can mount a strong campaign. He particularly highlighted Bumrah's importance, suggesting that the fast bowler could make a major difference if he performs at his best. \"India has the ability. If Jasprit Bumrah is firing on all cylinders, he will have a good fast-bowling experience. India has a good spin stock. There, in a lot of grounds, you will get the help of spin. There is experience in batting,\" he said. However, Ashwin identified South Africa as one of the strongest contenders, citing home advantage, familiarity with local conditions and the experience players have gained through the SA20 league.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful · TOI community guidelines\n\n\"I will honestly say that two-three teams look good to me. Out of them, South Africa is the best. I think South Africa will be a serious contender for the home World Cup. So India will have to play against the South African team,\" he said. \"South Africa, in South African conditions, especially after SA20, have the skills, they know all the conditions, they play good cricket and the team looks together. That's a very strong force in cricket,\" Ashwin added.\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:04:54.720432+00:00",
-    "bias_label": "Center",
-    "sentiment_score": 0.45,
-    "framing": "Analytical",
-    "key_entities": [
-      {
-        "name": "Bhuvneshwar Kumar",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Ravichandran Ashwin",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Jasprit Bumrah",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "Indian Cricket Team",
-        "portrayal": "Positive"
-      },
-      {
-        "name": "South Africa Cricket Team",
-        "portrayal": "Positive"
-      }
-    ],
-    "reasoning": "The article is straightforward sports reporting covering Ravichandran Ashwin's comments on Bhuvneshwar Kumar's recall to the national squad and his analysis of the 2027 World Cup. It carries no political bias, maintains an analytical framing, and exhibits an encouraging, positive sentiment toward the athletes mentioned."
-  },
-  {
-    "source": "Times of India",
-    "title": "Delhi man with 14 criminal cases shot dead, CCTV captures killing",
-    "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-man-with-14-criminal-cases-shot-dead-in-ranhola-area-suspects-identified/articleshow/134917081.cms",
-    "text": "The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar.\n\nNEW DELHI: A man with around 14 criminal cases registered against him was shot dead in a brazen attack captured on CCTV in outer Delhi’s Ranhola area, police said on Tuesday. The footage shows the victim stopping his motorcycle near a house when two motorcycles carrying four assailants suddenly enter the camera frame. The attackers approach the rider, and one of them opens fire from behind. The other assailants also fire multiple shots at the victim before the attack unfolds in full view of the CCTV camera. The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar and a declared bad character (BC) of Ranhola police station, according to police. Police said they received information around 5.30 pm on October 11 that Khan had been admitted to a hospital with gunshot injuries. He was subsequently declared dead. A case was registered at Ranhola police station, and an investigation was launched. Police said they had identified the suspects and were making efforts to apprehend them. The motive behind the killing and the circumstances leading to the shooting have not yet been established. Further investigation is underway, police said. (With Agency Inputs)\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:04:55.908830+00:00",
-    "bias_label": "Center",
-    "sentiment_score": -0.5,
-    "framing": "Neutral",
-    "key_entities": [
-      {
-        "name": "Mosin Khan",
-        "portrayal": "Negative"
-      },
-      {
-        "name": "Delhi Police",
-        "portrayal": "Neutral"
-      }
-    ],
-    "reasoning": "The article is a straightforward crime report based on official police accounts and CCTV findings. It relies on standard journalistic sourcing without political slant or editorializing, resulting in a neutral framing and center bias classification."
-  },
-  {
-    "source": "Times of India",
-    "title": "Union minister L Murugan writes to PM Modi seeking exit from Union cabinet",
-    "url": "https://timesofindia.indiatimes.com/india/l-murugan-writes-to-pm-modi-seeking-exit-from-union-cabinet-says-wants-to-return-to-grassroots/articleshow/134918481.cms",
-    "text": "L Murugan\n\nNEW DELHI: Union minister of state for Information and Broadcasting L Murugan has sought to step down from the Union Council of Ministers and relinquish his Rajya Sabha membership, saying he wants to return to grassroots politics. Murugan said he intends to devote himself full-time to strengthening the BJP in Tamil Nadu and preparing the party for the 2029 Lok Sabha elections. In a letter addressed to Prime Minister Narendra Modi, Murugan said he wished to focus on expanding the party’s presence across the state. He also shared the letter on X, reiterating his commitment to working with party workers. “With humility and a grateful heart, I therefore request you to relieve me of my responsibilities as Minister of State and permit me to relinquish my membership of the Rajya Sabha, so that I may dedicate myself full-time to strengthening the party in Tamil Nadu,” Murugan wrote in the letter. He added, “I want to go to every village and every street, meet our people, stand beside our karyakartas and help expand the party's presence in every part of the State.” In his post on X, Murugan said, “It has been the greatest honour of my life to serve Bharat Mata and Tamil Nadu under the leadership of Prime Minister Modi.” “Now, I wish to return to the grassroots, stand with our karyakartas and dedicate myself full-time to strengthening the BJP in Tamil Nadu ahead of the 2029 Lok Sabha elections,” he added. Murugan also expressed gratitude to Modi for giving him the opportunity to serve in the Union government, highlighting his background as the son of daily wage labourers. “I do not come from a political family. I come from a very poor family. My parents, who worked as daily wage labourers and cattle grazers, continue to lead a simple life in Konur village,” he wrote.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful · TOI community guidelines\n\nReflecting on his political journey, Murugan said his guiding principle over nearly three decades in the Akhil Bharatiya Vidyarthi Parishad (ABVP) and the BJP had remained: “Nation First, Party Next, Self Last.” Murugan has served as minister of state for Information and Broadcasting and Parliamentary Affairs. From July 2021 to June 2024, he also held the portfolios of Fisheries, Animal Husbandry and Dairying alongside Information and Broadcasting. He previously served as vice-chairperson of the National Commission for Scheduled Castes from 2017 to 2020 and as BJP Tamil Nadu president.\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:04:56.848667+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "UK shopper paid £15 for royal family ring; it later sold for £5,500",
-    "url": "https://timesofindia.indiatimes.com/world/uk/a-shopper-paid-just-15-for-an-old-ring-in-a-leicester-charity-shop-then-experts-traced-it-to-the-british-royal-family-the-rare-princess-amelia-mourning-ring-later-sold-at-auction-for-5500/articleshow/134918124.cms",
-    "text": "A shopper who paid £15 for an old ring at a charity shop in Leicester has made thousands of pounds after auction experts linked the item to the British royal family. The rare ring turned out to be a 19th-century gold and enamel mourning ring made to mark the death of Princess Amelia, the youngest daughter of King George III and Queen Charlotte. It was sold at Hansons Auctioneers in Etwall, Derbyshire, where intense bidding from buyers around the world pushed the final price to £5,500. According to Hansons Auctioneers, the buyer spotted the ring among everyday items in a local charity shop without knowing its historical importance. After taking it to experts for an appraisal, specialists identified the detailed gold ring as a rare item from the Regency era.\n\nHidden high street treasure\n\nCharles Hanson, owner and director of Hansons Auctioneers, described the item as \"the most important charity shop find I've heard about in a decade.\" Details shared by Hansons Auctioneers show that when the owner brought the ring in for a valuation, specialists recognised features linked to royal jewellery made during the reign of King George III. \"I was stunned and dazzled,\" Mr Hanson said in an official announcement published by the auction house. \"From a simple box emerged a piece of deeply personal Royal history, commissioned by the Royal family itself to honour a lost loved one. This mourning ring was created to commemorate the life and death of Princess Amelia, and it speaks volumes in its craftsmanship and symbolism.\"\n\nPoignant piece of royal history\n\nPrincess Amelia was born on 7 August 1783 and was the youngest of the 15 children of King George III and Queen Charlotte. She was widely reported to be her father's favourite daughter. She died on 2 November 1810, aged 27, after a long battle with tuberculosis. Historical records cited by Hansons Auctioneers state that her death deeply affected the King and played a major role in his final and lasting decline in mental health. According to accounts of her final hours, Princess Amelia pressed a ring containing a lock of her hair into her father's hand as she lay dying. She is said to have whispered the words \"remember me\". After her funeral at Windsor, her elder brother, the Prince Regent, who later became King George IV, asked court goldsmiths Rundell, Bridge & Rundell to make 52 mourning rings. These were made in her memory and given only to close family members and trusted friends of the royal household. The ring has a crown design above the initial 'A'. It also carries the words \"Remember me\" in white enamel. \"The white enamel used in the ring denotes that Amelia was unmarried at the time of her death,\" Mr Hanson explained. \"White enamel symbolised purity and innocence in mourning jewellery, particularly for those who died young or unmarried. It contrasts with the more commonly used black enamel, which signified general mourning.\"\n\nInternational interest at auction\n\nWhen the royal goldsmiths Rundell, Bridge ",
-    "scraped_at": "2026-10-13T14:04:57.862446+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Christopher Lloyd’s former Hollywood bungalow sells for $2.82m in just 12 days",
-    "url": "https://timesofindia.indiatimes.com/real-estate/news/christopher-lloyds-former-1920s-hollywood-bungalow-was-bought-by-diva-zappa-for-2-55-million-in-2022-after-extensive-repairs-and-restoration-the-revived-compound-sold-for-2-82-million-in-just-12-days/articleshow/134918554.cms",
-    "text": "The property’s sale comes amid a more measured Los Angeles housing market, where increased listings have given buyers greater choice and reduced the urgency that characterised earlier years. Images Courtesy: Wikipedia and Google Maps\n\nSome houses are built to impress, while others tell a story that unfolds room by room. In Los Angeles, a Spanish-style bungalow once owned by Back to the Future star Christopher Lloyd belongs firmly to the latter category. Blending Mediterranean influences, playful architectural details and traces of Hollywood history, the property has evolved from a modest 1920s residence into an unconventional compound. Artist Diva Zappa bought the home for $2.55 million in 2022 and undertook an extensive restoration before selling it for $2.82 million after just 12 days on the market, states an online report by Homes.\n\nA bungalow with a Hollywood past\n\nAccording to Home, when Lloyd acquired the property in the 1980s, the original Spanish bungalow was a relatively modest two-bedroom, two-bathroom home. With architect Robert DeYoung, the actor expanded it into a more elaborate estate, adding a one-bedroom, one-bathroom guesthouse and transforming the outdoor space with a swimming pool and extensive hardscaping. The result was a distinctive mix of architectural influences, with adobe-inspired elements and flowing lines reminiscent of the work of Spanish architect Antoni Gaudí. Rather than following a single design language, the property embraced an eclectic character that reflected Lloyd’s creativity and sense of humour. Some of its most unusual details were personal. According to Homes, a mould of the actor’s face adorned the exterior of the guesthouse, while a light switch incorporated a prop from the Jules Verne Time Train featured in Back to the Future Part III. These touches gave the residence a personality rarely found in conventional luxury real estate. Across the main house and guesthouse, the compound offers more than 3,400 square feet of living space, adds the online report.\n\nAn artist’s approach to restoration\n\nWhen Zappa discovered the property in 2022, its individuality remained intact, but years of insufficient maintenance had left it in need of considerable work. The artist saw potential in its unconventional design and took on the challenge of restoring it without erasing its history. Between 2023 and 2025, the renovation involved substantial structural and cosmetic improvements. New roofs were installed, countertops replaced and bathrooms renovated. The house was also raised so that a new foundation could be poured, with hand-laid crystals incorporated into the foundation as a personal, symbolic gesture, states the online report. The fireplaces received particular attention. Four were restored, while the fifth was completely replaced. Throughout the process, the aim was to preserve the original Spanish character and the architectural personality Lloyd had introduced, while making the property more comfortable for co",
-    "scraped_at": "2026-10-13T14:04:58.860037+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Sergey Brin is biggest donor against California wealth tax; could owe $13 billion",
-    "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-cofounder-sergey-brin-is-biggest-donor-to-group-opposing-californias-proposed-wealth-tax-has-spent-102-million-to-fight-it-heres-how-much-he-may-lose-if-the-bill-is-passed/articleshow/134912473.cms",
-    "text": "Google cofounder Sergey Brin has emerged as the biggest donor opposing California’s proposed billionaire wealth tax, contribution $102 million to a political group fighting the measure that could leave him facing tax bill of about $13 billion if approved by voters. The development was reported by Fortune, citing state financial campaign records. As per the campaign fillings, Brin has donated a teal of $102 million to building a Better California, a political action committee campaigning against California’s proposed wealth tax while supporting pro-business, housing and infrastructure policies. The contribution makes him the single largest founder of the anti-tax effort. Opposition groups have collectively raised more than $187 million, compared with roughly $32 million raised by supporters of the measure.\n\nWhat is California's Proposition 40\n\nProposition 40 will be on the ballot in November. It would impose a one-time 5% tax on California’s 200 billionaires. Ninety percent of the revenue would go to the state’s health care program. The remaining 10% would go to education, food assistance and administration. With a net worth of nearly $260 billion, Brin could owe about $13 billion if it passes.\n\nBillionaires and Gavin Newsom line up against it\n\nFormer Google CEO Eric Schmidt and PayPal cofounder Peter Thiel have also donated to groups opposing the measure. Brin has likened the proposal to the socialist society he left behind. “I fled socialism with my family in 1979,” he told The New York Times in April, adding that he does not want California to end up in the same place. Gov. Gavin Newsom has also come out against the tax. He argues it would erode the state’s tax base and cut revenue for social services. In an interview with Bloomberg Businessweek earlier this year, he said it would reduce investment in education, teachers, librarians, childcare, firefighting and police.\n\nBillionaires already moving\n\nSome of the wealthy are shifting their holdings out of the state. Brin now lists Nevada as his residence, according to state records, and reportedly bought a $51 million home near Miami Beach in March. Larry Page, Google’s other cofounder, has moved several assets out of California. His family office, Koop, was incorporated in Delaware in December 2025. Oceankind, the ocean science nonprofit founded by his wife, Lucy Southworth, was incorporated there around the same time.\n\nDebate over economic impact\n\nSupporters of Proposition 40 argue the tax could generate about $100 billion over five years for state programmes. Opponents counter that it could encourage wealthy residents and businesses to leave California. However, a report cited by Fortune noted that California billionaires collectively paid about $4.1 billion in state income taxes last year, roughly 0.2% of their combined $2 trillion net worth. Researchers argued that even if every billionaire left the state, it would take decades for the loss of income tax revenue to offset the projected revenu",
-    "scraped_at": "2026-10-13T14:04:59.870052+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "‘Papa, please save me’: Shekhar Suman remembers son Aayush’s final moments at 11",
-    "url": "https://timesofindia.indiatimes.com/life-style/parenting/moments/papa-please-save-me-shekhar-suman-remembers-son-aayushs-final-moments-at-11-recalls-the-heartbreaking-plea-that-still-haunts-him-and-opens-up-about-grief-and-financial-struggles/articleshow/134914620.cms",
-    "text": "Actor and television presenter Shekhar Suman has revisited one of the most painful chapters of his life, recalling how he continued working while his eldest son, Aayush, battled a terminal illness. In a conversation with The Lallantop, Shekhar spoke about the family’s struggle during the child’s final days, the financial difficulties he faced at the time and the words Aayush spoke shortly before his death at the age of 11. The actor said the loss continues to affect his family, even decades later. For Shekhar, the period was marked by two devastating realities. He had little work and was worried about supporting his family when he learnt that his son was terminally ill. At a time when he felt he had little left to hold on to, he had to keep working while coping with the possibility of losing his child.\n\n5 Oct 2026 | 12:06\n\nParents, when your child refuses to greet relatives, do you make them say hello or respect their choice?\n\n‘I was completely ruined’: A father facing two crises\n\nRecalling the moment he learnt about Aayush’s condition, Shekhar described how the news came when his professional life was already uncertain. “I discovered my son was terminally ill. Firstly, I had no work at that time. On top of that, we received such tragic news. I was completely ruined and destroyed. I thought I had nothing left in life,” he said during the interview. He also spoke about the financial pressure he was under, explaining that he was not earning enough to comfortably meet his son’s medical needs and did not want to depend on his family for money. Despite the circumstances, Shekhar was initially reluctant to work in television. He hoped for film offers, but calls from the industry often brought proposals for serials instead. That changed when director Anand Mahendroo approached him for the comedy show Dekh Bhai Dekh. Shekhar said he was hesitant at first, but Mahendroo encouraged him to reconsider, pointing out that Jaya Bachchan was producing the show. Shekhar eventually accepted the role, which became a significant part of his television career.\n\nWorking on a comedy show while fearing the worst\n\nEven as his career found a new direction, the situation at home remained difficult. Shekhar said Aayush’s health was deteriorating, leaving him anxious throughout the working day. The production team kept a telephone on the set so that his family could contact him with updates. Every time it rang, he would answer with a pounding heart, afraid that he might hear bad news. After the call, however, he had to return to performing in a light-hearted comedy show. “I still don’t know how I did it all (continued working),” he recalled, describing the emotional difficulty of switching between his personal crisis and his professional responsibilities. For Shekhar, continuing to work was not simply about building a career. He felt responsible for supporting his family, even as he struggled to process what was happening to his son.\n\n‘Papa, I don’t want to go’: Aayush’s fin",
-    "scraped_at": "2026-10-13T14:05:00.777885+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Ohio brothers bought flooded quarry for $330,000; village later drops seizure bid",
-    "url": "https://timesofindia.indiatimes.com/world/us/in-2005-two-ohio-brothers-bought-a-flooded-quarry-for-330000-and-spent-15-years-improving-it-21-years-later-the-village-abandoned-its-bid-to-seize-the-72-5-acre-site-and-now-has-a-206000-judgment-lien-against-it/articleshow/134911740.cms",
-    "text": "After learning about the proposed sale, the Village of Luckey began considering acquiring the property itself. (AI photo)\n\nTwo brothers in Ohio who bought an abandoned, flooded quarry for $330,000 in 2005 and spent 15 years improving it have been caught in a long legal dispute with the village where the property is located. Steve and Tim Snyder had planned to sell the land in 2021, but the Village of Luckey began proceedings to acquire it through eminent domain, a legal power that allows governments to take private property for public use with compensation. The dispute continued for nearly five years before the village abandoned its attempt to acquire the property in April this year. However, the legal battle has left Luckey facing approximately $206,000 in legal fees, with a judgment lien now recorded against the village. According to a report by The Blade, the amount represents nearly one-third of the village's general fund balance of approximately $640,000 at the end of 2025. The payment has not yet been made because the property owners are challenging the settlement agreement reached by their former lawyer. The case began with a failed property auction in September 2021. The brothers alleged that village officials had discouraged potential buyers from bidding, while Luckey maintained that it wanted the quarry as a possible public water source. The disagreement eventually reached the United States Court of Appeals for the Sixth Circuit, where the brothers' federal constitutional claims were dismissed.\n\n15 years of improving quarry\n\nSteve and Tim Snyder purchased the inactive quarry and surrounding land in March 2005 through their company, T&S Agriventures LLC. They paid $330,000 for the property, intending to improve it for future development or sale. Over the following 15 years, they worked on the land's topography and grading, cleared vegetation, established electricity and sanitary sewer services, and maintained the quarry lake. Their aim was to make the property suitable for residential or other development. In July 2021, the brothers hired Beth Rose Real Estate and Auctions LLC to market the property. An auction was scheduled for September 18, with a reserve price to prevent the land from selling below an agreed amount. However, after learning about the proposed sale, the Village of Luckey began considering acquiring the property itself. In August 2021, the village council unanimously authorised its attorney to begin the eminent domain process. Officials initially identified a public water supply or park as possible uses, before later specifying water supply alone.\n\nWhat happened at the auction?\n\nDays before the auction, village officials told the brothers that any purchase offer would depend on laboratory results assessing the quarry's water. They also indicated that the eminent domain process could take several years. On the auction day, the village placed temporary 'No parking; signs on nearby public streets. Its representatives attend",
-    "scraped_at": "2026-10-13T14:05:01.786346+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Patrick Mahomes’ son Bronze: What heartwarming moment did they share?",
-    "url": "https://timesofindia.indiatimes.com/sports/nfl/news/i-just-try-to-be-the-dad-patrick-mahomes-opens-up-about-a-heartwarming-moment-he-shared-with-his-son-bronze-ahead-of-week-5/articleshow/134914793.cms",
-    "text": "Patrick Mahomes opens up.(Image via Getty Images)\n\nPatrick Mahomes, the Kansas City Chiefs' star player, and his wife Brittany Mahomes have remained dedicated parents to their three children in the last few years. While the popular quarterback has remained unbeatable on the field, Patrick Mahomes has opened up about raising his middle child, their only son, Bronze after he was spotted playing with him at a practice session.\n\nPatrick Mahomes reflects on raising his son Bronze to be an athlete as he shares a moment with him\n\nA few hours ago, during a radio interview on 96.5 The Fan, Patrick Mahomes reflected on the heartwarming moment he shared with his son Bronze as he said, “I try not to take it too seriously….” The three time Super Bowl Most Valuable Player added, “At Bronze’s age, “That’s where you build the love of the game, that’s what I hope he’s doing. We’ll take it seriously when he gets a little older.” The Kansas City Chiefs' quarterback Patrick Mahomes continued, “It’s fun…Like, those are like the best days. It’s like what you wanted to be as like a kid, going out there, just having fun with your friends…” He added, “It was raining, so we got out there, and me and the other coaches kind of looked around at each other, and then we were just kind of like, ‘Let’s play. Let’s just have fun.’ It turned into more of a scrimmage than a game. Yeah, I’m not the coach, though, so I just try to be the dad, and I just try to get there whenever I can…”\n\nPatrick Mahomes believes fatherhood changed his life and mindset for the better\n\nWhile Patrick Mahomes has quickly established himself as one of the most reliable players in the league, he has also remained a dedicated father to his three children. Over the last few years, ever since the popular quarterback Patrick Mahomes tied the knot with his wife, Brittany Mahomes, he has been public about how much fatherhood has changed his life for the better. In many of his interviews, Patrick Mahomes has often spoken about how all his children have motivated him to be a better human being and an even better athlete on the field.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful · TOI community guidelines\n\nAt many of his matches, the popular quarterback Patrick Mahomes is often spotted running to the sidelines to be with his wife and hugging his children before he takes the field for the Kansas City Chiefs. At this point in time, all eyes remain on Patrick Mahomes as he gears up for the Week 5 clash against the Los Angeles Chargers as the Kansas City Chiefs remain unbeatable on the field in the new season after a brutal time on the field in the last few years.\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:05:02.707562+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Stephen Curry’s championship message: Can the Warriors overcome injury concerns?",
-    "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-sends-a-strong-message-about-the-golden-state-warriors-championship-ambitions-as-the-team-battles-injuries-ahead-of-the-new-season/articleshow/134916137.cms",
-    "text": "Stephen Curry opens up.(Image via Getty Images)\n\nStephen Curry, the Golden State Warriors star player, has been a dedicated player to the team ever since he was drafted in the league, close to two decades ago. While the four time NBA champion sustained brutal injuries in the last season, he is now ready to get back to court. Just days ahead of the new season, the star player Stephen Curry has opened up about the team.\n\nStephen Curry opens up on the Golden State Warriors mindset as the team deals with brutal injuries ahead of the new season\n\nA few hours ago, in an interview with the ABC7 News Bay Area, the Golden State Warriors star player Stephen Curry reflected on the team's mindset as he said, \"Of course, winning a championship is the ultimate goal…” The four time NBA champion added, \"Honestly, it's the only real motivator behind why you work so hard and invest so much energy not only into your craft and preparing for a season, but also into the team.\" Stephen Curry continued, \"Everybody here shows up with the mentality that we want to win. We know this team faces a challenge. It's an uphill battle to put everything together in a way that's different from teams of the past. That's a challenge we want to accept. And if we fall short, it won't be because of a lack of effort.\"\n\nStephen Curry remains determined as the Golden State Warriors navigates through a difficult time on court\n\nFor the unversed, ahead of the new season, the Golden State Warriors are experiencing a challenging time with brutal injuries. As the Golden State Warriors wrap up their preseason heading into mid October 2026, the team is navigating several absences of star players. Center Kristaps Porziņģis remains out indefinitely due to an undisclosed health issue; he is scheduled to meet with the Golden State Warriors director of sports medicine on October 13 to evaluate his condition and determine next steps.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful · TOI community guidelines\n\nMeanwhile, forward Jimmy Butler III continues to recover from a major knee injury from last season, with a projected return target in early 2027. Guard Moses Moody is also sidelined as he rehabs a ruptured left patellar tendon, though he has progressed to light on court activities with an estimated return date around December 2026. The number of players being injured in the new season has sparked major concern among fans and analysts about if the Golden State Warriors will be able to bounce back after a brutal run in the last season. Over the last few years, Stephen Curry has constantly slammed rumors related to moving to other teams as he remains passionate about the Golden State Warriors. Stephen Curry also willingly took a $20 million reduction while signing an extension with the team to help the team more.\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:05:03.693594+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "The great Indian scam trap: More aware, yet still vulnerable",
-    "url": "https://timesofindia.indiatimes.com/india/the-great-indian-scam-trap-more-aware-yet-still-vulnerable/articleshow/134917998.cms",
-    "text": "AI generated image for representational purpose\n\nA 79-year-old woman in Mumbai recently tried to buy dry fruits worth Rs 248 after seeing an advertisement on WhatsApp. Instead, she lost Rs 11.7 lakh after a caller posing as a company representative persuaded her to make 13 UPI transfers. She was warned that her bank account could be closed due to a technical error.Her experience brings together several findings in the GSMA India Consumer Scam Report 2026, based on an online, English-language survey of about 500 Indian adults conducted from July 29 to August 3. Online shopping scams were cited by 33% of Indian victims, more than any other type. Among surveyed victims who lost money, two in three recovered nothing. The survey compares Indian respondents with those in Singapore, Malaysia, Thailand, Indonesia, the Philippines and Vietnam. Three in four Indians surveyed (75%) said they were very concerned about online data privacy, against 48% across those six countries. Yet two in three (66%) were comfortable sharing personal details with “conversational apps” when buying, against 40% across the region. A third (33%) said they were \"very comfortable\" doing so, against just 7%. The report does not name the apps or establish whether respondents actually shared their details.\n\nPrivacy fears high, but Indians willing to share data\n\nTrusting the channels scammers use\n\nIndians also rate everyday communication channels as more trustworthy than respondents in the six Southeast Asian countries. These are also channels regularly used by scammers. Among Indian victims, 42% were scammed through messaging apps, 37% through social media and 33% through email. The email figure is almost double the regional 17%. And 64% of Indian victims were scammed through multiple channels, against 43% across the Southeast Asian countries.\n\nMessaging apps lead scam routes, with 42% exposure\n\nAfter online shopping, prize, lottery or inheritance scams were cited by 31% of Indian victims (remember the Nigerian prince emails?), and job or income scams by 30%. QR-code or payment-link scams were cited by 27%, against 18% across the region. Scammers also apply psychological pressure. Urgency featured in 39% of Indian victims' experiences, while secrecy or confidentiality featured in 33%, against a regional average of 22% for secrecy. In the Mumbai case, the alleged fraudster created a fear of losing banking access by warning that a technical problem could lead to account closure. Digital-arrest scams often play on the secrecy angle by leveraging potentially sensitive information. Technology adds another layer. Nearly half of Indian respondents (48%) said they had encountered AI-written scam messages, the same share reported fake AI images, and 42% said they had seen deepfake videos of real people.\n\nThe changing behaviour pattern\n\nIndians are gradually becoming more guarded against scams. Seventy-two per cent of Indian respondents said their own experience, or that of someone close to th",
-    "scraped_at": "2026-10-13T14:05:04.672026+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "‘No amount of denial can change the fact’: MEA's firm message to China on Ladakh",
-    "url": "https://timesofindia.indiatimes.com/india/no-amount-of-denial-can-change-the-fact-meas-firm-message-to-china-on-ladakh/articleshow/134916449.cms",
-    "text": "India has officially recognized and standardized the names of 28 geographical features in Ladakh.\n\nNEW DELHI: The ministry of external affairs on Tuesday reiterated that the Union territory of Ladakh is an integral and inalienable part of India. The ministry said that no amount of denial by the Chinese side can change this established fact. The statement came after a statement by the Chinese foreign ministry opposed the naming of certain strategic locations in Ladakh. Rejecting the claims, the MEA said: \"The announcement mentions that the twenty-eight (28) places/features located in the UT of Ladakh have been identified with standard place and feature names on the official map of Survey of India, and it has been done in consultation with the Union Territory of Ladakh and local stakeholders. Identifying these places formally on the Survey of India map of UT of Ladakh is aimed at facilitating their accurate recognition and better awareness among the public at large. \" On 2 October, India formally identified 28 strategic locations and geographical features in Ladakh on its official map, including key border friction points along the Line of Actual Control (LAC), such as Gogra and Hot Spring. The move, undertaken in consultation with the Ladakh administration, aimedto improve official mapping, ensure precise identification and raise public awareness of the sensitive border region.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful · TOI community guidelines\n\nGogra and Hot Spring were among the friction points during the 2020 standoff between Indian and Chinese troops and remain important for patrolling along the LAC. The standoff began on 5 May 2020 after a clash near Pangong Lake. Disengagement efforts began in 2022. Other locations include Alisha Giri, Brangsa, Chapchingal Pass, Kanishka Peak, Karun Pir mountain, Kuksel, Martand Giri, Parpik Glacier, Skamri Glacier, Shachmirik Pass, Shkorga Valley, Zorawar Peak and several other geographical features.Delhi SIR Protest Live Updates:\n\nEnd of Article",
-    "scraped_at": "2026-10-13T14:05:05.676553+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "Yuvraj Singh joins Delhi Capitals coaching staff ahead of new IPL season",
-    "url": "https://timesofindia.indiatimes.com/sports/cricket/news/yuvraj-singh-joins-delhi-capitals-coaching-staff-ahead-of-new-ipl-season-reunites-with-franchise-after-11-years/articleshow/134919488.cms",
-    "text": "Legendary Yuvraj Singh joins Delhi Capitals coaching staff ahead of new IPL season\n\nNEW DELHI: Former India all-rounder Yuvraj Singh has joined Delhi Capitals as their Assistant and Batting Coach ahead of the upcoming Indian Premier League season, marking his first formal coaching role in his career. The appointment was officially announced by the JSW and GMR co-owned franchise on Tuesday. The Times of India had reported the development earlier in June, with the franchise now confirming Yuvraj's appointment. A veteran of 304 ODIs, 40 Tests and 58 T20Is, Yuvraj was a key architect of India's triumphs at the 2007 ICC T20 World Cup and the 2011 ICC Cricket World Cup. The 44-year-old has also mentored several established and emerging Indian cricketers in recent years, and will now make his IPL coaching debut with Delhi Capitals. The appointment also marks a reunion with the franchise for Yuvraj. In 2015, Delhi Daredevils, as the team was then known, signed him for a record Rs 16 crore, making him the most expensive player in IPL history at the time. He went on to represent the franchise in all 14 matches that season.\n\nParth Jindal welcomes Yuvraj to Delhi Capitals\n\nSpeaking on the appointment, Delhi Capitals chairman and co-owner, and JSW Sports founder, Parth Jindal, expressed his delight at bringing the former India all-rounder into the coaching setup. \"We are absolutely thrilled to welcome Yuvi to the Delhi Capitals family. Yuvi is one of Indian cricket’s greatest match-winners and someone who has played a pivotal role in mentoring many of the brightest young talents in Indian cricket today. His experience, winning mindset, and ability to connect with players will be invaluable to our squad. \"We wish him all the very best as he takes on his first formal coaching role, and we are excited to begin this new chapter together. His return to the franchise also marks a special moment for everyone associated with the Capitals, and we look forward to seeing him work with Dada and the rest of the staff going forward,\" Jindal said. Kiran Kumar Grandhi, co-owner of Delhi Capitals and founder of GMR Sports, also welcomed Yuvraj, highlighting his experience and competitive spirit. \"We are delighted to welcome Yuvraj Singh to Delhi Capitals as our Assistant & Batting Coach. His remarkable career, competitive spirit and deep understanding of the game make him a tremendous addition to our coaching setup. \"This marks his first formal coaching role in the IPL, and we are confident that his insights, winning mindset and ability to mentor players will make a meaningful difference to our players and our campaign. We look forward to working closely with him and wish him every success as he begins this exciting new chapter with Delhi Capitals,\" Grandhi said.\n\nYuvraj Singh excited to begin new chapter with Delhi Capitals\n\nYuvraj expressed his excitement at taking up the new role, describing his existing association with the franchise and its owners as a special part of th",
-    "scraped_at": "2026-10-13T14:05:06.609931+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "Times of India",
-    "title": "New York charity accused of using nearly $100,000 in veteran donations for insiders",
-    "url": "https://timesofindia.indiatimes.com/world/us/in-2024-a-new-york-charity-began-raising-money-for-free-retreats-for-disabled-veterans-two-years-later-the-state-alleged-nearly-100000-in-donations-helped-fund-insiders-property-and-personal-expenses/articleshow/134917757.cms",
-    "text": "A New York veterans' charity created to offer outdoor retreats for injured service members became a personal source of money for its leaders, state prosecutors allege in a civil lawsuit. The lawsuit filed by the Office of the New York Attorney General claims that Healing for Heroes, A Disabled Veteran's Retreat and Wooded Oasis, Inc., misled local community groups, businesses, and donors. According to the lawsuit, the charity used their donations to pay for personal luxuries and improvements for its founders instead of helping former service members. According to legal filings submitted by the Office of the New York Attorney General, the charity raised nearly $100,000 in donations after launching in 2024. Investigators say almost half of that money went toward personal shopping trips, restaurant meals, vehicle repairs, fuel, and improvements to property owned by the charity's leaders. State officials are asking the court to shut down the organisation, ban its founders from running non-profits in New York, and order them to return the misused money and pay civil penalties.\n\nPrivate stays and turned-away applicants\n\nThe charity operated from a 30-acre wooded property in Bemus Point, Chautauqua County. Its official promotional materials said the land would offer a free, peaceful place for wounded former service members to rest and recover. Investigators from the Office of the New York Attorney General found that the non-profit held just four retreats in 2024 and 2025. All four events were attended only by board members, their relatives, and close personal friends. This meant donated money was effectively used to pay for private family holidays. When disabled veterans with no personal ties to the charity's leaders asked about booking stays, the organisation turned them away before they could even apply. Court documents say the charity's leaders later claimed they could not afford to host full weekend retreats. Instead of offering stays lasting several days, the organisation held short gatherings with food donated by local businesses. These events included activities called \"Free Pizza & Fire Night\" and \"Coffee and Donuts.\" Each gathering lasted only a few hours and cost the organisation almost nothing.\n\nUnreported income and personal accounts\n\nAlong with collecting donations, Board President Thomas Nelsen and Board Secretary and Treasurer Jennifer Milchanoski-Nelsen rented out the 30-acre property in Bemus Point through Airbnb at least 32 times in 2024 and 2025. Their rental listings told holidaymakers that all the money earned would support disabled veterans. However, state investigators found that the couple kept all $33,312.16 earned from these rentals. The payments went directly into their personal bank account. The Office of the New York Attorney General found that the non-profit started collecting money from the public in 2024 before registering as a charity in New York state. The organisation also operated without an effective board of directo",
-    "scraped_at": "2026-10-13T14:05:07.505616+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau",
-    "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-    "text": "A controversial research trial that will withhold hepatitis B vaccines from some African newborns was given approval to move forward this week.\n\nIt is a central part of the vaccine vision for Robert F Kennedy Jr, the secretary of the US Department of Health and Human Services (HHS) and a longtime vaccine opponent.\n\nAt an anti-vaccine conference last month, Kennedy praised the Danish researchers behind the trial and touted US-supported research on hepatitis B in newborns as exemplifying the Trump administration’s agenda for vaccines, which has included slashing vaccine recommendations and casting doubt on the safety and effectiveness of shots.\n\nKennedy “wants to make it so we don’t use a birth dose here in this country,” said Paul Offit, an infectious disease physician at Children’s Hospital of Philadelphia. “That’s the goal.”\n\nKennedy would never be able to do the trial in the US because of its significant ethical concerns, Offit added. “He’s taking advantage of a developing country … Is it because children in Africa are more expendable than children here?”\n\nDanish researchers plan to enroll 14,000 infants in Guinea-Bissau in the trial, giving the hepatitis B vaccine to half of the babies at birth and withholding it from the others for the first six weeks of life.\n\nAn ethics committee at the researchers’ home institution of the University of Southern Denmark voted this week to proceed with the trial, and officials in Guinea-Bissau have also greenlit the project, which the health minister, Quinhin Nantote, initially said was suspended after international uproar earlier this year.\n\nStig Børsen Hansen, a founding member who was one of two reviewers who presented the study to the Danish committee, resigned from the group in protest on Friday, citing major ethical issues with the study.\n\n“You are now enrolling newborns in a lottery to test a hypothesis,” Hansen said. The children who are randomly selected not to receive the birth dose of the vaccine, those who “lost the lottery”, face in their earliest days the risk of contracting hepatitis B, which can cause irreversible lifelong damage. “They contract hepatitis B in the context of being part of a research project,” Hansen said, which made their infection happen, in effect, “by design”.\n\nThree other members of the committee have also resigned in protest.\n\nThe US Centers for Disease Control and Prevention (CDC) has reportedly set aside $1.6m in this year’s budget for the project, and it will be matched with private funding from the Pershing Square Foundation, which was co-founded by the billionaire activist Bill Ackman, and the Bluebell Foundation.\n\nThe CDC, the Danish researchers, Pershing Square and Nantote have not responded to the Guardian’s questions about this trial.\n\nThe news that the trial was approved by the Denmark ethics committee was first reported on Thursday by CIDRAP News. This is the first time details of the updated protocol have been disclosed.\n\nThe Guinea-Bissau study protocol has c",
-    "scraped_at": "2026-10-13T14:05:10.792672+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
-    "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-    "text": "The Nobel peace prize has been awarded to Navi Pillay, the South African former UN human rights chief who chaired the UN commission that concluded Israel was guilty of genocide in Gaza.\n\nThe Norwegian Nobel committee said Pillay, who is serving as a judge at the international court of justice (ICJ), has “shown that legal measures can help prevent acts of war and violence”.\n\n“Navi Pillay’s commitment to universal legal principles and her firm moral compass are constants in a long career,” the committee said, mentioning her early work defending Nelson Mandela under South Africa’s apartheid regime, serving on the international criminal tribunal, and then as the UN high commissioner for human rights, as well as chairing the UN independent international commission of inquiry on the occupied Palestinian territory.\n\nThat commission concluded last year that the state of Israel was guilty of genocidal acts in Gaza “with the specific intent to destroy Palestinians in Gaza”, and said the country’s prime minister, Benjamin Netanyahu, its president, Isaac Herzog, and its former defence minister Yoav Gallant had “incited the commission of genocide”.\n\n“It is clear that there is an intent to destroy the Palestinians in Gaza through acts that meet the criteria set forth in the genocide convention,” Pillay said on the publication of the commission’s findings in September last year.\n\nIsrael refused to cooperate with the commission, arguing it was biased, and rejected its report as “scandalous”. The Israeli foreign ministry reacted furiously to news of Pillay’s award on Friday.\n\n“If there were an award for lies, hatred, and blood libels, Navi Pillay wouldn’t just be a contender. She’d be a frontrunner,” the ministry said on X, adding: “Awarding Pillay the Nobel Peace Prize isn’t a recognition of justice. It’s the grotesque weaponization of an award to legitimize anti-Israel hatred and prejudice.\n\n“Now that the Nobel commission has rewarded the biggest lie of the 21st century, Joseph Goebbels is certainly applauding from hell.”\n\nIn its statement, the Nobel committee said Pillay, 85, had “contributed to strengthen the institutions of international law”.\n\n“Her independence, expertise and steadfastness have made her one of the most respected international jurists of our time,” the committee said.\n\n“In awarding this year’s Nobel peace prize, the Norwegian Nobel committee wants to remind the world that the rule of law – national and international – underpins the system we have set up to ensure peace and resolve conflicts non-violently,” its statement said.\n\nThe committee said it had not been able to locate Pillay before its announcement on Friday morning. She was attending a meeting of human rights lawyers and jurists in Nuremberg, Germany, at the site of postwar war crimes trials of Nazi leaders, and heard the news from colleagues. She responded with disbelief.\n\n“I don’t know about it so much. The question is: is it true? Being a lawyer and a judge, I still want to verif",
-    "scraped_at": "2026-10-13T14:05:11.597931+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-    "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
-    "text": "Isaias has become the first Atlantic hurricane of the 2026 season, with wind speeds of 80mph and a minimum pressure of 975mb. It is expected to strengthen to a category 2 hurricane as it approaches the US’s northern Gulf coast on Friday, according to the National Oceanic and Atmospheric Administration (NOAA).\n\nAs a result of the strong El Niño, it has been a notably quiet Atlantic hurricane season. The first hurricane of the season has not formed this late since 8 October 1905, which pre-dates the satellite era (1960s) for tracking hurricanes that has allowed for more non-landfall hurricanes to be discovered.\n\nIsaias is expected to make landfall on Friday evening local time, bringing an estimated 75-150mm (2.9-5.9in) of rainfall across the Gulf coast. There may be up to 250mm in places, with a possibility of flash flooding and isolated river flooding.\n\nThe NOAA also said there was increasing likelihood of life-threatening storm surge along portions of the northern Gulf coast and damaging hurricane-force winds over portions of the Florida panhandle, southern Alabama and Mississippi. A hurricane warning has been issued and people have been told to prepare for long power outages and to obey any evacuation orders issued.\n\nIn Zimbabwe, a state of disaster was declared in the south-east Masvingo province on Tuesday after a severe hailstorm caused widespread damage to homes and critical infrastructure.\n\nPreliminary assessments found the roofs had been torn off 8,500 homes. A further 15,300 people reported shattered windows, leaving many exposed to the elements as the rainy season begins.\n\nThe country’s power infrastructure was badly affected, disrupting drainage and sewerage systems, raising concerns about public health.\n\nIn Australia, a rare tornado hit the town of Ulladulla, about 140 miles (230km) south of Sydney, on 3 October. Tornadoes are relatively rare in Australia, where there are about 50 each year. This Ulladulla tornado damaged properties and felled trees.",
-    "scraped_at": "2026-10-13T14:05:12.335272+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Egyptian journalists plan weekend protest over detention of six colleagues",
-    "url": "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions",
-    "text": "Egyptian journalists are planning a new protest in Cairo this weekend after six colleagues were charged with terrorism offences amid allegations they had been tortured in police detention.\n\nLast week, Egyptian authorities arrested the journalists, from the independent factchecking and investigative platform Matsadaash, accusing them in a statement of being unlicensed and producing false news on behalf of the outlawed Muslim Brotherhood.\n\nThe journalists – Abdallah Qadri, Mohamed Ashraf Abu Emeira, Mohamed Adel, Islam Barakat, Mohamed Mahmoud and Omar Helal – were arrested at their homes and in the street by plainclothes officers.\n\nOne was charged on Sunday, the other five late on Wednesday. All six have told lawyers they had been tortured and forced to film false confessions, allegations that police deny.\n\n“We were horrified by the news of the torture of our six colleagues,” said Hadeer El-Mahdawy, a journalist on the protest’s organising committee.\n\nIn a statement issued on Wednesday evening, the public prosecution said “three journalists who alleged ill-treatment had undergone forensic examinations that found no injuries or signs of violence”.\n\nAnother journalist, Rasha Azab, was questioned by the supreme state security prosecution for a post on social media criticising the interior ministry over the arrests. Released on bail, Azab faces charges of using a website to promote ideas advocating terrorist crimes. Her lawyer, Mahienour El-Masry, said prosecutors confronted Azab with 11 identical complaints lodged in different governorates over the post.\n\nLobna Darwish, of the Egyptian Initiative for Personal Rights (EIPR), whose lawyers are representing the six from Matsadaash, said the journalists “had told prosecutors that they were blindfolded and handcuffed for days, beaten and forcibly stripped”. Some were given electric shocks, she said, while journalists also described threats to harm members of their families.\n\nDarwish added that they were forced to read purported confessions from sheets of paper in filmed sessions involving “repeated takes” in front of what she described as “professional filming crews”.\n\nThe interior ministry has denied the journalists’ allegations of torture or ill- treatment, saying they were “baseless and an attempt by the detainees to evade the accusations against them”. It described the six as “Muslim Brotherhood elements working for the group”.\n\nFor journalists, the arrests and alleged abuse form part of a broader escalation from the Egyptian authorities against independent media, amid poor pay and insecure employment across the profession.\n\n“We are at a very difficult moment on every level,” El-Mahdawy said. “But it is very important that we declare our rejection of what is happening and use every tool we have to protect what remains of this profession, and to defend our colleagues and ourselves.”",
-    "scraped_at": "2026-10-13T14:05:13.134324+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Scientists discover 180,000 giant tortoises on one Seychelles island",
-    "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
-    "text": "A survey of the world’s largest free-roaming giant tortoise population has discovered that the once endangered species is thriving.\n\nA population of Aldabra giant tortoises lives on an island in Seychelles called Aldabra Atoll.\n\nThe most recent survey, led by Seychelles Islands Foundation (SIF) and the University of Exeter, revealed there were approximately 180,000 tortoises living on the island. This is the highest figure ever recorded for the species and far exceeds the human population of Seychelles.\n\nThe new figure was obtained by a team who analysed five years of tortoise counts between 2018 and 2022. It is the first update since a widely cited figure of 100,000 tortoises from the late 1990s.\n\nAldabra Atoll is one of only two places in the world where giant tortoises are found in the wild, with a much smaller population living in the Galápagos.\n\nDr Frauke Fleischer-Dogley, the CEO of SIF, said: “More than 180,000 giant tortoises roaming freely on our atoll is proof of what long-term commitment to conservation can achieve. This is wonderful news for Seychelles, for the world, and for everyone who has worked to protect Aldabra.”\n\nThe study, published in the scientific journal Ecology and Evolution, found that the population was relatively stable for this period, with a best estimate of almost 183,000 adult and sub-adult tortoises.\n\nIn the 19th century, exploitation of the animals meant there were fewer than 1,000 Aldabra tortoises left on the island, but a recovery programme led to it becoming a strict nature reserve in 1981 and a Unesco site in 1982.\n\nResearchers are now saying it is one of the greatest conservation success stories of the Indian Ocean, with the new study confirming it. “Aldabra’s giant tortoise monitoring programme is one of the longest running in the region, but the atoll’s dense vegetation makes counting tortoises genuinely difficult in places,” said Dr Nancy Bunbury, one of the study’s co-authors.\n\n“By modelling what we didn’t see, as well as what we did, we’ve produced the most reliable baseline yet for this iconic Seychelles species, establishing a benchmark we can use to track the population for decades to come.”\n\nDespite the good news, the study’s authors say that vigilance is essential. Aldabra’s climate is changing, with longer and more frequent droughts predicted to reduce the shade and food available to tortoises, while rising sea levels threaten low-lying parts of the atoll.\n\nThe study authors say invasive mammals remain a threat including feral cats and black rats that prey on tortoise eggs and hatchlings. The planned eradication of these remaining invasive mammals, the authors say, could lift the last barriers to further growth of the population and help it withstand future climate pressures.\n\n“These results are great news for the tortoises and testament to the fantastic work done in the field,” said Dr Dave Hudson, a postdoctoral research associate at the University of Exeter’s Cornwall campus.\n\n“But it’s impor",
-    "scraped_at": "2026-10-13T14:05:14.019204+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
-    "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
-    "text": "Britain has appealed to Interpol to reject Argentina’s requests for the arrest of individuals involved in a large oil project off the Falkland Islands.\n\nWith tensions over the sovereignty of the British overseas territory reaching levels not seen since the war with Argentina in 1982, UK officials have sought urgent assurances from the international organisation.\n\nA letter has been sent to Interpol’s headquarters in Lyon arguing that “red notice” requests from Argentina for the arrest of such individuals, including British nationals, should be seen as politically motivated.\n\nIt is understood that the UK government is concerned by what sources suggested was an attempt to bully people and companies out of working in the Falklands.\n\nAn oil project known as Sea Lion in the north Falklands basin in the south Atlantic has the potential to triple the Falklands’ GDP but Argentina’s president, Javier Milei, has vowed to block it. Argentina’s strategy includes attempts to criminalise those involved in Sea Lion and deter other investors.\n\nIn its letter, the UK government has urged Interpol to be cautious in its handling of Argentinian requests for detentions, it is understood.\n\nAndrea Clausen, the chief executive of the Falklands government, confirmed that the use of Interpol by Argentina was a threat but added: “One would hope that Interpol wouldn’t necessarily take action.”\n\nShe said: “Certainly those of us who have an interest have had a look at certain sections of Interpol’s constitution to see what we think it could mean.”\n\nIt is understood that a response from Interpol to the UK government’s correspondence stated that it would respect article 3 of its constitution, which forbids it from undertaking any intervention or activities of a political character.\n\nInterpol screens red notices, which are requests to locate and provisionally arrest a person pending extradition. If circulated to the enforcement agencies, individual member countries then decide whether to act on the requests. Nearly 20,000 were issued last year.\n\nThe Foreign Office has been approached for comment.\n\nThe intensity of the Argentinian menace relating to the Falklands is at a level that UK officials say has not been seen since the war 44 years ago that followed the invasion ordered by Argentina’s dictator Gen Leopoldo Galtieri.\n\nThe 74-day conflict ended with the surrender of the Argentinian forces and cost the lives of 649 of its military personnel, 255 British military personnel and three Falkland islanders.\n\nArgentina continues to claim sovereignty over the 700 islands that make up the Falklands and has dismissed a 2013 referendum in which 99.8% of the islands’ 3,600 residents voted to remain a British territory, with only three votes against.\n\nDespite Interpol’s reassurance about its screening of red notice requests, concerns remain that Argentina could convince the organisation’s member states that its requests are not political but rooted in domestic legislation.\n\nMilei has initia",
-    "scraped_at": "2026-10-13T14:05:16.749747+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
-    "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
-    "text": "Thundering to a crowd of thousands of far-right supporters in São Paulo on 7 September, Brazil’s Independence Day, the senator Flávio Bolsonaro focused less on his opponent in the presidential election, the leftist president Luiz Inácio Lula da Silva, than on someone who is not running at all.\n\n“Whoever votes for Lula is voting for Alexandre de Moraes,” Bolsonaro shouted, referring to the shaven-headed supreme court justice once described as “Voldemort” by Elon Musk.\n\nAlthough Lula did not appoint Moraes to the court, Bolsonaro’s supporters have linked the two men ever since the judge oversaw the case in which the senator’s father, the former president Jair Bolsonaro, was sentenced to 27 years in prison for attempting a coup.\n\nNow, just days before the election runoff on 25 October, Moraes is once again at the centre of a presidential scandal – one that Lula believes may have helped Flávio Bolsonaro overtake him to emerge as the frontrunner. The justice once hailed as democracy’s “saviour” for containing Jair Bolsonaro may now have helped pave the way for the family’s return to power.\n\nThe scandal began with a police investigation, which found that Moraes’s wife’s law firm had a contract worth about £20m with Daniel Vorcaro, the banker accused of orchestrating Brazil’s largest banking fraud. Text messages also emerged suggesting a close relationship between Moraes and Vorcaro, though the judge denies the messages are authentic.\n\nInvestigations subsequently revealed that at least four other justices had links to the disgraced banker, meaning half of the court’s 10 current justices have been drawn into the scandal.\n\nThe crisis peaked last month with a ferocious exchange of insults between Moraes and another justice during a televised court session. A series of rulings followed in which the pair – as well as other judges aligned with each side – overruled one another, dominating public debate for weeks.\n\nLula, the day after losing the first round, blamed his poor result in part on having to “carry on his back … the promiscuity” of the supreme court, in what many political observers saw as an attempt by the president to distance himself from the crisis. His campaign coordinator, Edinho Silva, said that, “in the eyes of society … [Lula] paid the price for that institutional damage”.\n\nAlthough analysts point to a range of reasons for the far right’s lead, from household debt to a simple preference for Flávio Bolsonaro, many agree that the supreme court crisis played a decisive role, particularly among indecisive voters who, with the electorate generally divided between two similarly sized left and right blocs, are the ones who ultimately decide the election.\n\n“These are people who thought that, just as they see congress, the country’s highest court had become corrupt, too. That deepened apathy among some who might otherwise have voted for Lula and fuelled the anti-system sentiment that feeds the far right,” said Camila Rocha, a political scientist who ",
-    "scraped_at": "2026-10-13T14:05:17.867900+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Latin American organised crime ‘may operate in 16 European countries’",
-    "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
-    "text": "A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations.\n\nThe investigation, utilising databases, police and intelligence agencies, along with interviews with judges, prosecutors and experts from eight countries, shows that cartels and factions from Colombia, Brazil, Ecuador, Venezuela, Mexico and the US are active in at least 12 European countries. Between 2014 and 2024, there was a 471% rise in the quantity of cocaine seized and more local laboratories processing cocaine derivatives were dismantled.\n\nThe figure could be even higher, as it includes only groups officially identified in Europe through police operations, transnational investigations and ongoing court cases involving brokers, active members, cells or operational networks. It does not include gangs that lack a physical presence in Europe while working in “joint ventures” with European mafias.\n\nThe identified groups include Mexico’s Sinaloa cartel and the Jalisco New Generation cartel (CJNG); the Clan del Golfo mafia, and the guerrilla organisations ELN and dissident factions of Farc in Colombia; Brazil’s Primeiro Comando da Capital (PCC, or First Capital Command) and Comando Vermelho (CV, or Red Command); Venezuela’s Tren de Aragua; and the US-originated Barrio 18 and MS-13 gangs, which are also prevalent in El Salvador, Honduras, Guatemala and, to a lesser degree, in Mexico.\n\nThese organisations have built a more prominent presence in Spain, Portugal, the Netherlands, Belgium and France, while their activities have also been noted in Germany, Romania, Croatia and Slovakia. The Global Initiative Against Transnational Organized Crime (Gi-Toc) also includes Bulgaria.\n\nDaniel Brombacher, a political scientist and director of the Europe Observatory at Gi-Toc, said: “There is something new happening with a presence of Latin American groups in geographies where there’s no pre-existing infrastructure.\n\n“This phenomenon is no longer limited to the traditional gateway countries,” he says. “Recent police operations have uncovered Mexican-run methamphetamine labs in southern France, north-eastern Poland and Brandenburg, south of Berlin. Latin American groups are also appearing in Romania and Bulgaria along the Balkan route.”\n\nLatin American national authorities and experts suggest the list may be even longer. An unpublished report by the São Paulo public prosecutor’s office, partly based on data from the Brazilian intelligence agency (Abin) – which the Guardian reviewed – shows, for example, that the PCC, now Brazil’s biggest criminal group, operates in 16 European countries, including the UK, Ireland, Iceland, Serbia, Sweden, Switzerland and Turkey.\n\nThe suspicion that Latin American cartels and factions are seeking to become established in Europe is not new. Since at least the 1980s, Colombi",
-    "scraped_at": "2026-10-13T14:05:18.631869+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
-    "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
-    "text": "At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast, causing flooding that downed trees and electricity poles, blocked roads and inundated homes.\n\nSimon claimed the life of a 71-year-old man who died when a wall collapsed in Chilpancingo in the southern state of Guerrero, governor Evelyn Salgado said at a press conference.\n\nThe storm also damaged infrastructure and homes in the state’s coastal towns, including the major seaport of Acapulco, she said.\n\nTropical Storm Rachel is blamed for the deaths of four members of one family, including two children, whose bodies were found on the outskirts of the city of Ensenada in Baja California, the state’s prosecutor’s office reported.\n\nFive more people remained missing, while security forces used helicopters to rescue 32 people, prosecutors said. Baja governor Marina del Pilar said officials were helping more than 50 people in temporary shelters.\n\nSimon did not make landfall and, after weakening to category two on the five-point Saffir-Simpson scale, was moving away from the coast, authorities said. A rain alert remained in place.\n\nThe National Hurricane Center in Miami said heavy rainfall associated with Simon in west-central Mexico over the next few days might still produce life-threatening flooding and mudslides.\n\nOfficials warned waves of up to five metres high were still expected in some coastal areas. Flooding and landslides had already hit communities close to rivers and streams in the states of Michoacan and Colima.\n\nThe El Niño phenomenon, characterised by rising water temperatures in the Pacific, is fuelling a more intense hurricanes this season in the region.\n\nMeteorologists say the 2026-27 El Niño, which causes global changes in winds and rainfall as well as erratic weather conditions, is certain to be the biggest ever recorded. Scientists now also think human-caused global heating is making El Niños more intense.\n\nWith Agence France-Presse and Associated Press",
-    "scraped_at": "2026-10-13T14:05:19.395518+00:00",
-    "analysis_error": true
-  },
-  {
-    "source": "The Guardian",
-    "title": "Argentina temporarily closes Iguazu Falls after El Niño-fuelled surge in water levels",
-    "url": "https://www.theguardian.com/world/2026/oct/13/argentina-iguazu-falls-temporarily-closed-el-nino-water-levels",
-    "text": "Heavy rainfall fuelled by a supersized El Niño weather pattern briefly forced Argentinian authorities to close tourist access to the famed Iguazu Falls, amid fears that rapidly rising water levels would cause the river to burst its banks.\n\nNational park officials took the precautionary measure on Monday when the Iguazu River’s flow exceeded 12,000 cubic metres per second – more than six times its average rate.\n\nIt later said the area would reopen to tourists on Tuesday, citing a “gradual decline” in the river’s flow.\n\nJosé María Hervás, the director of the Iguazu national park, said access was closed because “it just keeps raining” and the volume of water being released from dams upstream on the Iguazu River was not falling, reported the Buenos Aires Times.\n\nThe Iguazu Falls, recognised by Unesco as one of the world’s largest and most impressive waterfalls, sits on the border of Argenina and Brazil and spans approximately 2,700 metres.\n\nIn 2023 and 2024, Argentinian officials closed the park on its side of the border over flooding caused by a previous El Niño cycle.\n\nMeteorologists say the 2026-2027 El Niño, which causes global changes in winds and rainfall as well as erratic weather conditions, is certain to be the biggest ever recorded. Scientists now also think human-caused global heating is making El Niño’s more intense.\n\nEl Niño begins in the equatorial Pacific where changes in winds allow huge amounts of heat to escape the oceans and heat the atmosphere. It grows in the northern hemisphere autumn and peaks in December but has impacts well into the following year.\n\nLast month, Argentina’s coastal region experienced above-average rainfall “similar to that seen during strong El Niño events,” the national meteorological service said.",
-    "scraped_at": "2026-10-13T14:05:20.302567+00:00",
-    "analysis_error": true
-  }
+﻿[
+    {
+        "source":  "India Today",
+        "title":  "India\u0027s T20 World Cup 2007 triumph",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/photo/indias-t20-wc-triumph-7-361994-2009-06-03?utm_source=rss",
+        "text":  "Members of Indian cricket team wave to their fans as they get a heroes\u0027 welcome in Mumbai on September 26, 2007.\n\nPhoto Credit : Bhaskar Paul/India Today",
+        "scraped_at":  "2026-06-01T05:52:38.342404+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.8,
+        "framing":  "Optimistic",
+        "key_entities":  [
+                             {
+                                 "name":  "Indian cricket team",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "Positive sentiment and optimistic framing due to the team\u0027s triumph"
+    },
+    {
+        "source":  "India Today",
+        "title":  "India have their task cut out",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/photo/india-have-their-task-cut-out-361976-2009-05-29?utm_source=rss",
+        "text":  "Junior Sehwag looks out from the bus carrying Indian team to Chhatrapati Shivaji International Airport. Indian team leave for England for the T20 World Cup, in Mumbai on Friday, May 29, 2009.\n\nPhoto Credit : Shriya Patil Shinde/ India Today",
+        "scraped_at":  "2026-06-01T05:52:39.685106+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Indian team",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Neutral reporting on a sports event"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Experts meet on ICC World T20",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/photo/experts-meet-on-icc-world-t-361971-2009-05-27?utm_source=rss",
+        "text":  "Former Pakistani cricketer Wasim Akram speaks to the media during the photo session of the \u0027ICC T20 World Cup trophy\u0027 in New Delhi on Tuesday.\n\nPhoto Credit : PTI",
+        "scraped_at":  "2026-06-01T05:52:40.895604+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Wasim Akram",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "ICC",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Neutral reporting on a sports event"
+    },
+    {
+        "source":  "India Today",
+        "title":  "LIVE: PM Narendra Modi arrives in Japan",
+        "url":  "https://www.indiatoday.in/world/video/narendra-modi-japan-bilateral-relation-foreign-visit-454480-2014-08-30?utm_source=rss",
+        "text":  "In an exclusive interview with India Today, Iranian scholar Prof. Seyed Mohammad Marandi talked about the escalating conflict between the United States and Iran, the Strait of Hormuz crisis and more.",
+        "scraped_at":  "2026-06-01T05:52:42.025194+00:00",
+        "bias_label":  "Unknown",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Narendra Modi",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "India Today",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Seyed Mohammad Marandi",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "United States",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Iran",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article is a factual report of an event with no emotional tone."
+    },
+    {
+        "source":  "India Today",
+        "title":  "Sourav Ganguly returns to IPL 2011",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/ipl-2011-sourav-ganguly-will-play-for-pune-warriors-391172-2011-05-02?utm_source=rss",
+        "text":  "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
+        "scraped_at":  "2026-06-01T05:52:43.174748+00:00",
+        "bias_label":  "Unknown",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Bharatiya Janata Party",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article is factual, lacks emotional tone"
+    },
+    {
+        "source":  "India Today",
+        "title":  "\u003cb\u003e2010:\u003c/b\u003eEngland are new T20 WC champions",
+        "url":  "https://www.indiatoday.in/world-t20-2012/video/england-crowned-world-t20-champions-409364-2010-05-16?utm_source=rss",
+        "text":  "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it\u0027s over.",
+        "scraped_at":  "2026-06-01T05:52:44.417335+00:00",
+        "bias_label":  "Left-Center",
+        "sentiment_score":  0.2,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "P Chidambaram",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Congress",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "TVK",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "Article presents a neutral tone, discussing political alliances"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Reality bites on Budget eve",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/reality-bites-on-budget-eve-384692-2009-07-05?utm_source=rss",
+        "text":  "The smartphone app era is peaking, and the age of \"Ambient AI\" has officially begun. In this episode of Tech Today, Cyrus breaks down a massive shift in how we use technology, from Googleâ€™s latest software ecosystem to Indiaâ€™s giant leap into space infrastructure and a brand-new camera flagship. Big Tech Story: Google I/O 2026 Google is rewriting the rules of the internet by replacing traditional web links with an invisible, always-on AI layer. Gemini Spark: An always-on, cloud-based AI agent that runs complex workflows in the background even if your laptop is closed or your phone dies. Generative UI in Search: The biggest transformation in Google Search in 25 years. Search now dynamically builds custom mini-apps and interactive visual interfaces tailored directly to your queries. Workspace \u0026 YouTube: \"Ask YouTube\" lets you conversationally talk to videos to find exact details instantly , while \"Daily Brief\" parses your morning into a personalized audio summary. Smart Glasses: Partnering with Samsung, Google showcased screenless Android XR smart glasses dropping this Fall that look like everyday eyewear but act as real-time audio companions for your face. AI Guru: Indiaâ€™s First Orbit Data Center AI has a massive Earth problem. It eats up land, massive amounts of electricity, and water. So, India\u0027s tech disruptors are moving the hardware to the stars. The Space AI: Pixxel and Sarvam AI are launching Pathfinder in Q4 2026, India\u0027s first dedicated 200kg AI data center in orbit. Real-Time Insights: By bolting data-center grade GPUs onto a satellite with a hyperspectral camera , it processes complex data locally in space. Instant Action: Instead of waiting hours to download heavy files , it beams back instant text alerts, like pinpointing a pipeline leak the second it happens. Tech Review: OPPO Find X9 Ultra Is this a smartphone or a professional camera that happens to make calls? We review the ultra-premium OPPO Find X9 Ultra. Insane 10x Zoom: Features a 200MP main sensor and a revolutionary periscope structure that bounces light five times internally to achieve a true 10x optical zoom lens without an oversized camera bump. Flagship Specs: Packed with a Snapdragon 8 Elite Gen 5 processor , refined ColorOS 16 , and a gorgeous 6.82-inch 144Hz AMOLED display hitting 3600 nits of peak brightness. Monster Battery: A massive 7050mAh silicon-carbon battery easily delivers 2 full days of heavy use, supported by lightning-fast 100W wired charging. What do you think about the shift to an app-less, agentic world? Would you wear screenless AI glasses? Let us know in the comments!",
+        "scraped_at":  "2026-06-01T05:52:45.518647+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.5,
+        "framing":  "Analytical",
+        "key_entities":  [
+                             {
+                                 "name":  "Google",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "India",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "OPPO",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "Neutral tone, focusing on tech advancements and innovations."
+    },
+    {
+        "source":  "India Today",
+        "title":  "Pak crowd welcomes T20 champions",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/pak-crowd-welcomes-t20-champions-837563-2009-06-22?utm_source=rss",
+        "text":  "In this edition of India Today Global, watch Geeta Mohan\u0027s exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
+        "scraped_at":  "2026-06-01T05:52:46.737252+00:00",
+        "bias_label":  "Unknown",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Sikh community",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Iranians",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "US",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Israel",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Neutral reporting on Sikh community in Iran"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Pak played a good cricket: Razzaq",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/pak-played-a-good-cricket-razzaq-837587-2009-06-21?utm_source=rss",
+        "text":  "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
+        "scraped_at":  "2026-06-01T05:52:47.906959+00:00",
+        "bias_label":  "Right-Center",
+        "sentiment_score":  0.2,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Bharatiya Janata Party",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "West Bengal",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article reports BJP forming government, neutral tone"
+    },
+    {
+        "source":  "India Today",
+        "title":  "T20 WC is a gift to the country: Gul",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-is-a-gift-to-the-country-gul-837588-2009-06-21?utm_source=rss",
+        "text":  "Prime Minister Narendra Modi on Saturday hugged and honoured 98-year-old Makhanlal Sarkar, one of the earliest and senior most members of the BJP. The scene unfolded on the stage ahead of Suvendu Adhikari\u0027s swearing-in as West Bengal\u0027s Chief Minister in Kolkata. PM Modi also touched Sarkar\u0027s feet and presented a shawl to him as a mark of respect. In 1952, Sarkar was arrested in Kashmir while he was accompanying Dr Syama Prasad Mookerjee as the latter was marching to hoist the tricolour there. BJP IT cell head Amit Malviya described the elderly party leader as \"one of the earliest grassroots figures associated with the nationalist movement in post-Independence India.\"",
+        "scraped_at":  "2026-06-01T05:52:49.014552+00:00",
+        "bias_label":  "Right-Center",
+        "sentiment_score":  0.6,
+        "framing":  "Sympathetic",
+        "key_entities":  [
+                             {
+                                 "name":  "Narendra Modi",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Makhanlal Sarkar",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "BJP",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "Article portrays PM Modi and BJP in a positive light"
+    },
+    {
+        "source":  "India Today",
+        "title":  "I am proud of Pak: Younis Khan",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/i-am-proud-of-pak-younis-khan-837590-2009-06-21?utm_source=rss",
+        "text":  "A speeding black Thar hit a biker in Jaipur when he was crossing the road. The impact of the accident was such that the 27-yeasr-old biker was flung into the air.",
+        "scraped_at":  "2026-06-01T05:52:50.123352+00:00",
+        "bias_label":  "Unknown",
+        "sentiment_score":  -0.5,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Younis Khan",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "India",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Pakistan",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Jaipur",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article lacks context, appears unrelated to title"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Younis Khan retires from T20 cricket",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/younis-khan-retires-from-t20-cricket-837592-2009-06-21?utm_source=rss",
+        "text":  "In a big revelation, CPM General Secretary MA Baby confirmed to India Today that the DMK had proposed supporting an AIADMK-led government from the outside and requested the Left to follow suit.",
+        "scraped_at":  "2026-06-01T05:52:51.274532+00:00",
+        "bias_label":  "Left-Center",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "MA Baby",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "DMK",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "AIADMK",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "CPM",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Neutral reporting on political developments"
+    },
+    {
+        "source":  "India Today",
+        "title":  "\u003cb\u003e2009:\u003c/b\u003ePakistan celebrate World T20 win",
+        "url":  "https://www.indiatoday.in/world-t20-2012/video/pakistan-celebrate-world-t20-win-383635-2009-06-21?utm_source=rss",
+        "text":  "Prime Minister Narendra Modi, who is on a five-nation tour, will be arriving in Italy shortly on the last leg of his tour. The tour, which included visits to the United Arab Emirates, the Netherlands, Sweden, Norway, and Italy, signifies a shift in India\u0027s foreign policy towards strengthening technology and supply chain security.",
+        "scraped_at":  "2026-06-01T05:52:52.418476+00:00",
+        "bias_label":  "Unknown",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Narendra Modi",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article lacks emotional tone and biased language"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Pak has an edge over Lanka: Tanvir",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/pak-has-an-edge-over-lanka-tanvir-383647-2009-06-20?utm_source=rss",
+        "text":  "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it\u0027s over.",
+        "scraped_at":  "2026-06-01T05:52:53.492048+00:00",
+        "bias_label":  "Left-Center",
+        "sentiment_score":  0.2,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "P Chidambaram",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Congress",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "TVK",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "Left-Center bias due to Congress leader interview"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Razzak hopeful of Pak victory",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/razzak-hopeful-of-pak-victory-383648-2009-06-20?utm_source=rss",
+        "text":  "Senior Congress leader and eminent jurist Abhishek Manu Singhvi criticised the Tamil Nadu Governor for delaying the government formation process. He said the Governor has no option but to invite the single largest party to form the government and prove its majority on the floor of the assembly.",
+        "scraped_at":  "2026-06-01T05:52:54.651817+00:00",
+        "bias_label":  "Left-Center",
+        "sentiment_score":  0.2,
+        "framing":  "Analytical",
+        "key_entities":  [
+                             {
+                                 "name":  "Abhishek Manu Singhvi",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Tamil Nadu Governor",
+                                 "portrayal":  "Negative"
+                             }
+                         ],
+        "reasoning":  "Article presents a critical view of the Governor\u0027s actions"
+    },
+    {
+        "source":  "India Today",
+        "title":  "T20 WC: Second semi-final today",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-second-semi-final-today-383685-2009-06-18?utm_source=rss",
+        "text":  "Why does India celebrate National Technology Day? Every year on May 11, India marks National Technology Day to commemorate a defining moment in its history: the 1998 Pokhran-II nuclear tests. Led by then-Prime Minister Atal Bihari Vajpayee and a team of brilliant scientists, these underground tests were so secretive they famously exposed a massive intelligence failure by the CIA. The same day saw the successful test flight of the indigenous Hansa-3 aircraft and the Trishul missile. In 2026, we explore how this \"explosion of self-esteem\" paved the way for India to become a global leader in AI, space exploration, and semiconductors. Plus: The New King of Camera Phones? Weâ€™re putting the Vivo X300 Ultra to the test. Is it a phone with a great camera, or a professional camera that happens to make calls? With its massive triple-camera setup featuring dual 200MP sensors and ZEISS optics, this device is redefining mobile photography. Watch the full episode to know if it is worth buying!",
+        "scraped_at":  "2026-06-01T05:52:55.762359+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.2,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Atal Bihari Vajpayee",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "India",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Vivo X300 Ultra",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article is neutral, focusing on facts about India\u0027s National Technology Day and a phone review."
+    },
+    {
+        "source":  "India Today",
+        "title":  "T20 WC: Team India\u0027s big lie nailed",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-team-indias-big-lie-nailed-383694-2009-06-18?utm_source=rss",
+        "text":  "In this edition of India Today Global, watch Geeta Mohan\u0027s exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
+        "scraped_at":  "2026-06-01T05:52:56.806842+00:00",
+        "bias_label":  "Left-Center",
+        "sentiment_score":  0.2,
+        "framing":  "Analytical",
+        "key_entities":  [
+                             {
+                                 "name":  "Sikh community",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Iranians",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "US-Israeli",
+                                 "portrayal":  "Negative"
+                             }
+                         ],
+        "reasoning":  "Article presents a neutral report on Sikh community in Iran"
+    },
+    {
+        "source":  "India Today",
+        "title":  "T20 WC: First semi-final today",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-first-semi-final-today-383708-2009-06-17?utm_source=rss",
+        "text":  "TVK leader C Joseph Vijay on Sunday took oath as the Chief Minister of Tamil Nadu amid a sea of supporters, his friends and family, and several political leaders. Eight other TVK leaders were sworn in besides him, as ministers in the new government. Congress leader Rahul Gandhi also attended the ceremony. The TVK managed to secure the Governor\u0027s nod to form the government after the Congress, the CPI, the CPI(M), the VCK, and IUML extended their support to the Vijay-led party for a colaition government.",
+        "scraped_at":  "2026-06-01T05:52:57.970028+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "C Joseph Vijay",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Rahul Gandhi",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "TVK",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Neutral reporting on a political event"
+    },
+    {
+        "source":  "India Today",
+        "title":  "Unhappy end to India\u0027s T20 WC tour",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/unhappy-end-to-indias-t20-wc-tour-383719-2009-06-16?utm_source=rss",
+        "text":  "In this edition of India Today Global, watch Geeta Mohan\u0027s exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
+        "scraped_at":  "2026-06-01T05:52:59.266455+00:00",
+        "bias_label":  "Unknown",
+        "sentiment_score":  0.0,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Geeta Mohan",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Sikh community",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Iranians",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "Article appears neutral, reporting on Sikh community in Iran."
+    },
+    {
+        "source":  "India Today",
+        "title":  "\u0027No one was forced to play in IPL\u0027",
+        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/no-one-was-forced-to-play-in-ipl-383739-2009-06-15?utm_source=rss",
+        "text":  "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it\u0027s over.",
+        "scraped_at":  "2026-06-01T05:53:00.364342+00:00",
+        "bias_label":  "Left-Center",
+        "sentiment_score":  0.2,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "P Chidambaram",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Congress",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "TVK",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "Neutral tone and balanced discussion"
+    },
+    {
+        "source":  "Times of India",
+        "title":  "High tea after street heat: What happened at INDIA bloc meet at Rahul Gandhi\u0027s residence",
+        "url":  "https://timesofindia.indiatimes.com/india/high-tea-after-street-heat-what-happened-at-india-bloc-meet-at-rahul-gandhis-residence/articleshow/134918043.cms",
+        "text":  "INDIA bloc leaders gathered at Rahul\u0027s residence for high tea after four days of protest on streets\n\nNEW DELHI: INDIA bloc leaders gathered at Rahul Gandhi\u0027s residence on Tuesday for high tea amid their ongoing protest against Chief Election Commissioner Gyanesh Kumar over alleged vote theft. They met for a high tea after four days of protest and filing a petition in SC against the CEC. From directly slamming the CEC to criticising the SIR process and criticising PM Modi and Amit Shah, several leaders including Rahul Gandhi, Mallikarjun Kharge, Supriya Sule, Tejashwi Yadav, Sanjay Raut addressed a press conference after the meet vowing to continue their protests while giving insights into what they decided at the meeting. Here\u0027s what some of the key leaders saidRahul Gandhi (Congress) Leader of Opposition in the Lok Sabha Rahul Gandhi anonunced that the INDIA bloc would continue its fight to restore the democratic process and ensure accountability for those he accused of undermining it. \"We are all standing here together as one. As I said yesterday, there are no parallel protests. There is one singular protest, and the protest has one mission: restoration of democracy in India. Democracy has been destroyed in this country. The election system has been destroyed. The Constitution has been torn up and thrown away. We are fighting together to restore democratic rule, genuine democratic rule in this country.\" He thanked people who supported the protest and vowed to bring those responsible to justice. \"It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who\u0027s hiding right now in Dehradun, and others are going to be brought to justice.\" \"Yesterday, you saw an expression not of the political party standing here, but an expression of the people of India...We would like to thank the people of Delhi, the people of India, who stood with us against what is being done. This is not about us. This is about the people of India. This is about the future of the people of India, and we, all of us together, because we love you and we respect you, are going to fight to the end to restore the democratic process in this country. It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who\u0027s hiding right now in Dehradun, and others are going to be brought to justice,\" he added. Further assuring the work of the team, the Congress leader said, \"I used the word \u0027perseverance\u0027 at the press conference yesterdayâ€”that this team of ours is not going to stop. Sooner or laterâ€”whether tomorrow, the day after, in three months, six months, a year, or two yearsâ€”it will not stop. It will reach the end goal. I cannot tell you exactly how we will get there, because that would spoil the surprise, and we want to maintain the excitement and sense of surprise for you and the country. But I guarantee you that just as we mobilizedâ€”with such energy, strength, and unityâ€”we will con",
+        "scraped_at":  "2026-10-13T14:04:49.269262+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  -0.2,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "INDIA bloc",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Rahul Gandhi",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Gyanesh Kumar",
+                                 "portrayal":  "Negative"
+                             },
+                             {
+                                 "name":  "Narendra Modi",
+                                 "portrayal":  "Negative"
+                             },
+                             {
+                                 "name":  "Amit Shah",
+                                 "portrayal":  "Negative"
+                             }
+                         ],
+        "reasoning":  "The article uses neutral reporting to document the INDIA bloc\u0027s meeting and quotes Rahul Gandhi directly. The negative sentiment reflects the opposition\u0027s sharp attacks on government leaders and the Election Commission rather than editorial bias."
+    },
+    {
+        "source":  "Times of India",
+        "title":  "\u0027Donâ€™t post videos\u0027: Embassy issues fresh advisory for Indians in Saudi",
+        "url":  "https://timesofindia.indiatimes.com/world/middle-east/dont-post-videos-stay-indoors-embassy-issues-fresh-advisory-for-indians-in-saudi-arabia/articleshow/134918147.cms",
+        "text":  "The fresh advisories come after an October 10 attack on Riyadh airport killed an Indian national\n\nNEW DELHI: Indian embassies in Saudi Arabia on Tuesday issued fresh advisories for Indian nationals amid flight disruptions following the suspension of services by Indian airlines to several Saudi cities until October 17. The Indian Embassy in Riyadh advised Indian nationals to remain calm and vigilant, stay indoors in the event of an aerial attack and follow instructions issued by local authorities through official channels. It also urged Indians to refrain from circulating or reposting videos or news related to the ongoing events. The Embassy said Air India and Air India Express had suspended flights to and from Riyadh, Dammam and Jeddah until October 17. Akasa Air suspended services to and from Riyadh and Jeddah, while IndiGo cancelled flights to and from Riyadh, Dammam, Jeddah and Medina until the same date. The General Authority of Civil Aviation (GACA) has announced the suspension of operations at King Khalid International Airport in Riyadh. Operations at other major airports, including Dammam, Jeddah and Medina, are continuing, although disruptions have been reported. The Embassy advised Indian nationals to remain in regular contact with their respective airlines and verify the latest status of their flights. Those needing to leave Saudi Arabia in an emergency may also consider flights from neighbouring Gulf countries, particularly Qatar and Bahrain, subject to obtaining the required visas. The Consulate General of India in Jeddah issued a separate advisory, particularly for Umrah pilgrims travelling to and from Jeddah and Medina. It urged passengers to check with airlines before proceeding to airports and remain in contact with travel agents, tour operators and Umrah service providers regarding cancellations, rescheduling, alternative travel arrangements and accommodation. The Consulate said it was in regular contact with airlines and local authorities to assist affected Indian nationals. Both the Embassy in Riyadh and the Consulate in Jeddah have established 24x7 control rooms to provide assistance. The Riyadh Embassy also said Indian nationals who arrived in Saudi Arabia on visit, tourist, Umrah or business visas but were forced to overstay because of flight unavailability would be allowed to leave without paying fines. Those whose visas have expired were advised to exit the Kingdom as soon as flights become available. ALSO READ: Flydubai mid-air stabbing: 2 Maldivian pilots detained in UAE over links with accused Omani copilot - reportIndian national killed in Riyadh airport attack The fresh advisories come after an October 10 attack on Riyadh airport killed Indian national Mohammed Yousef Ali. Ambassador Vipul and Embassy officials attended his funeral in Riyadh on October 12, in accordance with his family\u0027s wishes, and assured the bereaved family of continued support. The Embassy said four Indian nationals injured in the attack remained ",
+        "scraped_at":  "2026-10-13T14:04:50.279204+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  -0.35,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Indian Embassy in Riyadh",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Consulate General of India in Jeddah",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "General Authority of Civil Aviation (GACA)",
+                                 "portrayal":  "Neutral"
+                             },
+                             {
+                                 "name":  "Mohammed Yousef Ali",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "The article is a straightforward, factual report conveying safety advisories, airline disruptions, and consular updates for Indian citizens in Saudi Arabia following a fatal attack on Riyadh airport. It maintains an objective, neutral tone without political bias."
+    },
+    {
+        "source":  "Times of India",
+        "title":  "\u0027Agreed to build on positive momentum in ties\u0027: PM Modi speaks with Canada PM Carney",
+        "url":  "https://timesofindia.indiatimes.com/india/agreed-to-build-on-positive-momentum-in-ties-pm-modi-speaks-with-canada-pm-mark-carney/articleshow/134919669.cms",
+        "text":  "File photo: PM Modi and Canada PM Mark Carney\n\nNEW DELHI: Prime Minister Narendra Modi on Tuesday said he had spoken with Canadian Prime Minister Mark Carney, with the two leaders agreeing to build on the positive momentum in India-Canada ties and work towards concrete outcomes across key areas of their strategic partnership. In a post on X, PM Modi described the conversation as â€œwarm and productiveâ€ and said the two sides would focus on trade, energy, technology, security and people-to-people ties. â€œTogether, India and Canada are contributing towards a more stable and prosperous world,â€ PM Modi wrote.\n\nEnd of Article",
+        "scraped_at":  "2026-10-13T14:04:51.246622+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.5,
+        "framing":  "Optimistic",
+        "key_entities":  [
+                             {
+                                 "name":  "Narendra Modi",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Mark Carney",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "India-Canada relations",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "The article neutrally reports on an official diplomatic exchange between the two leaders without editorial commentary. The tone reflects the optimistic and warm language directly quoted from PM Modi\u0027s post regarding bilateral cooperation."
+    },
+    {
+        "source":  "Times of India",
+        "title":  "Ashwin reveals what drove Bhuvneshwar\u0027s India comeback",
+        "url":  "https://timesofindia.indiatimes.com/sports/cricket/news/he-never-chased-that-reward-ashwin-reveals-what-drove-bhuvneshwar-kumars-india-comeback/articleshow/134916720.cms",
+        "text":  "Bhuvneshwar Kumar\n\nRavichandran Ashwin believes Bhuvneshwar Kumar\u0027s return to India\u0027s T20I setup is a reward for his consistency rather than the result of chasing an international comeback. The veteran pacer earned a recall to the national squad after impressing for Royal Challengers Bengaluru (RCB) in the IPL, with Ashwin crediting his focus on performance for his return. Bhuvneshwar\u0027s selection for India\u0027s upcoming five-match T20I series against New Zealand, beginning next week, was one of the major talking points following the squad announcement. The right-arm pacer is set to return to international T20 cricket after a gap of four years.\n\n\u0027He has gone on his own journey\u0027\n\nSpeaking on his YouTube channel, Ashwin suggested that Bhuvneshwar remained focused on improving his bowling and fulfilling his responsibilities for RCB rather than worrying about a potential India recall. \"I have a feeling that Bhuvneshwar Kumar hasn\u0027t even thought about a comeback. I think this will be his mantra for success. And when I\u0027m watching him from afar, I have also experienced this myself, he has gone on his own journey,\" Ashwin said. \"He has focused on doing well, bowling well with the new ball and performing for RCB. Whatever he could do, he did it. His recall is the reward for his success. He never chased that reward; he simply did his job and success followed,\" he added.\n\nAshwin backs India for 2027 ODI World Cup, picks South Africa as serious contenders\n\nLooking ahead to the 2027 ODI World Cup, Ashwin backed India to challenge for the title but warned that hosts South Africa could pose a significant threat in familiar conditions. Ashwin pointed to India\u0027s pace-bowling resources, spin options and batting experience as reasons to believe the team can mount a strong campaign. He particularly highlighted Bumrah\u0027s importance, suggesting that the fast bowler could make a major difference if he performs at his best. \"India has the ability. If Jasprit Bumrah is firing on all cylinders, he will have a good fast-bowling experience. India has a good spin stock. There, in a lot of grounds, you will get the help of spin. There is experience in batting,\" he said. However, Ashwin identified South Africa as one of the strongest contenders, citing home advantage, familiarity with local conditions and the experience players have gained through the SA20 league.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful Â· TOI community guidelines\n\n\"I will honestly say that two-three teams look good to me. Out of them, South Africa is the best. I think South Africa will be a serious contender for the home World Cup. So India will have to play against the South African team,\" he said. \"South Africa, in South African conditions, especially after SA20, have the skills, they know all the conditions, they play good cricket and the team looks together. That\u0027s a very strong force in cricket,\" Ashwin added.\n\nEnd of Article",
+        "scraped_at":  "2026-10-13T14:04:54.720432+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  0.45,
+        "framing":  "Analytical",
+        "key_entities":  [
+                             {
+                                 "name":  "Bhuvneshwar Kumar",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Ravichandran Ashwin",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Jasprit Bumrah",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "Indian Cricket Team",
+                                 "portrayal":  "Positive"
+                             },
+                             {
+                                 "name":  "South Africa Cricket Team",
+                                 "portrayal":  "Positive"
+                             }
+                         ],
+        "reasoning":  "The article is straightforward sports reporting covering Ravichandran Ashwin\u0027s comments on Bhuvneshwar Kumar\u0027s recall to the national squad and his analysis of the 2027 World Cup. It carries no political bias, maintains an analytical framing, and exhibits an encouraging, positive sentiment toward the athletes mentioned."
+    },
+    {
+        "source":  "Times of India",
+        "title":  "Delhi man with 14 criminal cases shot dead, CCTV captures killing",
+        "url":  "https://timesofindia.indiatimes.com/city/delhi/delhi-man-with-14-criminal-cases-shot-dead-in-ranhola-area-suspects-identified/articleshow/134917081.cms",
+        "text":  "The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar.\n\nNEW DELHI: A man with around 14 criminal cases registered against him was shot dead in a brazen attack captured on CCTV in outer Delhiâ€™s Ranhola area, police said on Tuesday. The footage shows the victim stopping his motorcycle near a house when two motorcycles carrying four assailants suddenly enter the camera frame. The attackers approach the rider, and one of them opens fire from behind. The other assailants also fire multiple shots at the victim before the attack unfolds in full view of the CCTV camera. The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar and a declared bad character (BC) of Ranhola police station, according to police. Police said they received information around 5.30 pm on October 11 that Khan had been admitted to a hospital with gunshot injuries. He was subsequently declared dead. A case was registered at Ranhola police station, and an investigation was launched. Police said they had identified the suspects and were making efforts to apprehend them. The motive behind the killing and the circumstances leading to the shooting have not yet been established. Further investigation is underway, police said. (With Agency Inputs)\n\nEnd of Article",
+        "scraped_at":  "2026-10-13T14:04:55.908830+00:00",
+        "bias_label":  "Center",
+        "sentiment_score":  -0.5,
+        "framing":  "Neutral",
+        "key_entities":  [
+                             {
+                                 "name":  "Mosin Khan",
+                                 "portrayal":  "Negative"
+                             },
+                             {
+                                 "name":  "Delhi Police",
+                                 "portrayal":  "Neutral"
+                             }
+                         ],
+        "reasoning":  "The article is a straightforward crime report based on official police accounts and CCTV findings. It relies on standard journalistic sourcing without political slant or editorializing, resulting in a neutral framing and center bias classification."
+    }
 ]

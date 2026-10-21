@@ -5,6 +5,11 @@ on:
     # Runs at 00:00 UTC every day (every 24 hours)
     - cron: '0 0 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README*.md'
+      - '.gitignore'
 
 concurrency:
   group: refresh-pipeline
