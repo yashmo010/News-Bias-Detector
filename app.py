@@ -243,7 +243,7 @@ def load_data() -> pd.DataFrame:
         st.error("No data file found. Run scraper → analyzer → clusterer first.")
         st.stop()
 
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8-sig") as f:
         raw = json.load(f)
 
     rows = []

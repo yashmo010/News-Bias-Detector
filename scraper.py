@@ -70,13 +70,13 @@ def fetch_articles(force_refresh: bool = False) -> list[dict]:
     """
     if not force_refresh and os.path.exists(CACHE_FILE):
         print("Loading from cache (no scrape)...")
-        with open(CACHE_FILE, encoding="utf-8") as f:
+        with open(CACHE_FILE, encoding="utf-8-sig") as f:
             return json.load(f)
 
     # ── Load existing articles ────────────────────────────────────────────────
     existing: list[dict] = []
     if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE, encoding="utf-8") as f:
+        with open(CACHE_FILE, encoding="utf-8-sig") as f:
             existing = json.load(f)
 
     existing_urls = {a["url"] for a in existing}
