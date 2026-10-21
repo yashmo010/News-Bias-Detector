@@ -1,619 +1,619 @@
 [
-    {
-        "source":  "India Today",
-        "title":  "India\u0027s T20 World Cup 2007 triumph",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/photo/indias-t20-wc-triumph-7-361994-2009-06-03?utm_source=rss",
-        "text":  "Members of Indian cricket team wave to their fans as they get a heroes\u0027 welcome in Mumbai on September 26, 2007.\n\nPhoto Credit : Bhaskar Paul/India Today",
-        "scraped_at":  "2026-06-01T05:52:38.342404+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.8,
-        "framing":  "Optimistic",
-        "key_entities":  [
-                             {
-                                 "name":  "Indian cricket team",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "Positive sentiment and optimistic framing due to the team\u0027s triumph"
-    },
-    {
-        "source":  "India Today",
-        "title":  "India have their task cut out",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/photo/india-have-their-task-cut-out-361976-2009-05-29?utm_source=rss",
-        "text":  "Junior Sehwag looks out from the bus carrying Indian team to Chhatrapati Shivaji International Airport. Indian team leave for England for the T20 World Cup, in Mumbai on Friday, May 29, 2009.\n\nPhoto Credit : Shriya Patil Shinde/ India Today",
-        "scraped_at":  "2026-06-01T05:52:39.685106+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Indian team",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Neutral reporting on a sports event"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Experts meet on ICC World T20",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/photo/experts-meet-on-icc-world-t-361971-2009-05-27?utm_source=rss",
-        "text":  "Former Pakistani cricketer Wasim Akram speaks to the media during the photo session of the \u0027ICC T20 World Cup trophy\u0027 in New Delhi on Tuesday.\n\nPhoto Credit : PTI",
-        "scraped_at":  "2026-06-01T05:52:40.895604+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Wasim Akram",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "ICC",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Neutral reporting on a sports event"
-    },
-    {
-        "source":  "India Today",
-        "title":  "LIVE: PM Narendra Modi arrives in Japan",
-        "url":  "https://www.indiatoday.in/world/video/narendra-modi-japan-bilateral-relation-foreign-visit-454480-2014-08-30?utm_source=rss",
-        "text":  "In an exclusive interview with India Today, Iranian scholar Prof. Seyed Mohammad Marandi talked about the escalating conflict between the United States and Iran, the Strait of Hormuz crisis and more.",
-        "scraped_at":  "2026-06-01T05:52:42.025194+00:00",
-        "bias_label":  "Unknown",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Narendra Modi",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "India Today",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Seyed Mohammad Marandi",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "United States",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Iran",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article is a factual report of an event with no emotional tone."
-    },
-    {
-        "source":  "India Today",
-        "title":  "Sourav Ganguly returns to IPL 2011",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/ipl-2011-sourav-ganguly-will-play-for-pune-warriors-391172-2011-05-02?utm_source=rss",
-        "text":  "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
-        "scraped_at":  "2026-06-01T05:52:43.174748+00:00",
-        "bias_label":  "Unknown",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Bharatiya Janata Party",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article is factual, lacks emotional tone"
-    },
-    {
-        "source":  "India Today",
-        "title":  "\u003cb\u003e2010:\u003c/b\u003eEngland are new T20 WC champions",
-        "url":  "https://www.indiatoday.in/world-t20-2012/video/england-crowned-world-t20-champions-409364-2010-05-16?utm_source=rss",
-        "text":  "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it\u0027s over.",
-        "scraped_at":  "2026-06-01T05:52:44.417335+00:00",
-        "bias_label":  "Left-Center",
-        "sentiment_score":  0.2,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "P Chidambaram",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Congress",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "TVK",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "Article presents a neutral tone, discussing political alliances"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Reality bites on Budget eve",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/reality-bites-on-budget-eve-384692-2009-07-05?utm_source=rss",
-        "text":  "The smartphone app era is peaking, and the age of \"Ambient AI\" has officially begun. In this episode of Tech Today, Cyrus breaks down a massive shift in how we use technology, from Googleâ€™s latest software ecosystem to Indiaâ€™s giant leap into space infrastructure and a brand-new camera flagship. Big Tech Story: Google I/O 2026 Google is rewriting the rules of the internet by replacing traditional web links with an invisible, always-on AI layer. Gemini Spark: An always-on, cloud-based AI agent that runs complex workflows in the background even if your laptop is closed or your phone dies. Generative UI in Search: The biggest transformation in Google Search in 25 years. Search now dynamically builds custom mini-apps and interactive visual interfaces tailored directly to your queries. Workspace \u0026 YouTube: \"Ask YouTube\" lets you conversationally talk to videos to find exact details instantly , while \"Daily Brief\" parses your morning into a personalized audio summary. Smart Glasses: Partnering with Samsung, Google showcased screenless Android XR smart glasses dropping this Fall that look like everyday eyewear but act as real-time audio companions for your face. AI Guru: Indiaâ€™s First Orbit Data Center AI has a massive Earth problem. It eats up land, massive amounts of electricity, and water. So, India\u0027s tech disruptors are moving the hardware to the stars. The Space AI: Pixxel and Sarvam AI are launching Pathfinder in Q4 2026, India\u0027s first dedicated 200kg AI data center in orbit. Real-Time Insights: By bolting data-center grade GPUs onto a satellite with a hyperspectral camera , it processes complex data locally in space. Instant Action: Instead of waiting hours to download heavy files , it beams back instant text alerts, like pinpointing a pipeline leak the second it happens. Tech Review: OPPO Find X9 Ultra Is this a smartphone or a professional camera that happens to make calls? We review the ultra-premium OPPO Find X9 Ultra. Insane 10x Zoom: Features a 200MP main sensor and a revolutionary periscope structure that bounces light five times internally to achieve a true 10x optical zoom lens without an oversized camera bump. Flagship Specs: Packed with a Snapdragon 8 Elite Gen 5 processor , refined ColorOS 16 , and a gorgeous 6.82-inch 144Hz AMOLED display hitting 3600 nits of peak brightness. Monster Battery: A massive 7050mAh silicon-carbon battery easily delivers 2 full days of heavy use, supported by lightning-fast 100W wired charging. What do you think about the shift to an app-less, agentic world? Would you wear screenless AI glasses? Let us know in the comments!",
-        "scraped_at":  "2026-06-01T05:52:45.518647+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.5,
-        "framing":  "Analytical",
-        "key_entities":  [
-                             {
-                                 "name":  "Google",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "India",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "OPPO",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "Neutral tone, focusing on tech advancements and innovations."
-    },
-    {
-        "source":  "India Today",
-        "title":  "Pak crowd welcomes T20 champions",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/pak-crowd-welcomes-t20-champions-837563-2009-06-22?utm_source=rss",
-        "text":  "In this edition of India Today Global, watch Geeta Mohan\u0027s exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
-        "scraped_at":  "2026-06-01T05:52:46.737252+00:00",
-        "bias_label":  "Unknown",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Sikh community",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Iranians",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "US",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Israel",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Neutral reporting on Sikh community in Iran"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Pak played a good cricket: Razzaq",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/pak-played-a-good-cricket-razzaq-837587-2009-06-21?utm_source=rss",
-        "text":  "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
-        "scraped_at":  "2026-06-01T05:52:47.906959+00:00",
-        "bias_label":  "Right-Center",
-        "sentiment_score":  0.2,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Bharatiya Janata Party",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "West Bengal",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article reports BJP forming government, neutral tone"
-    },
-    {
-        "source":  "India Today",
-        "title":  "T20 WC is a gift to the country: Gul",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-is-a-gift-to-the-country-gul-837588-2009-06-21?utm_source=rss",
-        "text":  "Prime Minister Narendra Modi on Saturday hugged and honoured 98-year-old Makhanlal Sarkar, one of the earliest and senior most members of the BJP. The scene unfolded on the stage ahead of Suvendu Adhikari\u0027s swearing-in as West Bengal\u0027s Chief Minister in Kolkata. PM Modi also touched Sarkar\u0027s feet and presented a shawl to him as a mark of respect. In 1952, Sarkar was arrested in Kashmir while he was accompanying Dr Syama Prasad Mookerjee as the latter was marching to hoist the tricolour there. BJP IT cell head Amit Malviya described the elderly party leader as \"one of the earliest grassroots figures associated with the nationalist movement in post-Independence India.\"",
-        "scraped_at":  "2026-06-01T05:52:49.014552+00:00",
-        "bias_label":  "Right-Center",
-        "sentiment_score":  0.6,
-        "framing":  "Sympathetic",
-        "key_entities":  [
-                             {
-                                 "name":  "Narendra Modi",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Makhanlal Sarkar",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "BJP",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "Article portrays PM Modi and BJP in a positive light"
-    },
-    {
-        "source":  "India Today",
-        "title":  "I am proud of Pak: Younis Khan",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/i-am-proud-of-pak-younis-khan-837590-2009-06-21?utm_source=rss",
-        "text":  "A speeding black Thar hit a biker in Jaipur when he was crossing the road. The impact of the accident was such that the 27-yeasr-old biker was flung into the air.",
-        "scraped_at":  "2026-06-01T05:52:50.123352+00:00",
-        "bias_label":  "Unknown",
-        "sentiment_score":  -0.5,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Younis Khan",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "India",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Pakistan",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Jaipur",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article lacks context, appears unrelated to title"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Younis Khan retires from T20 cricket",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/younis-khan-retires-from-t20-cricket-837592-2009-06-21?utm_source=rss",
-        "text":  "In a big revelation, CPM General Secretary MA Baby confirmed to India Today that the DMK had proposed supporting an AIADMK-led government from the outside and requested the Left to follow suit.",
-        "scraped_at":  "2026-06-01T05:52:51.274532+00:00",
-        "bias_label":  "Left-Center",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "MA Baby",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "DMK",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "AIADMK",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "CPM",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Neutral reporting on political developments"
-    },
-    {
-        "source":  "India Today",
-        "title":  "\u003cb\u003e2009:\u003c/b\u003ePakistan celebrate World T20 win",
-        "url":  "https://www.indiatoday.in/world-t20-2012/video/pakistan-celebrate-world-t20-win-383635-2009-06-21?utm_source=rss",
-        "text":  "Prime Minister Narendra Modi, who is on a five-nation tour, will be arriving in Italy shortly on the last leg of his tour. The tour, which included visits to the United Arab Emirates, the Netherlands, Sweden, Norway, and Italy, signifies a shift in India\u0027s foreign policy towards strengthening technology and supply chain security.",
-        "scraped_at":  "2026-06-01T05:52:52.418476+00:00",
-        "bias_label":  "Unknown",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Narendra Modi",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article lacks emotional tone and biased language"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Pak has an edge over Lanka: Tanvir",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/pak-has-an-edge-over-lanka-tanvir-383647-2009-06-20?utm_source=rss",
-        "text":  "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it\u0027s over.",
-        "scraped_at":  "2026-06-01T05:52:53.492048+00:00",
-        "bias_label":  "Left-Center",
-        "sentiment_score":  0.2,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "P Chidambaram",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Congress",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "TVK",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "Left-Center bias due to Congress leader interview"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Razzak hopeful of Pak victory",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/razzak-hopeful-of-pak-victory-383648-2009-06-20?utm_source=rss",
-        "text":  "Senior Congress leader and eminent jurist Abhishek Manu Singhvi criticised the Tamil Nadu Governor for delaying the government formation process. He said the Governor has no option but to invite the single largest party to form the government and prove its majority on the floor of the assembly.",
-        "scraped_at":  "2026-06-01T05:52:54.651817+00:00",
-        "bias_label":  "Left-Center",
-        "sentiment_score":  0.2,
-        "framing":  "Analytical",
-        "key_entities":  [
-                             {
-                                 "name":  "Abhishek Manu Singhvi",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Tamil Nadu Governor",
-                                 "portrayal":  "Negative"
-                             }
-                         ],
-        "reasoning":  "Article presents a critical view of the Governor\u0027s actions"
-    },
-    {
-        "source":  "India Today",
-        "title":  "T20 WC: Second semi-final today",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-second-semi-final-today-383685-2009-06-18?utm_source=rss",
-        "text":  "Why does India celebrate National Technology Day? Every year on May 11, India marks National Technology Day to commemorate a defining moment in its history: the 1998 Pokhran-II nuclear tests. Led by then-Prime Minister Atal Bihari Vajpayee and a team of brilliant scientists, these underground tests were so secretive they famously exposed a massive intelligence failure by the CIA. The same day saw the successful test flight of the indigenous Hansa-3 aircraft and the Trishul missile. In 2026, we explore how this \"explosion of self-esteem\" paved the way for India to become a global leader in AI, space exploration, and semiconductors. Plus: The New King of Camera Phones? Weâ€™re putting the Vivo X300 Ultra to the test. Is it a phone with a great camera, or a professional camera that happens to make calls? With its massive triple-camera setup featuring dual 200MP sensors and ZEISS optics, this device is redefining mobile photography. Watch the full episode to know if it is worth buying!",
-        "scraped_at":  "2026-06-01T05:52:55.762359+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.2,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Atal Bihari Vajpayee",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "India",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Vivo X300 Ultra",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article is neutral, focusing on facts about India\u0027s National Technology Day and a phone review."
-    },
-    {
-        "source":  "India Today",
-        "title":  "T20 WC: Team India\u0027s big lie nailed",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-team-indias-big-lie-nailed-383694-2009-06-18?utm_source=rss",
-        "text":  "In this edition of India Today Global, watch Geeta Mohan\u0027s exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
-        "scraped_at":  "2026-06-01T05:52:56.806842+00:00",
-        "bias_label":  "Left-Center",
-        "sentiment_score":  0.2,
-        "framing":  "Analytical",
-        "key_entities":  [
-                             {
-                                 "name":  "Sikh community",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Iranians",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "US-Israeli",
-                                 "portrayal":  "Negative"
-                             }
-                         ],
-        "reasoning":  "Article presents a neutral report on Sikh community in Iran"
-    },
-    {
-        "source":  "India Today",
-        "title":  "T20 WC: First semi-final today",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-first-semi-final-today-383708-2009-06-17?utm_source=rss",
-        "text":  "TVK leader C Joseph Vijay on Sunday took oath as the Chief Minister of Tamil Nadu amid a sea of supporters, his friends and family, and several political leaders. Eight other TVK leaders were sworn in besides him, as ministers in the new government. Congress leader Rahul Gandhi also attended the ceremony. The TVK managed to secure the Governor\u0027s nod to form the government after the Congress, the CPI, the CPI(M), the VCK, and IUML extended their support to the Vijay-led party for a colaition government.",
-        "scraped_at":  "2026-06-01T05:52:57.970028+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "C Joseph Vijay",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Rahul Gandhi",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "TVK",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Neutral reporting on a political event"
-    },
-    {
-        "source":  "India Today",
-        "title":  "Unhappy end to India\u0027s T20 WC tour",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/unhappy-end-to-indias-t20-wc-tour-383719-2009-06-16?utm_source=rss",
-        "text":  "In this edition of India Today Global, watch Geeta Mohan\u0027s exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
-        "scraped_at":  "2026-06-01T05:52:59.266455+00:00",
-        "bias_label":  "Unknown",
-        "sentiment_score":  0.0,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Geeta Mohan",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Sikh community",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Iranians",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "Article appears neutral, reporting on Sikh community in Iran."
-    },
-    {
-        "source":  "India Today",
-        "title":  "\u0027No one was forced to play in IPL\u0027",
-        "url":  "https://www.indiatoday.in/t20-world-cup-2009/video/no-one-was-forced-to-play-in-ipl-383739-2009-06-15?utm_source=rss",
-        "text":  "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it\u0027s over.",
-        "scraped_at":  "2026-06-01T05:53:00.364342+00:00",
-        "bias_label":  "Left-Center",
-        "sentiment_score":  0.2,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "P Chidambaram",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Congress",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "TVK",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "Neutral tone and balanced discussion"
-    },
-    {
-        "source":  "Times of India",
-        "title":  "High tea after street heat: What happened at INDIA bloc meet at Rahul Gandhi\u0027s residence",
-        "url":  "https://timesofindia.indiatimes.com/india/high-tea-after-street-heat-what-happened-at-india-bloc-meet-at-rahul-gandhis-residence/articleshow/134918043.cms",
-        "text":  "INDIA bloc leaders gathered at Rahul\u0027s residence for high tea after four days of protest on streets\n\nNEW DELHI: INDIA bloc leaders gathered at Rahul Gandhi\u0027s residence on Tuesday for high tea amid their ongoing protest against Chief Election Commissioner Gyanesh Kumar over alleged vote theft. They met for a high tea after four days of protest and filing a petition in SC against the CEC. From directly slamming the CEC to criticising the SIR process and criticising PM Modi and Amit Shah, several leaders including Rahul Gandhi, Mallikarjun Kharge, Supriya Sule, Tejashwi Yadav, Sanjay Raut addressed a press conference after the meet vowing to continue their protests while giving insights into what they decided at the meeting. Here\u0027s what some of the key leaders saidRahul Gandhi (Congress) Leader of Opposition in the Lok Sabha Rahul Gandhi anonunced that the INDIA bloc would continue its fight to restore the democratic process and ensure accountability for those he accused of undermining it. \"We are all standing here together as one. As I said yesterday, there are no parallel protests. There is one singular protest, and the protest has one mission: restoration of democracy in India. Democracy has been destroyed in this country. The election system has been destroyed. The Constitution has been torn up and thrown away. We are fighting together to restore democratic rule, genuine democratic rule in this country.\" He thanked people who supported the protest and vowed to bring those responsible to justice. \"It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who\u0027s hiding right now in Dehradun, and others are going to be brought to justice.\" \"Yesterday, you saw an expression not of the political party standing here, but an expression of the people of India...We would like to thank the people of Delhi, the people of India, who stood with us against what is being done. This is not about us. This is about the people of India. This is about the future of the people of India, and we, all of us together, because we love you and we respect you, are going to fight to the end to restore the democratic process in this country. It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who\u0027s hiding right now in Dehradun, and others are going to be brought to justice,\" he added. Further assuring the work of the team, the Congress leader said, \"I used the word \u0027perseverance\u0027 at the press conference yesterdayâ€”that this team of ours is not going to stop. Sooner or laterâ€”whether tomorrow, the day after, in three months, six months, a year, or two yearsâ€”it will not stop. It will reach the end goal. I cannot tell you exactly how we will get there, because that would spoil the surprise, and we want to maintain the excitement and sense of surprise for you and the country. But I guarantee you that just as we mobilizedâ€”with such energy, strength, and unityâ€”we will con",
-        "scraped_at":  "2026-10-13T14:04:49.269262+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  -0.2,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "INDIA bloc",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Rahul Gandhi",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Gyanesh Kumar",
-                                 "portrayal":  "Negative"
-                             },
-                             {
-                                 "name":  "Narendra Modi",
-                                 "portrayal":  "Negative"
-                             },
-                             {
-                                 "name":  "Amit Shah",
-                                 "portrayal":  "Negative"
-                             }
-                         ],
-        "reasoning":  "The article uses neutral reporting to document the INDIA bloc\u0027s meeting and quotes Rahul Gandhi directly. The negative sentiment reflects the opposition\u0027s sharp attacks on government leaders and the Election Commission rather than editorial bias."
-    },
-    {
-        "source":  "Times of India",
-        "title":  "\u0027Donâ€™t post videos\u0027: Embassy issues fresh advisory for Indians in Saudi",
-        "url":  "https://timesofindia.indiatimes.com/world/middle-east/dont-post-videos-stay-indoors-embassy-issues-fresh-advisory-for-indians-in-saudi-arabia/articleshow/134918147.cms",
-        "text":  "The fresh advisories come after an October 10 attack on Riyadh airport killed an Indian national\n\nNEW DELHI: Indian embassies in Saudi Arabia on Tuesday issued fresh advisories for Indian nationals amid flight disruptions following the suspension of services by Indian airlines to several Saudi cities until October 17. The Indian Embassy in Riyadh advised Indian nationals to remain calm and vigilant, stay indoors in the event of an aerial attack and follow instructions issued by local authorities through official channels. It also urged Indians to refrain from circulating or reposting videos or news related to the ongoing events. The Embassy said Air India and Air India Express had suspended flights to and from Riyadh, Dammam and Jeddah until October 17. Akasa Air suspended services to and from Riyadh and Jeddah, while IndiGo cancelled flights to and from Riyadh, Dammam, Jeddah and Medina until the same date. The General Authority of Civil Aviation (GACA) has announced the suspension of operations at King Khalid International Airport in Riyadh. Operations at other major airports, including Dammam, Jeddah and Medina, are continuing, although disruptions have been reported. The Embassy advised Indian nationals to remain in regular contact with their respective airlines and verify the latest status of their flights. Those needing to leave Saudi Arabia in an emergency may also consider flights from neighbouring Gulf countries, particularly Qatar and Bahrain, subject to obtaining the required visas. The Consulate General of India in Jeddah issued a separate advisory, particularly for Umrah pilgrims travelling to and from Jeddah and Medina. It urged passengers to check with airlines before proceeding to airports and remain in contact with travel agents, tour operators and Umrah service providers regarding cancellations, rescheduling, alternative travel arrangements and accommodation. The Consulate said it was in regular contact with airlines and local authorities to assist affected Indian nationals. Both the Embassy in Riyadh and the Consulate in Jeddah have established 24x7 control rooms to provide assistance. The Riyadh Embassy also said Indian nationals who arrived in Saudi Arabia on visit, tourist, Umrah or business visas but were forced to overstay because of flight unavailability would be allowed to leave without paying fines. Those whose visas have expired were advised to exit the Kingdom as soon as flights become available. ALSO READ: Flydubai mid-air stabbing: 2 Maldivian pilots detained in UAE over links with accused Omani copilot - reportIndian national killed in Riyadh airport attack The fresh advisories come after an October 10 attack on Riyadh airport killed Indian national Mohammed Yousef Ali. Ambassador Vipul and Embassy officials attended his funeral in Riyadh on October 12, in accordance with his family\u0027s wishes, and assured the bereaved family of continued support. The Embassy said four Indian nationals injured in the attack remained ",
-        "scraped_at":  "2026-10-13T14:04:50.279204+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  -0.35,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Indian Embassy in Riyadh",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Consulate General of India in Jeddah",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "General Authority of Civil Aviation (GACA)",
-                                 "portrayal":  "Neutral"
-                             },
-                             {
-                                 "name":  "Mohammed Yousef Ali",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "The article is a straightforward, factual report conveying safety advisories, airline disruptions, and consular updates for Indian citizens in Saudi Arabia following a fatal attack on Riyadh airport. It maintains an objective, neutral tone without political bias."
-    },
-    {
-        "source":  "Times of India",
-        "title":  "\u0027Agreed to build on positive momentum in ties\u0027: PM Modi speaks with Canada PM Carney",
-        "url":  "https://timesofindia.indiatimes.com/india/agreed-to-build-on-positive-momentum-in-ties-pm-modi-speaks-with-canada-pm-mark-carney/articleshow/134919669.cms",
-        "text":  "File photo: PM Modi and Canada PM Mark Carney\n\nNEW DELHI: Prime Minister Narendra Modi on Tuesday said he had spoken with Canadian Prime Minister Mark Carney, with the two leaders agreeing to build on the positive momentum in India-Canada ties and work towards concrete outcomes across key areas of their strategic partnership. In a post on X, PM Modi described the conversation as â€œwarm and productiveâ€ and said the two sides would focus on trade, energy, technology, security and people-to-people ties. â€œTogether, India and Canada are contributing towards a more stable and prosperous world,â€ PM Modi wrote.\n\nEnd of Article",
-        "scraped_at":  "2026-10-13T14:04:51.246622+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.5,
-        "framing":  "Optimistic",
-        "key_entities":  [
-                             {
-                                 "name":  "Narendra Modi",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Mark Carney",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "India-Canada relations",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "The article neutrally reports on an official diplomatic exchange between the two leaders without editorial commentary. The tone reflects the optimistic and warm language directly quoted from PM Modi\u0027s post regarding bilateral cooperation."
-    },
-    {
-        "source":  "Times of India",
-        "title":  "Ashwin reveals what drove Bhuvneshwar\u0027s India comeback",
-        "url":  "https://timesofindia.indiatimes.com/sports/cricket/news/he-never-chased-that-reward-ashwin-reveals-what-drove-bhuvneshwar-kumars-india-comeback/articleshow/134916720.cms",
-        "text":  "Bhuvneshwar Kumar\n\nRavichandran Ashwin believes Bhuvneshwar Kumar\u0027s return to India\u0027s T20I setup is a reward for his consistency rather than the result of chasing an international comeback. The veteran pacer earned a recall to the national squad after impressing for Royal Challengers Bengaluru (RCB) in the IPL, with Ashwin crediting his focus on performance for his return. Bhuvneshwar\u0027s selection for India\u0027s upcoming five-match T20I series against New Zealand, beginning next week, was one of the major talking points following the squad announcement. The right-arm pacer is set to return to international T20 cricket after a gap of four years.\n\n\u0027He has gone on his own journey\u0027\n\nSpeaking on his YouTube channel, Ashwin suggested that Bhuvneshwar remained focused on improving his bowling and fulfilling his responsibilities for RCB rather than worrying about a potential India recall. \"I have a feeling that Bhuvneshwar Kumar hasn\u0027t even thought about a comeback. I think this will be his mantra for success. And when I\u0027m watching him from afar, I have also experienced this myself, he has gone on his own journey,\" Ashwin said. \"He has focused on doing well, bowling well with the new ball and performing for RCB. Whatever he could do, he did it. His recall is the reward for his success. He never chased that reward; he simply did his job and success followed,\" he added.\n\nAshwin backs India for 2027 ODI World Cup, picks South Africa as serious contenders\n\nLooking ahead to the 2027 ODI World Cup, Ashwin backed India to challenge for the title but warned that hosts South Africa could pose a significant threat in familiar conditions. Ashwin pointed to India\u0027s pace-bowling resources, spin options and batting experience as reasons to believe the team can mount a strong campaign. He particularly highlighted Bumrah\u0027s importance, suggesting that the fast bowler could make a major difference if he performs at his best. \"India has the ability. If Jasprit Bumrah is firing on all cylinders, he will have a good fast-bowling experience. India has a good spin stock. There, in a lot of grounds, you will get the help of spin. There is experience in batting,\" he said. However, Ashwin identified South Africa as one of the strongest contenders, citing home advantage, familiarity with local conditions and the experience players have gained through the SA20 league.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful Â· TOI community guidelines\n\n\"I will honestly say that two-three teams look good to me. Out of them, South Africa is the best. I think South Africa will be a serious contender for the home World Cup. So India will have to play against the South African team,\" he said. \"South Africa, in South African conditions, especially after SA20, have the skills, they know all the conditions, they play good cricket and the team looks together. That\u0027s a very strong force in cricket,\" Ashwin added.\n\nEnd of Article",
-        "scraped_at":  "2026-10-13T14:04:54.720432+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  0.45,
-        "framing":  "Analytical",
-        "key_entities":  [
-                             {
-                                 "name":  "Bhuvneshwar Kumar",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Ravichandran Ashwin",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Jasprit Bumrah",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "Indian Cricket Team",
-                                 "portrayal":  "Positive"
-                             },
-                             {
-                                 "name":  "South Africa Cricket Team",
-                                 "portrayal":  "Positive"
-                             }
-                         ],
-        "reasoning":  "The article is straightforward sports reporting covering Ravichandran Ashwin\u0027s comments on Bhuvneshwar Kumar\u0027s recall to the national squad and his analysis of the 2027 World Cup. It carries no political bias, maintains an analytical framing, and exhibits an encouraging, positive sentiment toward the athletes mentioned."
-    },
-    {
-        "source":  "Times of India",
-        "title":  "Delhi man with 14 criminal cases shot dead, CCTV captures killing",
-        "url":  "https://timesofindia.indiatimes.com/city/delhi/delhi-man-with-14-criminal-cases-shot-dead-in-ranhola-area-suspects-identified/articleshow/134917081.cms",
-        "text":  "The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar.\n\nNEW DELHI: A man with around 14 criminal cases registered against him was shot dead in a brazen attack captured on CCTV in outer Delhiâ€™s Ranhola area, police said on Tuesday. The footage shows the victim stopping his motorcycle near a house when two motorcycles carrying four assailants suddenly enter the camera frame. The attackers approach the rider, and one of them opens fire from behind. The other assailants also fire multiple shots at the victim before the attack unfolds in full view of the CCTV camera. The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar and a declared bad character (BC) of Ranhola police station, according to police. Police said they received information around 5.30 pm on October 11 that Khan had been admitted to a hospital with gunshot injuries. He was subsequently declared dead. A case was registered at Ranhola police station, and an investigation was launched. Police said they had identified the suspects and were making efforts to apprehend them. The motive behind the killing and the circumstances leading to the shooting have not yet been established. Further investigation is underway, police said. (With Agency Inputs)\n\nEnd of Article",
-        "scraped_at":  "2026-10-13T14:04:55.908830+00:00",
-        "bias_label":  "Center",
-        "sentiment_score":  -0.5,
-        "framing":  "Neutral",
-        "key_entities":  [
-                             {
-                                 "name":  "Mosin Khan",
-                                 "portrayal":  "Negative"
-                             },
-                             {
-                                 "name":  "Delhi Police",
-                                 "portrayal":  "Neutral"
-                             }
-                         ],
-        "reasoning":  "The article is a straightforward crime report based on official police accounts and CCTV findings. It relies on standard journalistic sourcing without political slant or editorializing, resulting in a neutral framing and center bias classification."
-    }
+  {
+    "source": "India Today",
+    "title": "India's T20 World Cup 2007 triumph",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/photo/indias-t20-wc-triumph-7-361994-2009-06-03?utm_source=rss",
+    "text": "Members of Indian cricket team wave to their fans as they get a heroes' welcome in Mumbai on September 26, 2007.\n\nPhoto Credit : Bhaskar Paul/India Today",
+    "scraped_at": "2026-06-01T05:52:38.342404+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.8,
+    "framing": "Optimistic",
+    "key_entities": [
+      {
+        "name": "Indian cricket team",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "Positive sentiment and optimistic framing due to the team's triumph"
+  },
+  {
+    "source": "India Today",
+    "title": "India have their task cut out",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/photo/india-have-their-task-cut-out-361976-2009-05-29?utm_source=rss",
+    "text": "Junior Sehwag looks out from the bus carrying Indian team to Chhatrapati Shivaji International Airport. Indian team leave for England for the T20 World Cup, in Mumbai on Friday, May 29, 2009.\n\nPhoto Credit : Shriya Patil Shinde/ India Today",
+    "scraped_at": "2026-06-01T05:52:39.685106+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Indian team",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Neutral reporting on a sports event"
+  },
+  {
+    "source": "India Today",
+    "title": "Experts meet on ICC World T20",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/photo/experts-meet-on-icc-world-t-361971-2009-05-27?utm_source=rss",
+    "text": "Former Pakistani cricketer Wasim Akram speaks to the media during the photo session of the 'ICC T20 World Cup trophy' in New Delhi on Tuesday.\n\nPhoto Credit : PTI",
+    "scraped_at": "2026-06-01T05:52:40.895604+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Wasim Akram",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "ICC",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Neutral reporting on a sports event"
+  },
+  {
+    "source": "India Today",
+    "title": "LIVE: PM Narendra Modi arrives in Japan",
+    "url": "https://www.indiatoday.in/world/video/narendra-modi-japan-bilateral-relation-foreign-visit-454480-2014-08-30?utm_source=rss",
+    "text": "In an exclusive interview with India Today, Iranian scholar Prof. Seyed Mohammad Marandi talked about the escalating conflict between the United States and Iran, the Strait of Hormuz crisis and more.",
+    "scraped_at": "2026-06-01T05:52:42.025194+00:00",
+    "bias_label": "Unknown",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Narendra Modi",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "India Today",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Seyed Mohammad Marandi",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "United States",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Iran",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article is a factual report of an event with no emotional tone."
+  },
+  {
+    "source": "India Today",
+    "title": "Sourav Ganguly returns to IPL 2011",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/ipl-2011-sourav-ganguly-will-play-for-pune-warriors-391172-2011-05-02?utm_source=rss",
+    "text": "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
+    "scraped_at": "2026-06-01T05:52:43.174748+00:00",
+    "bias_label": "Unknown",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Bharatiya Janata Party",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article is factual, lacks emotional tone"
+  },
+  {
+    "source": "India Today",
+    "title": "<b>2010:</b>England are new T20 WC champions",
+    "url": "https://www.indiatoday.in/world-t20-2012/video/england-crowned-world-t20-champions-409364-2010-05-16?utm_source=rss",
+    "text": "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it's over.",
+    "scraped_at": "2026-06-01T05:52:44.417335+00:00",
+    "bias_label": "Left-Center",
+    "sentiment_score": 0.2,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "P Chidambaram",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Congress",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "TVK",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "Article presents a neutral tone, discussing political alliances"
+  },
+  {
+    "source": "India Today",
+    "title": "Reality bites on Budget eve",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/reality-bites-on-budget-eve-384692-2009-07-05?utm_source=rss",
+    "text": "The smartphone app era is peaking, and the age of \"Ambient AI\" has officially begun. In this episode of Tech Today, Cyrus breaks down a massive shift in how we use technology, from Googleâ€™s latest software ecosystem to Indiaâ€™s giant leap into space infrastructure and a brand-new camera flagship. Big Tech Story: Google I/O 2026 Google is rewriting the rules of the internet by replacing traditional web links with an invisible, always-on AI layer. Gemini Spark: An always-on, cloud-based AI agent that runs complex workflows in the background even if your laptop is closed or your phone dies. Generative UI in Search: The biggest transformation in Google Search in 25 years. Search now dynamically builds custom mini-apps and interactive visual interfaces tailored directly to your queries. Workspace & YouTube: \"Ask YouTube\" lets you conversationally talk to videos to find exact details instantly , while \"Daily Brief\" parses your morning into a personalized audio summary. Smart Glasses: Partnering with Samsung, Google showcased screenless Android XR smart glasses dropping this Fall that look like everyday eyewear but act as real-time audio companions for your face. AI Guru: Indiaâ€™s First Orbit Data Center AI has a massive Earth problem. It eats up land, massive amounts of electricity, and water. So, India's tech disruptors are moving the hardware to the stars. The Space AI: Pixxel and Sarvam AI are launching Pathfinder in Q4 2026, India's first dedicated 200kg AI data center in orbit. Real-Time Insights: By bolting data-center grade GPUs onto a satellite with a hyperspectral camera , it processes complex data locally in space. Instant Action: Instead of waiting hours to download heavy files , it beams back instant text alerts, like pinpointing a pipeline leak the second it happens. Tech Review: OPPO Find X9 Ultra Is this a smartphone or a professional camera that happens to make calls? We review the ultra-premium OPPO Find X9 Ultra. Insane 10x Zoom: Features a 200MP main sensor and a revolutionary periscope structure that bounces light five times internally to achieve a true 10x optical zoom lens without an oversized camera bump. Flagship Specs: Packed with a Snapdragon 8 Elite Gen 5 processor , refined ColorOS 16 , and a gorgeous 6.82-inch 144Hz AMOLED display hitting 3600 nits of peak brightness. Monster Battery: A massive 7050mAh silicon-carbon battery easily delivers 2 full days of heavy use, supported by lightning-fast 100W wired charging. What do you think about the shift to an app-less, agentic world? Would you wear screenless AI glasses? Let us know in the comments!",
+    "scraped_at": "2026-06-01T05:52:45.518647+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.5,
+    "framing": "Analytical",
+    "key_entities": [
+      {
+        "name": "Google",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "India",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "OPPO",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "Neutral tone, focusing on tech advancements and innovations."
+  },
+  {
+    "source": "India Today",
+    "title": "Pak crowd welcomes T20 champions",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/pak-crowd-welcomes-t20-champions-837563-2009-06-22?utm_source=rss",
+    "text": "In this edition of India Today Global, watch Geeta Mohan's exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
+    "scraped_at": "2026-06-01T05:52:46.737252+00:00",
+    "bias_label": "Unknown",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Sikh community",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Iranians",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "US",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Israel",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Neutral reporting on Sikh community in Iran"
+  },
+  {
+    "source": "India Today",
+    "title": "Pak played a good cricket: Razzaq",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/pak-played-a-good-cricket-razzaq-837587-2009-06-21?utm_source=rss",
+    "text": "The Bharatiya Janata Party is set to form its first government in West Bengal, with the swearing-in ceremony scheduled for the ninth of May at the Brigade Parade Ground.",
+    "scraped_at": "2026-06-01T05:52:47.906959+00:00",
+    "bias_label": "Right-Center",
+    "sentiment_score": 0.2,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Bharatiya Janata Party",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "West Bengal",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article reports BJP forming government, neutral tone"
+  },
+  {
+    "source": "India Today",
+    "title": "T20 WC is a gift to the country: Gul",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-is-a-gift-to-the-country-gul-837588-2009-06-21?utm_source=rss",
+    "text": "Prime Minister Narendra Modi on Saturday hugged and honoured 98-year-old Makhanlal Sarkar, one of the earliest and senior most members of the BJP. The scene unfolded on the stage ahead of Suvendu Adhikari's swearing-in as West Bengal's Chief Minister in Kolkata. PM Modi also touched Sarkar's feet and presented a shawl to him as a mark of respect. In 1952, Sarkar was arrested in Kashmir while he was accompanying Dr Syama Prasad Mookerjee as the latter was marching to hoist the tricolour there. BJP IT cell head Amit Malviya described the elderly party leader as \"one of the earliest grassroots figures associated with the nationalist movement in post-Independence India.\"",
+    "scraped_at": "2026-06-01T05:52:49.014552+00:00",
+    "bias_label": "Right-Center",
+    "sentiment_score": 0.6,
+    "framing": "Sympathetic",
+    "key_entities": [
+      {
+        "name": "Narendra Modi",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Makhanlal Sarkar",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "BJP",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "Article portrays PM Modi and BJP in a positive light"
+  },
+  {
+    "source": "India Today",
+    "title": "I am proud of Pak: Younis Khan",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/i-am-proud-of-pak-younis-khan-837590-2009-06-21?utm_source=rss",
+    "text": "A speeding black Thar hit a biker in Jaipur when he was crossing the road. The impact of the accident was such that the 27-yeasr-old biker was flung into the air.",
+    "scraped_at": "2026-06-01T05:52:50.123352+00:00",
+    "bias_label": "Unknown",
+    "sentiment_score": -0.5,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Younis Khan",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "India",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Pakistan",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Jaipur",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article lacks context, appears unrelated to title"
+  },
+  {
+    "source": "India Today",
+    "title": "Younis Khan retires from T20 cricket",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/younis-khan-retires-from-t20-cricket-837592-2009-06-21?utm_source=rss",
+    "text": "In a big revelation, CPM General Secretary MA Baby confirmed to India Today that the DMK had proposed supporting an AIADMK-led government from the outside and requested the Left to follow suit.",
+    "scraped_at": "2026-06-01T05:52:51.274532+00:00",
+    "bias_label": "Left-Center",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "MA Baby",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "DMK",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "AIADMK",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "CPM",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Neutral reporting on political developments"
+  },
+  {
+    "source": "India Today",
+    "title": "<b>2009:</b>Pakistan celebrate World T20 win",
+    "url": "https://www.indiatoday.in/world-t20-2012/video/pakistan-celebrate-world-t20-win-383635-2009-06-21?utm_source=rss",
+    "text": "Prime Minister Narendra Modi, who is on a five-nation tour, will be arriving in Italy shortly on the last leg of his tour. The tour, which included visits to the United Arab Emirates, the Netherlands, Sweden, Norway, and Italy, signifies a shift in India's foreign policy towards strengthening technology and supply chain security.",
+    "scraped_at": "2026-06-01T05:52:52.418476+00:00",
+    "bias_label": "Unknown",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Narendra Modi",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article lacks emotional tone and biased language"
+  },
+  {
+    "source": "India Today",
+    "title": "Pak has an edge over Lanka: Tanvir",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/pak-has-an-edge-over-lanka-tanvir-383647-2009-06-20?utm_source=rss",
+    "text": "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it's over.",
+    "scraped_at": "2026-06-01T05:52:53.492048+00:00",
+    "bias_label": "Left-Center",
+    "sentiment_score": 0.2,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "P Chidambaram",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Congress",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "TVK",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "Left-Center bias due to Congress leader interview"
+  },
+  {
+    "source": "India Today",
+    "title": "Razzak hopeful of Pak victory",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/razzak-hopeful-of-pak-victory-383648-2009-06-20?utm_source=rss",
+    "text": "Senior Congress leader and eminent jurist Abhishek Manu Singhvi criticised the Tamil Nadu Governor for delaying the government formation process. He said the Governor has no option but to invite the single largest party to form the government and prove its majority on the floor of the assembly.",
+    "scraped_at": "2026-06-01T05:52:54.651817+00:00",
+    "bias_label": "Left-Center",
+    "sentiment_score": 0.2,
+    "framing": "Analytical",
+    "key_entities": [
+      {
+        "name": "Abhishek Manu Singhvi",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Tamil Nadu Governor",
+        "portrayal": "Negative"
+      }
+    ],
+    "reasoning": "Article presents a critical view of the Governor's actions"
+  },
+  {
+    "source": "India Today",
+    "title": "T20 WC: Second semi-final today",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-second-semi-final-today-383685-2009-06-18?utm_source=rss",
+    "text": "Why does India celebrate National Technology Day? Every year on May 11, India marks National Technology Day to commemorate a defining moment in its history: the 1998 Pokhran-II nuclear tests. Led by then-Prime Minister Atal Bihari Vajpayee and a team of brilliant scientists, these underground tests were so secretive they famously exposed a massive intelligence failure by the CIA. The same day saw the successful test flight of the indigenous Hansa-3 aircraft and the Trishul missile. In 2026, we explore how this \"explosion of self-esteem\" paved the way for India to become a global leader in AI, space exploration, and semiconductors. Plus: The New King of Camera Phones? Weâ€™re putting the Vivo X300 Ultra to the test. Is it a phone with a great camera, or a professional camera that happens to make calls? With its massive triple-camera setup featuring dual 200MP sensors and ZEISS optics, this device is redefining mobile photography. Watch the full episode to know if it is worth buying!",
+    "scraped_at": "2026-06-01T05:52:55.762359+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.2,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Atal Bihari Vajpayee",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "India",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Vivo X300 Ultra",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article is neutral, focusing on facts about India's National Technology Day and a phone review."
+  },
+  {
+    "source": "India Today",
+    "title": "T20 WC: Team India's big lie nailed",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-team-indias-big-lie-nailed-383694-2009-06-18?utm_source=rss",
+    "text": "In this edition of India Today Global, watch Geeta Mohan's exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
+    "scraped_at": "2026-06-01T05:52:56.806842+00:00",
+    "bias_label": "Left-Center",
+    "sentiment_score": 0.2,
+    "framing": "Analytical",
+    "key_entities": [
+      {
+        "name": "Sikh community",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Iranians",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "US-Israeli",
+        "portrayal": "Negative"
+      }
+    ],
+    "reasoning": "Article presents a neutral report on Sikh community in Iran"
+  },
+  {
+    "source": "India Today",
+    "title": "T20 WC: First semi-final today",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/t20-wc-first-semi-final-today-383708-2009-06-17?utm_source=rss",
+    "text": "TVK leader C Joseph Vijay on Sunday took oath as the Chief Minister of Tamil Nadu amid a sea of supporters, his friends and family, and several political leaders. Eight other TVK leaders were sworn in besides him, as ministers in the new government. Congress leader Rahul Gandhi also attended the ceremony. The TVK managed to secure the Governor's nod to form the government after the Congress, the CPI, the CPI(M), the VCK, and IUML extended their support to the Vijay-led party for a colaition government.",
+    "scraped_at": "2026-06-01T05:52:57.970028+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "C Joseph Vijay",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Rahul Gandhi",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "TVK",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Neutral reporting on a political event"
+  },
+  {
+    "source": "India Today",
+    "title": "Unhappy end to India's T20 WC tour",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/unhappy-end-to-indias-t20-wc-tour-383719-2009-06-16?utm_source=rss",
+    "text": "In this edition of India Today Global, watch Geeta Mohan's exclusive ground report from Iran as Sikh community living in Tehran speaks about life amid war and how Iranians are slowly rebuilding their homes that were destroyed in the US-Israeli strikes.",
+    "scraped_at": "2026-06-01T05:52:59.266455+00:00",
+    "bias_label": "Unknown",
+    "sentiment_score": 0.0,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Geeta Mohan",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Sikh community",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Iranians",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "Article appears neutral, reporting on Sikh community in Iran."
+  },
+  {
+    "source": "India Today",
+    "title": "'No one was forced to play in IPL'",
+    "url": "https://www.indiatoday.in/t20-world-cup-2009/video/no-one-was-forced-to-play-in-ipl-383739-2009-06-15?utm_source=rss",
+    "text": "In an exclusive interview with India Today, senior Congress leader P Chidambaram talked about the rise of Vijay and his party TVK in Tamil Nadu, why Congress is backing TVK and the future of the INDIA bloc after a DMK leader said it's over.",
+    "scraped_at": "2026-06-01T05:53:00.364342+00:00",
+    "bias_label": "Left-Center",
+    "sentiment_score": 0.2,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "P Chidambaram",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Congress",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "TVK",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "Neutral tone and balanced discussion"
+  },
+  {
+    "source": "Times of India",
+    "title": "High tea after street heat: What happened at INDIA bloc meet at Rahul Gandhi's residence",
+    "url": "https://timesofindia.indiatimes.com/india/high-tea-after-street-heat-what-happened-at-india-bloc-meet-at-rahul-gandhis-residence/articleshow/134918043.cms",
+    "text": "INDIA bloc leaders gathered at Rahul's residence for high tea after four days of protest on streets\n\nNEW DELHI: INDIA bloc leaders gathered at Rahul Gandhi's residence on Tuesday for high tea amid their ongoing protest against Chief Election Commissioner Gyanesh Kumar over alleged vote theft. They met for a high tea after four days of protest and filing a petition in SC against the CEC. From directly slamming the CEC to criticising the SIR process and criticising PM Modi and Amit Shah, several leaders including Rahul Gandhi, Mallikarjun Kharge, Supriya Sule, Tejashwi Yadav, Sanjay Raut addressed a press conference after the meet vowing to continue their protests while giving insights into what they decided at the meeting. Here's what some of the key leaders saidRahul Gandhi (Congress) Leader of Opposition in the Lok Sabha Rahul Gandhi anonunced that the INDIA bloc would continue its fight to restore the democratic process and ensure accountability for those he accused of undermining it. \"We are all standing here together as one. As I said yesterday, there are no parallel protests. There is one singular protest, and the protest has one mission: restoration of democracy in India. Democracy has been destroyed in this country. The election system has been destroyed. The Constitution has been torn up and thrown away. We are fighting together to restore democratic rule, genuine democratic rule in this country.\" He thanked people who supported the protest and vowed to bring those responsible to justice. \"It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who's hiding right now in Dehradun, and others are going to be brought to justice.\" \"Yesterday, you saw an expression not of the political party standing here, but an expression of the people of India...We would like to thank the people of Delhi, the people of India, who stood with us against what is being done. This is not about us. This is about the people of India. This is about the future of the people of India, and we, all of us together, because we love you and we respect you, are going to fight to the end to restore the democratic process in this country. It is our commitment to you that the people who have done this, Mr. Modi, Mr. Shah, Mr. Gyanesh Kumar, the lady who's hiding right now in Dehradun, and others are going to be brought to justice,\" he added. Further assuring the work of the team, the Congress leader said, \"I used the word 'perseverance' at the press conference yesterdayâ€”that this team of ours is not going to stop. Sooner or laterâ€”whether tomorrow, the day after, in three months, six months, a year, or two yearsâ€”it will not stop. It will reach the end goal. I cannot tell you exactly how we will get there, because that would spoil the surprise, and we want to maintain the excitement and sense of surprise for you and the country. But I guarantee you that just as we mobilizedâ€”with such energy, strength, and unityâ€”we will con",
+    "scraped_at": "2026-10-13T14:04:49.269262+00:00",
+    "bias_label": "Center",
+    "sentiment_score": -0.2,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "INDIA bloc",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Rahul Gandhi",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Gyanesh Kumar",
+        "portrayal": "Negative"
+      },
+      {
+        "name": "Narendra Modi",
+        "portrayal": "Negative"
+      },
+      {
+        "name": "Amit Shah",
+        "portrayal": "Negative"
+      }
+    ],
+    "reasoning": "The article uses neutral reporting to document the INDIA bloc's meeting and quotes Rahul Gandhi directly. The negative sentiment reflects the opposition's sharp attacks on government leaders and the Election Commission rather than editorial bias."
+  },
+  {
+    "source": "Times of India",
+    "title": "'Donâ€™t post videos': Embassy issues fresh advisory for Indians in Saudi",
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dont-post-videos-stay-indoors-embassy-issues-fresh-advisory-for-indians-in-saudi-arabia/articleshow/134918147.cms",
+    "text": "The fresh advisories come after an October 10 attack on Riyadh airport killed an Indian national\n\nNEW DELHI: Indian embassies in Saudi Arabia on Tuesday issued fresh advisories for Indian nationals amid flight disruptions following the suspension of services by Indian airlines to several Saudi cities until October 17. The Indian Embassy in Riyadh advised Indian nationals to remain calm and vigilant, stay indoors in the event of an aerial attack and follow instructions issued by local authorities through official channels. It also urged Indians to refrain from circulating or reposting videos or news related to the ongoing events. The Embassy said Air India and Air India Express had suspended flights to and from Riyadh, Dammam and Jeddah until October 17. Akasa Air suspended services to and from Riyadh and Jeddah, while IndiGo cancelled flights to and from Riyadh, Dammam, Jeddah and Medina until the same date. The General Authority of Civil Aviation (GACA) has announced the suspension of operations at King Khalid International Airport in Riyadh. Operations at other major airports, including Dammam, Jeddah and Medina, are continuing, although disruptions have been reported. The Embassy advised Indian nationals to remain in regular contact with their respective airlines and verify the latest status of their flights. Those needing to leave Saudi Arabia in an emergency may also consider flights from neighbouring Gulf countries, particularly Qatar and Bahrain, subject to obtaining the required visas. The Consulate General of India in Jeddah issued a separate advisory, particularly for Umrah pilgrims travelling to and from Jeddah and Medina. It urged passengers to check with airlines before proceeding to airports and remain in contact with travel agents, tour operators and Umrah service providers regarding cancellations, rescheduling, alternative travel arrangements and accommodation. The Consulate said it was in regular contact with airlines and local authorities to assist affected Indian nationals. Both the Embassy in Riyadh and the Consulate in Jeddah have established 24x7 control rooms to provide assistance. The Riyadh Embassy also said Indian nationals who arrived in Saudi Arabia on visit, tourist, Umrah or business visas but were forced to overstay because of flight unavailability would be allowed to leave without paying fines. Those whose visas have expired were advised to exit the Kingdom as soon as flights become available. ALSO READ: Flydubai mid-air stabbing: 2 Maldivian pilots detained in UAE over links with accused Omani copilot - reportIndian national killed in Riyadh airport attack The fresh advisories come after an October 10 attack on Riyadh airport killed Indian national Mohammed Yousef Ali. Ambassador Vipul and Embassy officials attended his funeral in Riyadh on October 12, in accordance with his family's wishes, and assured the bereaved family of continued support. The Embassy said four Indian nationals injured in the attack remained ",
+    "scraped_at": "2026-10-13T14:04:50.279204+00:00",
+    "bias_label": "Center",
+    "sentiment_score": -0.35,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Indian Embassy in Riyadh",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Consulate General of India in Jeddah",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "General Authority of Civil Aviation (GACA)",
+        "portrayal": "Neutral"
+      },
+      {
+        "name": "Mohammed Yousef Ali",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "The article is a straightforward, factual report conveying safety advisories, airline disruptions, and consular updates for Indian citizens in Saudi Arabia following a fatal attack on Riyadh airport. It maintains an objective, neutral tone without political bias."
+  },
+  {
+    "source": "Times of India",
+    "title": "'Agreed to build on positive momentum in ties': PM Modi speaks with Canada PM Carney",
+    "url": "https://timesofindia.indiatimes.com/india/agreed-to-build-on-positive-momentum-in-ties-pm-modi-speaks-with-canada-pm-mark-carney/articleshow/134919669.cms",
+    "text": "File photo: PM Modi and Canada PM Mark Carney\n\nNEW DELHI: Prime Minister Narendra Modi on Tuesday said he had spoken with Canadian Prime Minister Mark Carney, with the two leaders agreeing to build on the positive momentum in India-Canada ties and work towards concrete outcomes across key areas of their strategic partnership. In a post on X, PM Modi described the conversation as â€œwarm and productiveâ€ and said the two sides would focus on trade, energy, technology, security and people-to-people ties. â€œTogether, India and Canada are contributing towards a more stable and prosperous world,â€ PM Modi wrote.\n\nEnd of Article",
+    "scraped_at": "2026-10-13T14:04:51.246622+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.5,
+    "framing": "Optimistic",
+    "key_entities": [
+      {
+        "name": "Narendra Modi",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Mark Carney",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "India-Canada relations",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "The article neutrally reports on an official diplomatic exchange between the two leaders without editorial commentary. The tone reflects the optimistic and warm language directly quoted from PM Modi's post regarding bilateral cooperation."
+  },
+  {
+    "source": "Times of India",
+    "title": "Ashwin reveals what drove Bhuvneshwar's India comeback",
+    "url": "https://timesofindia.indiatimes.com/sports/cricket/news/he-never-chased-that-reward-ashwin-reveals-what-drove-bhuvneshwar-kumars-india-comeback/articleshow/134916720.cms",
+    "text": "Bhuvneshwar Kumar\n\nRavichandran Ashwin believes Bhuvneshwar Kumar's return to India's T20I setup is a reward for his consistency rather than the result of chasing an international comeback. The veteran pacer earned a recall to the national squad after impressing for Royal Challengers Bengaluru (RCB) in the IPL, with Ashwin crediting his focus on performance for his return. Bhuvneshwar's selection for India's upcoming five-match T20I series against New Zealand, beginning next week, was one of the major talking points following the squad announcement. The right-arm pacer is set to return to international T20 cricket after a gap of four years.\n\n'He has gone on his own journey'\n\nSpeaking on his YouTube channel, Ashwin suggested that Bhuvneshwar remained focused on improving his bowling and fulfilling his responsibilities for RCB rather than worrying about a potential India recall. \"I have a feeling that Bhuvneshwar Kumar hasn't even thought about a comeback. I think this will be his mantra for success. And when I'm watching him from afar, I have also experienced this myself, he has gone on his own journey,\" Ashwin said. \"He has focused on doing well, bowling well with the new ball and performing for RCB. Whatever he could do, he did it. His recall is the reward for his success. He never chased that reward; he simply did his job and success followed,\" he added.\n\nAshwin backs India for 2027 ODI World Cup, picks South Africa as serious contenders\n\nLooking ahead to the 2027 ODI World Cup, Ashwin backed India to challenge for the title but warned that hosts South Africa could pose a significant threat in familiar conditions. Ashwin pointed to India's pace-bowling resources, spin options and batting experience as reasons to believe the team can mount a strong campaign. He particularly highlighted Bumrah's importance, suggesting that the fast bowler could make a major difference if he performs at his best. \"India has the ability. If Jasprit Bumrah is firing on all cylinders, he will have a good fast-bowling experience. India has a good spin stock. There, in a lot of grounds, you will get the help of spin. There is experience in batting,\" he said. However, Ashwin identified South Africa as one of the strongest contenders, citing home advantage, familiarity with local conditions and the experience players have gained through the SA20 league.\n\nJoin conversation\n\nShare your thoughts in the comments\n\nBe respectful Â· TOI community guidelines\n\n\"I will honestly say that two-three teams look good to me. Out of them, South Africa is the best. I think South Africa will be a serious contender for the home World Cup. So India will have to play against the South African team,\" he said. \"South Africa, in South African conditions, especially after SA20, have the skills, they know all the conditions, they play good cricket and the team looks together. That's a very strong force in cricket,\" Ashwin added.\n\nEnd of Article",
+    "scraped_at": "2026-10-13T14:04:54.720432+00:00",
+    "bias_label": "Center",
+    "sentiment_score": 0.45,
+    "framing": "Analytical",
+    "key_entities": [
+      {
+        "name": "Bhuvneshwar Kumar",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Ravichandran Ashwin",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "Indian Cricket Team",
+        "portrayal": "Positive"
+      },
+      {
+        "name": "South Africa Cricket Team",
+        "portrayal": "Positive"
+      }
+    ],
+    "reasoning": "The article is straightforward sports reporting covering Ravichandran Ashwin's comments on Bhuvneshwar Kumar's recall to the national squad and his analysis of the 2027 World Cup. It carries no political bias, maintains an analytical framing, and exhibits an encouraging, positive sentiment toward the athletes mentioned."
+  },
+  {
+    "source": "Times of India",
+    "title": "Delhi man with 14 criminal cases shot dead, CCTV captures killing",
+    "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-man-with-14-criminal-cases-shot-dead-in-ranhola-area-suspects-identified/articleshow/134917081.cms",
+    "text": "The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar.\n\nNEW DELHI: A man with around 14 criminal cases registered against him was shot dead in a brazen attack captured on CCTV in outer Delhiâ€™s Ranhola area, police said on Tuesday. The footage shows the victim stopping his motorcycle near a house when two motorcycles carrying four assailants suddenly enter the camera frame. The attackers approach the rider, and one of them opens fire from behind. The other assailants also fire multiple shots at the victim before the attack unfolds in full view of the CCTV camera. The deceased, identified as Mosin Khan, was a resident of Commander Chowk in Vikas Nagar and a declared bad character (BC) of Ranhola police station, according to police. Police said they received information around 5.30 pm on October 11 that Khan had been admitted to a hospital with gunshot injuries. He was subsequently declared dead. A case was registered at Ranhola police station, and an investigation was launched. Police said they had identified the suspects and were making efforts to apprehend them. The motive behind the killing and the circumstances leading to the shooting have not yet been established. Further investigation is underway, police said. (With Agency Inputs)\n\nEnd of Article",
+    "scraped_at": "2026-10-13T14:04:55.908830+00:00",
+    "bias_label": "Center",
+    "sentiment_score": -0.5,
+    "framing": "Neutral",
+    "key_entities": [
+      {
+        "name": "Mosin Khan",
+        "portrayal": "Negative"
+      },
+      {
+        "name": "Delhi Police",
+        "portrayal": "Neutral"
+      }
+    ],
+    "reasoning": "The article is a straightforward crime report based on official police accounts and CCTV findings. It relies on standard journalistic sourcing without political slant or editorializing, resulting in a neutral framing and center bias classification."
+  }
 ]
